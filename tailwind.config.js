@@ -10,6 +10,7 @@ module.exports = {
           '200': '#bebebe',
           '500': '#313131',
         }
+<<<<<<< HEAD
       },
       spacing: {
        '72': '18rem',
@@ -28,5 +29,11 @@ module.exports = {
     justifyContent: ['responsive', 'hover', 'group-hover'],
     alignItems: ['responsive', 'hover', 'group-hover'],
   },
+=======
+      }
+    },
+  },
+  variants: {},
+>>>>>>> manaal
   plugins: [],
 }
