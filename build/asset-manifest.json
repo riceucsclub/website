@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a7968888.chunk.css",
+    "main.js": "/static/js/main.b61030f0.chunk.js",
+    "main.js.map": "/static/js/main.b61030f0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1355eef9.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1355eef9.js.map",
+    "static/js/2.5ba2578f.chunk.js": "/static/js/2.5ba2578f.chunk.js",
+    "static/js/2.5ba2578f.chunk.js.map": "/static/js/2.5ba2578f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.192c9d2b9ac94c35e2ffb85ab222f91e.js": "/precache-manifest.192c9d2b9ac94c35e2ffb85ab222f91e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a7968888.chunk.css.map": "/static/css/main.a7968888.chunk.css.map",
+    "static/js/2.5ba2578f.chunk.js.LICENSE.txt": "/static/js/2.5ba2578f.chunk.js.LICENSE.txt",
+    "static/media/fb_logo.png": "/static/media/fb_logo.5d6ea38a.png",
+    "static/media/insta_logo.svg": "/static/media/insta_logo.61103f2c.svg",
+    "static/media/mail_logo.svg": "/static/media/mail_logo.e75a0390.svg",
+    "static/media/slack_logo.svg": "/static/media/slack_logo.e29b89c0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1355eef9.js",
+    "static/js/2.5ba2578f.chunk.js",
+    "static/css/main.a7968888.chunk.css",
+    "static/js/main.b61030f0.chunk.js"
+  ]
+}
