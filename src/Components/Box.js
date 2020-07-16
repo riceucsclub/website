@@ -3,7 +3,7 @@ import React, {useState, useEffect} from 'react'
 function Box (props){
     // accepts props for title and description
     const [hover, setHover] = useState(false)    
-    let content = <div class = "static text-center w-64 h-32 bg-blue-500 opacity-50"> hoi </div>
+    // let content = <div class = "static text-center w-64 h-32 bg-blue-500 opacity-50"> hoi </div>
 
     // function changeHover() { 
     //     console.log("change")
