@@ -25,7 +25,7 @@ function Header (props){
        <header>
            <div className="flex justify-between items-center py-1">
                 <div class="flex-shrink-0">
-                    <img src={csclublogo} alt="Logo" width="130px" height="130px" className="justify-start px-6 py-6" onClick={() => props.setActiveTag("")}/>
+                    <img src={csclublogo} alt="Logo" width="120px" height="120px" className="justify-start px-3 py-6" onClick={() => props.setActiveTag("")}/>
                 </div>
             <ul class="mr-10 font-bold">
                 {tabsArray}

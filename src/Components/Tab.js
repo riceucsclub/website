@@ -4,14 +4,7 @@ export const Tab = (props) =>
 {
     const eventHandler = (val) => {
         if (val[1] !== props.activeTag[0]){
-            //props.setClicked(!props.clicked);
-            // if (!props.clicked){
-            //     props.setActiveTag(val);
-            // }
             props.setActiveTag(val);
-            // else {
-            //     props.setActiveTag("");
-            // }
         }
     };
 

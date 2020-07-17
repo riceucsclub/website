@@ -9,6 +9,10 @@ module.exports = {
           ...colors.gray,
           '200': '#bebebe',
           '500': '#313131',
+        },
+        blue: {
+          ...colors.blue,
+          '200': '#00adb5'
         }
       }
     },
