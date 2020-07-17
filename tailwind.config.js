@@ -5,13 +5,16 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'teal': '0 0 0 5px rgba(0, 173, 181, 0.7)'
+        'teal': '0 0 0 4px rgba(0, 173, 181, 1)'
       },
       colors: {
         gray: {
           ...colors.gray,
           '200': '#bebebe',
           '500': '#313131',
+        },
+        teal: {
+          '500b' : '#00ADB5'
         },
       },
       spacing: {
