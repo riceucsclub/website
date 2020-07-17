@@ -4,23 +4,25 @@ import Footer from './Components/Footer'
 import Box from './Components/Box'
 
 
+
+
 function App() {
   
   const [activeTag, setActiveTag] = useState("");
   const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
   let text = '';
 
-  const nameR = "Resume Reviews"
-  const blurbR = `Bring your resumes and get feedback and advice from upper classmen and an invited experienced 
-  professional who has extensive experience reviewing and evaluating resumes. We will discuss 
-  resume content and formatting tips and provide constructive criticism in an informal setting.  
-  A resume review session is usually held during the week before the university career expo.` 
+  // const nameR = "Resume Reviews"
+  // const blurbR = `Bring your resumes and get feedback and advice from upper classmen and an invited experienced 
+  // professional who has extensive experience reviewing and evaluating resumes. We will discuss 
+  // resume content and formatting tips and provide constructive criticism in an informal setting.  
+  // A resume review session is usually held during the week before the university career expo.` 
 
-  const nameA = 'Algorithm Challenge'
-  const blurbA = `Got technical interviews lined up from all those companies you applied to? Algorithm challenge 
-  can help you with those interviews! In these sessions, we’ll go over many popular technical problems and how to 
-  analyze, solve, and present them. Excellent for those interested in some real technical interview practice. 
-  Algorithm challenges are usually held every other week.`
+  // const nameA = 'Algorithm Challenge'
+  // const blurbA = `Got technical interviews lined up from all those companies you applied to? Algorithm challenge 
+  // can help you with those interviews! In these sessions, we’ll go over many popular technical problems and how to 
+  // analyze, solve, and present them. Excellent for those interested in some real technical interview practice. 
+  // Algorithm challenges are usually held every other week.`
 
   const nameT = 'Tech Talks and Info Sessions'
   const blurbT = `Tech Talks are a great way to get Rice students interested in what your company does and get in 
@@ -40,6 +42,7 @@ function App() {
         tabs={tabs}
         text={text}
       />
+      
 
       <div class = 'text-center'>
         <div class = 'text-5xl font-semibold'>
