@@ -3,6 +3,7 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Box from './Components/Box'
 
+import triangles from './Triangles.svg'
 
 
 
@@ -43,26 +44,29 @@ function App() {
         text={text}
       />
       
+      <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="375px" height="375px"/>
 
       <div class = 'text-center'>
-        <div class = 'text-5xl font-semibold'>
+        <div class = 'text-6xl font-semibold'>
           We love hearing from you!
         </div>
-        <div>
-          If you need to contact club leadership, email us here.
+        <div class = 'text-xl mt-3 text-light'>
+          <div>
+            If you need to contact club leadership, email us here.
+          </div>
+          <div>
+            Stay up to date on the latest events and activities by subscribing to our mailing list.  
+          </div>
         </div>
-        <div>
-          Stay up to date on the latest events and activities by subscribing to our mailing list.  
-        </div>
-        <div class = 'text-lg font-medium mt-10'>
+        <div class = 'text-2xl font-medium mt-10'>
           Looking to get involved from outside of Rice?
         </div>
-        <div>
+        <div class = 'text-xl text-light'>
           Check out these opportunities!
         </div>
       </div>
 
-      <div class = 'flex flex-row justify-center'>
+      <div class = 'flex flex-row justify-around mx-64'>
         <Box title = {nameT} desc = {blurbT}/>
         <Box title = {nameS} desc = {blurbS}/>
       </div>
