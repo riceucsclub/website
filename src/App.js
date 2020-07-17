@@ -66,7 +66,7 @@ function App() {
         </div>
       </div>
 
-      <div class = 'flex flex-row justify-around mx-64'>
+      <div class = 'flex justify-around mx-64'>
         <Box title = {nameT} desc = {blurbT}/>
         <Box title = {nameS} desc = {blurbS}/>
       </div>
