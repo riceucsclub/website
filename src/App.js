@@ -58,7 +58,7 @@ function App() {
             Stay up to date on the latest events and activities by subscribing to our mailing list.  
           </div>
         </div>
-        <div class = 'text-2xl font-medium mt-10'>
+        <div class = 'text-2xl font-medium mt-16'>
           Looking to get involved from outside of Rice?
         </div>
         <div class = 'text-xl text-light'>
@@ -66,7 +66,7 @@ function App() {
         </div>
       </div>
 
-      <div class = 'flex justify-around mx-64'>
+      <div class = 'flex justify-around mx-64 mt-16'>
         <Box title = {nameT} desc = {blurbT}/>
         <Box title = {nameS} desc = {blurbS}/>
       </div>
