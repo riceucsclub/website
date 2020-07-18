@@ -1,8 +1,8 @@
 import React from 'react'
-import instalogo from '../insta_logo.svg';
-import slacklogo from '../slack_logo.svg';
-import facebooklogo from '../fb_logo.png';
-import maillogo from '../mail_logo.svg';
+import instalogo from '../Files/insta_logo.svg';
+import slacklogo from '../Files/slack_logo.svg';
+import facebooklogo from '../Files/fb_logo.png';
+import maillogo from '../Files/mail_logo.svg';
 
 
 function Footer (){

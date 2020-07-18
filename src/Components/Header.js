@@ -1,5 +1,5 @@
 import React from 'react'
-import csclublogo from '../csclub_logo.png';
+import csclublogo from '../Files/csclub_logo.png';
 import { Tab } from "../Components/Tab"
 
 function Header (props){

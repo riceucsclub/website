@@ -3,7 +3,7 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Box from './Components/Box'
 
-import triangles from './Triangles.svg'
+import triangles from './Files/Triangles.svg'
 
 
 
