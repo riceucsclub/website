@@ -10,6 +10,7 @@ import {
 } from '../../Files/allText'
 
 function ContactPage(){
+    
     const [activeTag, setActiveTag] = useState("");
     const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
     let text = '';
