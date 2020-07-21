@@ -6,7 +6,7 @@ function Calender() {
 
     return (
         <div>
-            <subheading class = 'font-bold text-xl'>
+            <subheading class = 'font-semibold text-2xl'>
                 Future Events
             </subheading>
             <events>

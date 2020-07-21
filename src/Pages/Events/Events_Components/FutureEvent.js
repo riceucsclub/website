@@ -18,7 +18,7 @@ function FutureEvent () {
     <h1 class = 'w-180 flex flex-row'>
         
         <date class = "flex flex-col">
-            <d class = 'text-2xl'>
+            <d class = 'text-3xl font-light'>
                 {day}
             </d>
             <m class = '-mt-1 text-blue-600 font-light'>
@@ -26,7 +26,7 @@ function FutureEvent () {
             </m>
         </date>
 
-        <info class = 'flex flex-col ml-2'>
+        <info class = 'flex flex-col ml-2 mt-1'>
             <name class = ''>
                 {title}
             </name>
