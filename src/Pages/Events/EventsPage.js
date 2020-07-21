@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import Box from '../../Components/Box'
+import Calender from './Events_Components/Calender'
 
 import triangles from '../../Files/Triangles.svg'
 import {
@@ -24,7 +25,7 @@ function EventsPage(){
                 text={text}
             />
             
-            <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="375px" height="375px"/>
+            <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="350px" height="350px"/>
 
             <div class = 'text-center'>
                 <div class = 'text-6xl font-semibold'>
@@ -39,6 +40,10 @@ function EventsPage(){
             <div class = 'flex justify-around mx-64 mt-16'>
                 <Box title = {nameE} desc = {blurbE}/>
                 <Box title = {nameH} desc = {blurbH}/>
+            </div>
+
+            <div class = 'ml-120 mt-16'>
+                <Calender/>
             </div>
 
             

@@ -24,7 +24,7 @@ function ContactPage(){
             text={text}
         />
         
-        <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="375px" height="375px"/>
+        <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="350px" height="350px"/>
 
         <div class = 'text-center'>
             <div class = 'text-6xl font-semibold'>
