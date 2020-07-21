@@ -5,12 +5,9 @@ import Box from '../../Components/Box'
 import Calender from './Events_Components/Calender'
 
 import triangles from '../../Files/Triangles.svg'
-import {
-  nameE, blurbE,
-  nameH, blurbH
-} from '../../Files/allText'
 
-function EventsPage(){
+
+function EventsPage(props){
     
     const [activeTag, setActiveTag] = useState("");
     const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
@@ -38,8 +35,8 @@ function EventsPage(){
 
 
             <div class = 'flex justify-around mx-64 mt-16'>
-                <Box title = {nameE} desc = {blurbE}/>
-                <Box title = {nameH} desc = {blurbH}/>
+                <Box title = {props.box["nameE"]} desc = {props.box["blurbE"]}/>
+                <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
 
             <div class = 'ml-120 mt-16'>

@@ -4,12 +4,8 @@ import Footer from '../../Components/Footer'
 import Box from '../../Components/Box'
 
 import triangles from '../../Files/Triangles.svg'
-import {
-  nameT, blurbT,
-  nameS, blurbS
-} from '../../Files/allText'
 
-function ContactPage(){
+function ContactPage(props){
     
     const [activeTag, setActiveTag] = useState("");
     const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
@@ -47,8 +43,8 @@ function ContactPage(){
         </div>
 
         <div class = 'flex justify-around mx-64 mt-16'>
-            <Box title = {nameT} desc = {blurbT}/>
-            <Box title = {nameS} desc = {blurbS}/>
+            <Box title = {props.box["nameT"]} desc = {props.box["blurbT"]}/>
+            <Box title = {props.box["nameS"]} desc = {props.box["blurbS"]}/>
         </div>
 
         

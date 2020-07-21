@@ -1,13 +1,5 @@
 import React, { useState } from 'react'
-// import Header from './Components/Header'
-// import Footer from './Components/Footer'
-// import Box from './Components/Box'
-
-// import triangles from './Files/Triangles.svg'
-// import {
-//   nameT, blurbT,
-//   nameS, blurbS
-// } from './Files/allText'
+import boxText from './Files/boxText'
 
 // import ContactPage from './Pages/Contact/ContactPage'
 import EventsPage from './Pages/Events/EventsPage'
@@ -20,8 +12,8 @@ import EventsPage from './Pages/Events/EventsPage'
 function App() {
   
   return (
-    // <ContactPage>
-    <EventsPage/>
+    // <ContactPage box = {boxText}/>
+    <EventsPage box = {boxText}/>
   );
 }
 
