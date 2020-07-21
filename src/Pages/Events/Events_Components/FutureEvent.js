@@ -1,17 +1,15 @@
 import React from 'react'
 
 
-function FutureEvent () {
-    //takes in title, month, day, location, desc, and link
+function FutureEvent (props) {
+    //takes in title, month, day, locale, desc, and link
 
-    let title = "Late Night Event with a Very Long Name"
-    let month = "AUG"
-    let day = "30"
-    let locale = "Duncan Hall"
-    let desc = `Throughout the year, we hold social events such as lunches, 
-    study breaks, mixers, bowling nights, and random outings. We regularly 
-    host a study break or Christmas party after classes end.`
-    let link = `Facebook link`
+    let title = props.title
+    let month = props.month
+    let day = props.day
+    let locale = props.locale
+    let desc = props.desc
+    let link = props.link
 
 
     let content = 
@@ -44,8 +42,6 @@ function FutureEvent () {
 
     return (
         <h1>
-            
-
             {content}
         </h1>
     )
