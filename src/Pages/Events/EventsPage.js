@@ -39,7 +39,7 @@ function EventsPage(props){
                 <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
 
-            <div class = 'ml-120 mt-16'>
+            <div class = 'ml-120 mt-16 mb-8'>
                 <Calender/>
             </div>
 
