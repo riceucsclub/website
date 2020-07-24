@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import boxText from './Files/boxText'
 
-// import ContactPage from './Pages/Contact/ContactPage'
-import EventsPage from './Pages/Events/EventsPage'
+import ContactPage from './Pages/Contact/ContactPage'
+// import EventsPage from './Pages/Events/EventsPage'
 
 
 
@@ -12,8 +12,8 @@ import EventsPage from './Pages/Events/EventsPage'
 function App() {
   
   return (
-    // <ContactPage box = {boxText}/>
-    <EventsPage box = {boxText}/>
+    <ContactPage box = {boxText}/>
+    // <EventsPage box = {boxText}/>
   );
 }
 

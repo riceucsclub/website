@@ -7,7 +7,7 @@ import maillogo from '../Files/mail_logo.svg';
 
 function Footer (){
     return (
-        <footer class="bg-gray-200 text-center text-s text-gray-700 p-2 bottom-0 w-full font-sans">
+        <footer class="bg-gray-200 text-center text-s text-gray-700 p-2 absolute bottom-0 w-full font-sans">
             <div class="flex justify-center bg-gray-200">
                 <div class="inline-block text-gray-700 text-center bg-gray-200">
                     <img src={instalogo} alt="Logo" onClick={() => window.open('https://www.instagram.com/ricecsclub/?hl=en')}/>
