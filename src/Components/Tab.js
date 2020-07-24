@@ -1,4 +1,7 @@
 import React from 'react';
+import {
+    Link
+  } from 'react-router-dom';
 
 export const Tab = (props) =>
 {
@@ -10,7 +13,7 @@ export const Tab = (props) =>
 
 
     return (
-        <button className="text-gray-500 py-2 px-4 text-lg font-bold" onClick={() => eventHandler(props.text)}>{props.text}</button>
+        <Link to={props.link} className="text-gray-500 py-2 px-4 text-lg font-bold" onClick={() => eventHandler(props.text)}>{props.text}</Link>
      
-    )
+    );
 };

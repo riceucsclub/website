@@ -1,13 +1,13 @@
 import React from 'react'
-import instalogo from '../insta_logo.svg';
-import slacklogo from '../slack_logo.svg';
-import facebooklogo from '../fb_logo.png';
-import maillogo from '../mail_logo.svg';
+import instalogo from '../Files/insta_logo.svg';
+import slacklogo from '../Files/slack_logo.svg';
+import facebooklogo from '../Files/fb_logo.png';
+import maillogo from '../Files/mail_logo.svg';
 
-
+// 
 function Footer (){
     return (
-        <footer class="bg-gray-200 text-center text-s text-gray-700 p-2 absolute bottom-0 w-full font-sans">
+        <footer class="bg-gray-200 text-center text-s text-gray-700 p-2 bottom-0 w-full">
             <div class="flex justify-center bg-gray-200">
                 <div class="inline-block text-gray-700 text-center bg-gray-200">
                     <img src={instalogo} alt="Logo" onClick={() => window.open('https://www.instagram.com/ricecsclub/?hl=en')}/>
