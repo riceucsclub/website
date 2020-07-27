@@ -3,6 +3,7 @@ import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import Box from '../../Components/Box'
 import Calender from './Events_Components/Calender'
+import Filler from '../../Components/Filler'
 
 import triangles from '../../Files/Triangles.svg'
 
@@ -15,12 +16,6 @@ function EventsPage(props){
 
     return(
         <div>
-            <Header 
-                activeTag={activeTag}
-                setActiveTag={setActiveTag}
-                tabs={tabs}
-                text={text}
-            />
             
             <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="350px" height="350px"/>
 
@@ -45,7 +40,7 @@ function EventsPage(props){
 
             
 
-            <Footer/>
+            <Footer/> 
         </div>
     )
 }

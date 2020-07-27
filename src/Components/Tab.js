@@ -13,7 +13,7 @@ export const Tab = (props) =>
 
 
     return (
-        <Link to={props.link} className="text-gray-500 py-2 px-4 text-lg font-bold" onClick={() => eventHandler(props.text)}>{props.text}</Link>
+        <Link to={props.link} className="text-gray-500b py-2 px-4 text-lg font-bold" onClick={() => eventHandler(props.text)}>{props.text}</Link>
      
     );
 };
