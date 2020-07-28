@@ -13,7 +13,7 @@ function Box (props){
         </div>
     
     let contentd = 
-        <div class = "static flex items-center justify-center text-center px-5 h-56 bg-white rounded-lg shadow-teal ">
+        <div class = "static flex items-center justify-center text-center h-56 px-5 bg-white rounded-lg shadow-teal ">
                 {props.desc}
         </div>
     

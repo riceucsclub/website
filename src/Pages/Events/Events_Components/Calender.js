@@ -14,6 +14,7 @@ function Calender() {
                 title = {allEvents[i]["title"]}
                 month = {allEvents[i]["month"]}
                 day = {allEvents[i]["day"]}
+                time = {allEvents[i]["time"]}
                 locale = {allEvents[i]["locale"]}
                 desc = {allEvents[i]["desc"]}
                 link = {allEvents[i]["link"]}

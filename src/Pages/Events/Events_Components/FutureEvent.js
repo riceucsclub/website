@@ -10,31 +10,35 @@ function FutureEvent (props) {
     let locale = props.locale
     let desc = props.desc
     let link = props.link
+    let time = props.time
 
 
     let content = 
-    <h1 class = 'w-180 flex flex-row'>
+    <h1 class = "w-180 flex flex-row">
         
+        {/* left side of component */}
         <date class = "flex flex-col">
-            <d class = 'text-3xl font-light'>
+            <d class = "text-3xl font-light">
                 {day}
             </d>
-            <m class = '-mt-1 text-blue-600 font-light'>
+            <m class = "-mt-1 text-blue-600 font-light">
                 {month}
             </m>
         </date>
 
-        <info class = 'flex flex-col ml-2 mt-1'>
-            <name class = ''>
+        {/* right side of component */}
+        <info class = "flex flex-col ml-2 mt-1">
+            <name class = "">
                 {title}
             </name>
-            <loc class = '-mt-1 text-gray-600 font-light text-sm'>
+            <loc class = "-mt-1 text-gray-600 font-light text-sm">
                 {locale}
+                {time}    
             </loc>
-            <blurb class = 'font-light text-xs'>
+            <blurb class = "font-light text-xs">
                 {desc}
             </blurb>
-            <social class = 'font-light text-xs text-blue-500'>
+            <social class = "font-light text-xs text-blue-500">
                 {link}
             </social>
         </info>

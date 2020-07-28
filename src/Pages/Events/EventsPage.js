@@ -3,7 +3,7 @@ import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import Box from '../../Components/Box'
 import Calender from './Events_Components/Calender'
-import Filler from '../../Components/Filler'
+
 
 import triangles from '../../Files/Triangles.svg'
 

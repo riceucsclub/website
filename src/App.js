@@ -39,7 +39,7 @@ function App() {
 
         <Switch>
           <Route exact path="/">
-          <h1> home </h1>
+            <HomePage/>
           </Route>
           <Route path='/contact' >
             <ContactPage box = {boxText}/>
