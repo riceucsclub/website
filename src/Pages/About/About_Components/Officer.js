@@ -11,31 +11,15 @@ function Officer (props) {
     let hometown = props.hometown;
     
     let content = 
-    <div className="flex flex-wrap justify-center">
-        <div className="px-4">
-            <img src={image} className="shadow w-1/3 justify-center max-w-full h-auto align-middle border-none" />
-            <h1>{name}</h1>
-            <h1>{title}</h1>
-            <h1>{college}</h1>
-            <h1>{hometown}</h1>
-
+    <div className="flex w-2/3 flex-wrap center justify-center">
+        <div className="px-4 justify-center align-middle">
+            <img src={image} className="flex items-center justify-center max-w-full h-auto border-none" />
+            <h1 className="text-center">{name}</h1>
+            <h1 className="text-center">{title}</h1>
+            <h1 className="text-center">{college}</h1>
+            <h1 className="text-center">{hometown}</h1>
         </div>
-        
     </div>
-
-
-
-    // <h1 class = 'w-180 flex flex-row'>
-
-    //     <info class = 'flex flex-col ml-2 mt-1'>
-    //         <name class = ''>
-    //             {question}
-    //         </name>
-    //         <blurb class = 'font-light text-xs'>
-    //             {answer}
-    //         </blurb>
-    //     </info>
-    // </h1>
 
     return (
         <h1>
