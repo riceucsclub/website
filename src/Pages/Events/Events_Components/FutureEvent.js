@@ -31,8 +31,10 @@ function FutureEvent (props) {
             <name class = "">
                 {title}
             </name>
-            <loc class = "-mt-1 text-gray-600 font-light text-sm">
-                {locale}
+            <loc class = "flex flex-row -mt-1 text-gray-600 font-light text-sm">
+                <div class = "mr-2">
+                    {locale}
+                </div>
                 {time}    
             </loc>
             <blurb class = "font-light text-xs">
