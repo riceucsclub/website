@@ -43,7 +43,7 @@ function Header (props){
                 <div>
                     <img src={csclublogo} alt="Logo" width="120px" height="120px" className="justify-start px-3 py-6" onClick={() => homeHandler()}/>
                 </div>
-                <img className="flex right-0 absolute w-24 h-24" src={gray_gradient}/>
+                <img className="flex right-0 absolute" width="90px" src={gray_gradient}/>
                     <ul className="flex mr-10">
                         {tabsArray}
                     </ul>

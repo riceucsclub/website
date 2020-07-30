@@ -3,6 +3,7 @@ import Footer from './Components/Footer'
 import Box from './Components/Box';
 import Header from './Components/Header';
 import triangles from './Files/Triangles.svg';
+import boxText from './Files/boxText'
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,17 +15,16 @@ import EventsPage from './Pages/Events/EventsPage'
 import HomePage from './Pages/Home/HomePage'
 import ResourcesPage from './Pages/Resources/ResourcesPage'
 import AboutPage from './Pages/About/AboutPage'
-import boxText from './Files/boxText'
+
 
 
 
 function App() {
 
   const [activeTag, setActiveTag] = useState("");
-  const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
+  const tabs = ['Home', 'About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
   let text = '';
   let link ='';
-  
   
   return (
     <div>
@@ -38,21 +38,22 @@ function App() {
               link={link}/>
 
         <Switch>
-          <Route exact path="/">
+          <Route path="/home">
             <HomePage/>
           </Route>
-          <Route path='/contact' >
+          <Route path='/contact'>
             <ContactPage box = {boxText}/>
           </Route>
-          <Route path='/resources'>
-            <ResourcesPage/>
-          </Route>
-          <Route path='/events' >
+          <Route path='/events'>
             <EventsPage box = {boxText}/>
           </Route>
+          <Route path='/resources'>
+            <ResourcesPage box = {boxText}/>
+          </Route>
+          <Route path='/about'>
+            <AboutPage/>
+          </Route>
         </Switch>
-
-        
       </Router>
 
       
