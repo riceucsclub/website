@@ -6,6 +6,7 @@ import blue_gradient from '../../Files/blue_gradient.svg'
 import gray_gradient from '../../Files/gradient1.svg'
 import triangles from '../../Files/Triangles.svg'
 import FAQList from './Resources_Components/FAQList'
+import boxText from '../../Files/boxText'
 
 
 
@@ -23,24 +24,26 @@ function ResourcesPage() {
 
   return (
     <div className="relative">
-      <div className="flex text-gray-500 text-5xl font-extrabold justify-center">{head}</div>
-      <h1 className="flex text-gray-500 underline text-2xl font-extrabold justify-start ml-32">Career Help</h1>
+      <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+      
+      <div className="flex text-gray-500b text-5xl font-extrabold justify-center">{head}</div>
+      <h1 className="flex text-gray-500b underline text-2xl font-extrabold justify-start ml-32">Career Help</h1>
       <p className="flex mx-32 py-5 justify-center">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
-      <img class="object-left" width="150px" height="150px" src={triangles}/>
-      <div className="flex justify-around mx-10 py-5">
-        <Box title={title1} body={body1}/>
-        <Box title={title2} body={body2}/>
+      <div className="flex justify-between mx-64 py-5">
+        <Box title={boxText["nameR"]} desc={boxText["blurbR"]}/>
+        <Box title={boxText["nameA"]} desc={boxText["blurbA"]}/>
       </div>
-      <h1 className="flex text-gray-500 underline text-2xl font-extrabold justify-start ml-32">Advising</h1>
+      <h1 className="flex text-gray-500b underline text-2xl font-extrabold justify-start ml-32 mt-24">Advising</h1>
       <p className="flex mx-32 py-5 justify-center">Have questions or just wondering what a CS degree looks like at Rice University? Check out our four year plan here, some resources for study abroad here, and see below for some frequently asked questions!</p>
       <div class = 'flex mx-56'>
-            <FAQList/>
+        <FAQList/>
       </div>
       <p className="flex mx-32 py-8 justify-start">Have a specific question? Reach out to one of our upperclassmen!</p>
-      <div> 
-      <img src={blue_gradient}/> 
-      </div>     
-      <Footer/>
+      
+      {/* <div> 
+        <img class = "absolute bottom-0 z-0" src={blue_gradient}/> 
+      </div>      */}
+      <Footer class = "relative z-10"/>
     </div>
   );
 }

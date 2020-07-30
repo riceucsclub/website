@@ -15,7 +15,7 @@ export default [
         "link": `Facebook link`,
     },
     {
-        "title": "Late Night Event with a Very Long Name 2",
+        "title": "Short Name",
         "month": "SEP",
         "day": "29",
         "time": "7:30 pm",

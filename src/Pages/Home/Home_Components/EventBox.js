@@ -11,7 +11,7 @@ function EventBox (props) {
     let time = props.time
 
     let content =
-        <div>
+        <div class = "">
             <top class = "flex flex-row mt-2">
                 <date class = "flex flex-col ml-5">
                     <d class = "text-3xl">
@@ -25,7 +25,7 @@ function EventBox (props) {
                     {title}
                 </name>
             </top>
-            <logistic class = "flex flex-row  justify-between font-hairline text-sm text-gray-700 mt-1">
+            <logistic class = "flex flex-row  justify-between font-light text-sm text-gray-600 mt-1">
                 <loc class = "ml-10">
                     Location: {locale}
                 </loc>

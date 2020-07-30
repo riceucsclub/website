@@ -17,7 +17,7 @@ function ContactPage(props){
     return(
         <div>
         
-            <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="350px" height="350px"/>
+            <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'text-center'>
                 <div class = 'text-6xl font-semibold'>
@@ -39,7 +39,7 @@ function ContactPage(props){
                 </div>
             </div>
 
-            <div class = 'flex justify-around mx-64 mt-20 mb-64'>
+            <div class = 'flex justify-around mx-64 mt-20 mb-40'>
                 <Box title = {boxText["nameT"]} desc = {boxText["blurbT"]}/>
                 <Box title = {props.box["nameS"]} desc = {props.box["blurbS"]}/>
             </div>

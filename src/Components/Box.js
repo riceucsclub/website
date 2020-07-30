@@ -6,14 +6,14 @@ function Box (props){
     
 
     let contentt = 
-        <div class = "static flex flex-row items-center justify-center h-56 rounded-lg bg-teal-500b">
+        <div class = "static flex flex-row items-center justify-center h-56 rounded-lg bg-teal-500b shadow">
             <div class = "text-4xl px-5 text-center text-white font-semibold">
                 {props.title}
             </div>            
         </div>
     
     let contentd = 
-        <div class = "static flex items-center justify-center text-center h-56 px-5 bg-white rounded-lg shadow-teal ">
+        <div class = "static flex text-center items-center px-8 h-56 bg-white rounded-lg shadow-teal shadow">
                 {props.desc}
         </div>
     
@@ -28,7 +28,7 @@ function Box (props){
 
     return (
 
-        <div class = "relative group h-56 shadow rounded-lg w-1/3 bg-blue-500...">
+        <div class = "relative group h-56  rounded-lg w-2/5 bg-blue-500...">
 
             {/* detects mouse presence */}
             {detector}
