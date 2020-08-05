@@ -1,51 +1,56 @@
-import React from 'react'
+import React, { useState } from 'react'
 import csclublogo from '../Files/csclub_logo.png';
-import { Tab } from "../Components/Tab"
+//import { Tab } from "../Components/Tab"
 import gray_gradient from '../Files/gradient1.svg'
 import {
-    Link
+    NavLink
   } from 'react-router-dom';
 
 
 
 function Header (props){
 
-    const tabs = props.tabs;
-    let tabsArray = [];
+    
 
-    
-    tabs.forEach(element => {
-        let modified = element;
-        let modlink = '/' + element.toLowerCase();
-        if (element === props.activeTag){
-            modified = "<" + element + "/>";
-        }
-        tabsArray.push(<Tab clicked={props.clicked}
-                                setClicked={props.setClicked} 
-                                activeTag={props.activeTag} 
-                                setActiveTag={props.setActiveTag} 
-                                text={modified}
-                                link={modlink}/>);
-    });
-    
-    const homeHandler = () => {
-        props.setActiveTag("")
-        return <Link to="/"></Link>
-        //window.location.replace('csclub.rice.edu)
-    };
+    const [open, setOpen] = useState(false);
+    const drop_down = 
+                    <div className="absolute z-10 mt-2 ml-2 bg-white w-1/12 rounded-lg shadow-md">
+                        <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">Remix CS</a>
+                        <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">HackRice</a>
+                        <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">Rice Apps</a>
+                        <a href="#" target="_blank" className="block px-4 py-2 text-gray-500 hover:font-bold">CS IO</a>
+                    </div>
+    const nav_bar =
+                    <ul className="flex mr-10">
+                        <li>
+                            <NavLink exact to="/about" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>About</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/resources" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>Resources</NavLink>
+                        </li>
+                        <li>
+                            <NavLink exact to="/events" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>Events</NavLink>
+                        </li>
+                        <li>
+                            <h1 className="text-gray-500 px-4 text-lg font-bold" onClick={() => setOpen(!open)}>Subsidiaries</h1>
+                            {open && drop_down}
+                        </li>
+                        <li>
+                            <NavLink exact to="/contact" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>Contact</NavLink>
+                        </li>
+
+                    </ul>
+
 
     return (
        <header>
            <div className="flex justify-between items-center py-1">
-            {/* <div className="flex items-end absolute w-24 h-24">
-                <img src={gray_gradient}/>
-            </div> */}
                 <div>
-                    <img src={csclublogo} alt="Logo" width="120px" height="120px" className="justify-start px-3 py-6" onClick={() => homeHandler()}/>
+                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" width="120px" height="120px" className="justify-start px-3 relative z-10 py-6"/></NavLink>
                 </div>
-                <img className="flex right-0 absolute" width="90px" src={gray_gradient}/>
+                {/* <img className="absolute z-0 flex right-0 w-2/5" src={gray_gradient}/> */}
                     <ul className="flex mr-10">
-                        {tabsArray}
+                        {nav_bar}
                     </ul>
            </div>
        </header> 

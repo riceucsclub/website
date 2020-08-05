@@ -7,7 +7,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  NavLink
 } from 'react-router-dom';
 import ContactPage from './Pages/Contact/ContactPage'
 import EventsPage from './Pages/Events/EventsPage'
@@ -36,16 +36,16 @@ function App() {
               link={link}/>
 
         <Switch>
-          <Route path="/home">
+          <Route exact path="/">
           <HomePage/>
           </Route>
-          <Route path='/contact'>
+          <Route exact path='/contact'>
             <ContactPage/>
           </Route>
-          <Route path='/resources'>
+          <Route exact path='/resources'>
             <ResourcesPage/>
           </Route>
-          <Route path='/about'>
+          <Route exact path='/about'>
             <AboutPage/>
           </Route>
         </Switch>

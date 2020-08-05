@@ -23,7 +23,7 @@ function ContactPage() {
   return (
     <div className="relative">
       <div className="flex text-gray-500 text-5xl font-semibold justify-center">{head}</div>
-      <p className="flex justify-center">If you need to contact club leadership, email us here.</p>
+      <p className="flex justify-center">If you need to contact club leadership, email us at riceucsclub@gmail.com.</p>
       <p className="flex justify-center">Stay up to date on the latest events and activities by subscribing to our mailing list.</p>
       <div className="flex text-gray-500 text-3xl mt-12 font-semibold justify-center py-4">Looking to get involved from outside of Rice?</div>
       <p className="flex justify-center">Check out these opportunities!</p>

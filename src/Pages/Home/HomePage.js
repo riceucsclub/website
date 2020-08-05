@@ -4,6 +4,8 @@ import Header from '../../Components/Header'
 import triangles from '../../Files/Triangles.svg'
 import graphic from '../../Files/graphic1.jpg'
 import blue_gradient from '../../Files/gradient2.svg'
+import Subsidaries from './Home_Components/Subsidaries'
+
 
 
 const head = "RICE UNIVERSITY";
@@ -23,7 +25,7 @@ function HomePage() {
       </div>
       <img class="absolute object-left" width="200px" height="150px" src={triangles}/>
       <img class="flex mt-32 absolute right-0" width="1000px" height="500px" src={blue_gradient}/>
-
+      <Subsidaries/>
       <Footer/>
     </div>
        

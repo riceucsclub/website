@@ -12,7 +12,8 @@ module.exports = {
         },
         blue: {
           ...colors.blue,
-          '200': '#00adb5'
+          '200': '#00adb5',
+          '400': '#154fff',
         }
       }
     },
