@@ -17,7 +17,7 @@ function EventsPage(props){
     return(
         <div>
             
-            <img class = "absolute mt-32 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+            <img class = "absolute z-10 mt-32 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'text-center'>
                 <div class = 'text-6xl font-semibold'>
@@ -34,7 +34,7 @@ function EventsPage(props){
                 <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
 
-            <div class = 'ml-120 mt-16 mb-8'>
+            <div class = 'relative z-10 ml-120 mt-16 mb-8'>
                 <Calender/>
             </div>
 
