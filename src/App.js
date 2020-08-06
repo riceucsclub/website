@@ -8,14 +8,13 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+  NavLink
 } from 'react-router-dom';
 import ContactPage from './Pages/Contact/ContactPage'
 import EventsPage from './Pages/Events/EventsPage'
 import HomePage from './Pages/Home/HomePage'
 import ResourcesPage from './Pages/Resources/ResourcesPage'
 import AboutPage from './Pages/About/AboutPage'
-
 
 
 
@@ -38,22 +37,23 @@ function App() {
               link={link}/>
 
         <Switch>
-          <Route path="/home">
-            <HomePage/>
+          <Route exact path="/">
+          <HomePage/>
           </Route>
-          <Route path='/contact'>
+          <Route exact path='/contact'>
             <ContactPage box = {boxText}/>
           </Route>
-          <Route path='/events'>
-            <EventsPage box = {boxText}/>
-          </Route>
-          <Route path='/resources'>
+          <Route exact path='/resources'>
             <ResourcesPage box = {boxText}/>
           </Route>
-          <Route path='/about'>
-            <AboutPage/>
+          <Route exact path='/about'>
+            <AboutPage box = {boxText}/>
+          </Route>
+          <Route exact path='/events'>
+            <EventsPage box = {boxText}/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
 
       

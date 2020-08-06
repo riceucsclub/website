@@ -1,4 +1,5 @@
 import React from 'react'
+import yellow_bullet_pt from '../../../Files/yellow_bulletpt.png'
 
 
 function FAQ (props) {
@@ -9,14 +10,15 @@ function FAQ (props) {
     let content = 
     <h1 class = 'w-180 flex flex-row'>
 
-        <info class = 'flex flex-col ml-2 mt-1'>
-            <name class = ''>
+        <ul class = 'list-disc flex flex-col ml-6 mt-1'>
+            {/* <img src={yellow_bullet_pt} width="15px"/> */}
+            <li class = ''>
                 {question}
-            </name>
+            </li>
             <blurb class = 'font-light text-xs'>
                 {answer}
             </blurb>
-        </info>
+        </ul>
     </h1>
 
     return (

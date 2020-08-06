@@ -16,6 +16,11 @@ module.exports = {
         teal: {
           '500b' : '#00ADB5'
         },
+        blue: {
+          ...colors.blue,
+          '200': '#00adb5',
+          '400b': '#154fff',
+        }
       },
       spacing: {
        '72': '18rem',

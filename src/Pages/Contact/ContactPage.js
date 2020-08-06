@@ -44,7 +44,6 @@ function ContactPage(props){
                 <Box title = {props.box["nameS"]} desc = {props.box["blurbS"]}/>
             </div>
 
-            <Footer/>
         </div>
     )
 }

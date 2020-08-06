@@ -38,9 +38,6 @@ function EventsPage(props){
                 <Calender/>
             </div>
 
-            
-
-            <Footer/> 
         </div>
     )
 }
