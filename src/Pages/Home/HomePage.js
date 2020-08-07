@@ -46,13 +46,14 @@ function HomePage() {
       </div>
       <img class="absolute object-left" width="200px" height="150px" src={triangles}/>
 
-      <div class = "relative h-32">
-        <AliceCarousel items = {gall} autoPlay={true} duration = {3000} mouseTrackingEnabled playButtonEnabled={true} />
-        yee
+      <div class = "relative z-10 w-108 ml-24 mt-24">
+        <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={1000} duration = {3000} mouseTrackingEnabled playButtonEnabled={false} />  
       </div>
       
-      <Subsidaries/>
-      
+      <div  class = "mb-24">
+        <Subsidaries/>
+      </div>
+
     </div>
        
     );
