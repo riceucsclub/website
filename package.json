@@ -8,11 +8,14 @@
     "@testing-library/user-event": "^7.1.2",
     "autoprefixer": "^9.8.5",
     "postcss-cli": "^7.1.1",
+    "prop-types": "^15.7.2",
     "react": "^16.13.1",
+    "react-alice-carousel": "^1.19.3",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.4.6",
+    "vanilla-swipe": "^2.2.0"
   },
   "scripts": {
     "build:css": "postcss src/index.css -o src/tailwind.css",
