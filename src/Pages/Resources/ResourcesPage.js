@@ -41,10 +41,11 @@ function ResourcesPage(props) {
 
   return (
     <div className="relative">
+      <img class="object-left absolute mt-36" width="250px" height="250px" src={triangles}/>
       <div className="flex text-gray-500b text-5xl font-bold justify-center">{head}</div>
       <h1 className="flex text-gray-500b underline text-2xl font-semibold justify-start ml-32">Career Help</h1>
       <p className="flex mx-32 py-5 justify-center">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
-      <img class="object-left absolute" width="170px" height="250px" src={triangles}/>
+      
       <div className="flex justify-between mx-64 py-5">
         <Box title={props.box["nameR"]} desc={props.box["blurbR"]}/>
         <Box title={props.box["nameA"]} desc={props.box["blurbA"]}/>

@@ -17,7 +17,7 @@ function ContactPage(props){
     return(
         <div class = "relative z-10">
         
-            <img class = "absolute z-10 mt-32 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+            <img class = "absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'text-center'>
                 <div class = 'text-6xl font-semibold'>

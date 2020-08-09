@@ -36,14 +36,14 @@ function EventBox (props) {
             <blurb class = "flex justify-between font-light text-sm text-center mx-5 mt-1">
                 {desc}
             </blurb>
-            <lonk class = "flex justify-center font-light text-sm text-blue-500">
+            <lonk class = "flex justify-center font-light text-sm text-blue-500 pb-2">
                 {link}
             </lonk>
                 
         </div>
 
     return(
-        <div class = "h-5/6 w-1/4 rounded-lg bg-white shadow-teal">
+        <div class = "w-1/4 rounded-lg bg-white shadow-teal">
             {content}
         </div>
     )
