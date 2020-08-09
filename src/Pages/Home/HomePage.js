@@ -40,7 +40,7 @@ function HomePage() {
     return (
     <div className="relative">
       
-      <img class="flex right-0 w-60 h-60 absolute mr-32" src={graphic}></img>
+      <img class="flex right-0 absolute mr-32" width="600px" src={graphic}></img>
       <div className="flex text-gray-500b text-6xl font-bold mt-24 ml-32 justify-start">{head}</div>
       <div className="flex text-gray-500b text-6xl font-bold ml-32 justify-start">CS CLUB</div>
       
@@ -49,7 +49,7 @@ function HomePage() {
       </div>
       <img class="object-left absolute -mt-16" width="250px" height="250px" src={triangles}/>
 
-      <div class = "relative z-10 ml-32 mt-24 flex flex-row">
+      <div class = "relative z-10 ml-24 mt-108 flex flex-row mb-20">
         <gall class = "w-148">
           <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
           mouseTrackingEnabled buttonsDisabled/>  
@@ -72,8 +72,21 @@ function HomePage() {
         <EventWheel/>
       </div>
       
-      <div  class = "relative z-10 mb-24">
+      <div  class = "relative z-10 mb-64">
         <Subsidaries/>
+      </div>
+
+      {/* testimonials/interviews */}
+      <div class = "flex flex-col relative z-10 text-3xl font-light -ml-16 px-84 mb-40">
+        <copy>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec orci id sem egestas luctus. 
+          Proin id tempus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla justo 
+          diam, bibendum luctus lacus sed, finibus consequat tortor. Mauris vel mi tincidunt, dignissim dolor 
+          id, posuere eros. 
+        </copy>
+        <person class = "ml-12 mt-8">
+          — Anonymous, Class of 2023
+        </person>
       </div>
 
     </div>

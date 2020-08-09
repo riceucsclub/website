@@ -21,7 +21,7 @@ function EventBox (props) {
                         {month}
                     </m>
                 </date>
-                <name class = " w-7/12 text-lg text-center mt-1 ml-4">
+                <name class = " w-7/12 text-lg text-center mt-1 ml-8 ">
                     {title}
                 </name>
             </top>
