@@ -11,6 +11,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-dropdown": "^1.7.0",
+    "react-onclickoutside": "^6.9.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "tailwindcss": "^1.4.6"

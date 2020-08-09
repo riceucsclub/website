@@ -5,12 +5,10 @@ import gray_gradient from '../Files/gradient1.svg'
 import {
     NavLink
   } from 'react-router-dom';
-
+//import onClickOutside from 'react-onclickoutside';
 
 
 function Header (props){
-
-    
 
     const [open, setOpen] = useState(false);
     const drop_down = 
@@ -18,7 +16,7 @@ function Header (props){
                         <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">Remix CS</a>
                         <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">HackRice</a>
                         <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">Rice Apps</a>
-                        <a href="#" target="_blank" className="block px-4 py-2 text-gray-500 hover:font-bold">CS IO</a>
+                        <NavLink exact to="/csio" className="block px-4 py-2 text-gray-500 hover:font-bold">CS IO</NavLink>
                     </div>
     const nav_bar =
                     <ul className="flex mr-10">
@@ -40,6 +38,8 @@ function Header (props){
                         </li>
 
                     </ul>
+   
+
 
 
     return (

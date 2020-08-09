@@ -8,7 +8,9 @@ import triangles from '../../Files/Triangles.svg'
 import FAQList from './Resources_Components/FAQList'
 import Profile from './Resources_Components/Profile'
 import Contacts from '../../Files/Contacts'
-
+import {
+  NavLink
+} from 'react-router-dom';
 
 
 
@@ -23,7 +25,11 @@ function ResourcesPage() {
   let title2 = "Algorithm Challenge";
   let body2 = 'Got technical interviews lined up from all those companies you applied to? Algorithm challenge can help you with those interviews! In these sessions, we’ll go over many popular technical problems and how to analyze, solve, and present them. Excellent for those interested in some real technical interview practice. Algorithm challenges are usually held every other week.';
 
-
+  var link_mailing_list = <ul>
+                              <li>
+                                  <NavLink exact to="/about"> mailing list</NavLink>
+                              </li>
+                          </ul>
 
   let profilelist = []
     for(let i = 0; i < Contacts.length; i++){
