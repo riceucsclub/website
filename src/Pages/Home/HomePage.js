@@ -79,13 +79,14 @@ function HomePage() {
       {/* testimonials/interviews */}
       <div class = "flex flex-col relative z-10 text-3xl font-light -ml-16 px-84 mb-40">
         <copy>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec orci id sem egestas luctus. 
-          Proin id tempus turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla justo 
-          diam, bibendum luctus lacus sed, finibus consequat tortor. Mauris vel mi tincidunt, dignissim dolor 
-          id, posuere eros. 
+        "I participated in HackRice my freshman year because I heard it was really fun. I didn’t know anyone else
+        who was participating, so I joined a random team at the start of the event. We worked together really well 
+        and we actually ended up winning first prize! HackRice was a super rewarding experience- I got to meet and 
+        learn from so many different people, make lots of new friends, and see some really interesting projects. I 
+        had such a great time and I wanted to give back, so I’ve stayed involved ever since. This year I’m co-directing HackRice!"
         </copy>
         <person class = "ml-12 mt-8">
-          — Anonymous, Class of 2023
+          — Claire Wang, Class of 2022
         </person>
       </div>
 

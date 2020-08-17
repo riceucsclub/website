@@ -14,7 +14,7 @@ function Header (props){
 
     const [open, setOpen] = useState(false);
     const drop_down = 
-                    <div className="absolute z-10 mt-2 ml-2 bg-white w-1/12 rounded-lg shadow-md">
+                    <div className="absolute z-10 mt-2 ml-2 bg-white w-1/5 rounded-lg shadow-md">
                         <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Remix CS</a>
                         <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">HackRice</a>
                         <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Rice Apps</a>
