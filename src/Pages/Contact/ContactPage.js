@@ -14,9 +14,7 @@ import {
 
 function ContactPage() {
 
-  const [activeTag, setActiveTag] = useState("");
-  const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
-  let text = '';
+ 
   const head = "We love hearing from you!";
   let title1 = 'Tech Talks';
   let body1 = 'Tech Talks are a great way to get Rice students interested in what your company does and get in contact with potential interns and employees. If you are interested in hosting one of these, please email our current President Luis Clague. Please be ready to provide a preferred date, time, and duration.'
@@ -32,6 +30,7 @@ function ContactPage() {
 
   return (
     <div className="relative">
+      <Header/>
       <div className="flex text-gray-500 text-5xl font-semibold justify-center">{head}</div>
       <div className="flex justify-center">{temp_text} {link_mail}.</div>
       <p className="flex justify-center">Stay up to date on the latest events and activities by subscribing to our {link_mailing_list}.</p>

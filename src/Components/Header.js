@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import csclublogo from '../Files/csclub_logo.png';
-//import { Tab } from "../Components/Tab"
 import gray_gradient from '../Files/gradient1.svg'
 import {
     NavLink
@@ -8,15 +7,15 @@ import {
 //import onClickOutside from 'react-onclickoutside';
 
 
-function Header (props){
+function Header (){
 
     const [open, setOpen] = useState(false);
     const drop_down = 
                     <div className="absolute z-10 mt-2 ml-2 bg-white w-1/12 rounded-lg shadow-md">
-                        <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">Remix CS</a>
-                        <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">HackRice</a>
-                        <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold">Rice Apps</a>
-                        <NavLink exact to="/csio" className="block px-4 py-2 text-gray-500 hover:font-bold">CS IO</NavLink>
+                        <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold" onClick={() => setOpen(false)}>Remix CS</a>
+                        <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold" onClick={() => setOpen(false)}>HackRice</a>
+                        <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500 hover:font-bold" onClick={() => setOpen(false)}>Rice Apps</a>
+                        <NavLink exact to="/csio" target="_blank" className="block px-4 py-2 text-gray-500 hover:font-bold" onClick={() => setOpen(false)}>CS IO</NavLink>
                     </div>
     const nav_bar =
                     <ul className="flex mr-10">

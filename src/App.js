@@ -20,21 +20,17 @@ import CSIO_Page from './Pages/CSIO/CSIO_Page'
 
 function App() {
 
-  const [activeTag, setActiveTag] = useState("");
-  const tabs = ['Home', 'About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
-  let text = '';
-  let link ='';
   
   return (
     <div>
       
       <Router>
-      <Header 
+      {/* <Header 
               activeTag={activeTag}
               setActiveTag={setActiveTag}
               tabs={tabs}
               text={text}
-              link={link}/>
+              link={link}/> */}
 
         <Switch>
           <Route exact path="/">

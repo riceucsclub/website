@@ -16,9 +16,6 @@ import {
 
 function ResourcesPage() {
 
-  const [activeTag, setActiveTag] = useState("");
-  const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
-  let text = '';
   const head = "Helpful Words";
   let title1 = 'Resume Reviews';
   let body1 = 'Bring your resumes and get feedback and advice from upper classmen and an invited experienced professional who has extensive experience reviewing and evaluating resumes. We will discuss resume content and formatting tips and provide constructive criticism in an informal setting. A resume review session is usually held during the week before the university career expo.';
@@ -46,6 +43,7 @@ function ResourcesPage() {
 
   return (
     <div className="relative">
+      <Header/>
       <div className="flex text-gray-500 text-5xl font-bold justify-center">{head}</div>
       <h1 className="flex text-gray-500 underline text-2xl font-semibold justify-start ml-32">Career Help</h1>
       <p className="flex mx-32 py-5 justify-center">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>

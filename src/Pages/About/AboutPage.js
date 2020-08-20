@@ -9,14 +9,11 @@ import OfficerGallery from './About_Components/OfficerGallery'
 
 
 function AboutPage() {
-
-  const [activeTag, setActiveTag] = useState("");
-  const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
-  let text = '';
   const head = "Welcome to the Rice CS Club!";
   
   return (
     <div className="relative">
+      <Header/>
       <div className="flex text-gray-500 text-5xl font-semibold justify-center">{head}</div>
       <p className="flex underline justify-center" onClick={() => window.open('https://docs.google.com/document/d/1EEig4JVePLBKu0MTp7aa5qNrWEQGOorgcm3M4XtXUew/edit')}>View our constitution here</p>
       <h1 className="flex text-gray-500 underline text-2xl mt-8 font-semibold justify-start ml-32">2020-2021 Officers</h1>

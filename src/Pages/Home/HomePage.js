@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Footer from '../../Components/Footer'
 import Header from '../../Components/Header'
 import triangles from '../../Files/Triangles.svg'
@@ -14,9 +14,11 @@ and friends and partner with companies
 to provide the best resources for students to 
 explore computer science and software`;
 
+
 function HomePage() {
     return (
     <div className="relative">
+      <Header/>
       <img class="flex right-0 w-60 h-60 absolute mr-32" src={graphic}></img>
       <div className="flex text-gray-500 text-6xl font-semibold mt-24 ml-32 justify-start">{head}</div>
       <div className="flex text-gray-500 text-6xl font-semibold ml-32 justify-start">CS CLUB</div>

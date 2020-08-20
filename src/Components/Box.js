@@ -19,14 +19,6 @@ function Box(props) {
           <div>
       </div>
       </div>
-      
-      	{/* <div class="px-10 py-5 text-gray-600">
-          Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      	</div>
-      
-      	<div class="px-5 py-4 flex justify-end">
-          
-      	</div> */}
 	</div>
     );
 }
@@ -41,13 +33,6 @@ function Box(props) {
       </div>
       </div>
     
-      {/* <div class="px-10 py-5 text-gray-600">
-        Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </div>
-    
-      <div class="px-5 py-4 flex justify-end">
-        
-      </div> */}
 </div>
     );
   }
