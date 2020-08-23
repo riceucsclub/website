@@ -4,6 +4,13 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      maxHeight: {
+        '0': '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '85%',
+        'full': '100%',
+              },
       boxShadow: {
         'teal': '0 0 0 4px rgba(0, 173, 181, 1)'
       },
@@ -13,12 +20,16 @@ module.exports = {
           '200': '#bebebe',
           '500b': '#313131',
         },
+        orange: {
+          ...colors.orange,
+          '200b': '#f8f2ea',
+        },
         teal: {
           '500b' : '#00ADB5'
         },
         blue: {
           ...colors.blue,
-          '200': '#00adb5',
+          '200b': '#00adb5',
           '400b': '#154fff',
         }
       },

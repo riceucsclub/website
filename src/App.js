@@ -15,7 +15,7 @@ import EventsPage from './Pages/Events/EventsPage'
 import HomePage from './Pages/Home/HomePage'
 import ResourcesPage from './Pages/Resources/ResourcesPage'
 import AboutPage from './Pages/About/AboutPage'
-
+import CSIO_Page from './Pages/CSIO/CSIO_Page'
 
 
 function App() {
@@ -51,6 +51,9 @@ function App() {
           </Route>
           <Route exact path='/events'>
             <EventsPage box = {boxText}/>
+          </Route>
+          <Route exact path='/csio'>
+            <CSIO_Page/>
           </Route>
         </Switch>
         <Footer/>
