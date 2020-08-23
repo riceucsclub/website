@@ -17,7 +17,7 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 import luay from '../../Files/Home_Gallery/12976851_1138128249563543_7955453846841172046_o.jpg'
 import tim from '../../Files/Home_Gallery/84334897_2881793055197045_101138358037643264_o.jpg'
 import beach from '../../Files/Home_Gallery/116396755_1957654227698199_1890081075763795255_n.jpg'
-
+import group from '../../Files/group.png'
 
 const head = "RICE UNIVERSITY";
 const first_blurb = `Creating a community of mentors 

@@ -19,7 +19,7 @@ function Header (props){
                         <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Remix CS</a>
                         <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">HackRice</a>
                         <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Rice Apps</a>
-                        <a href="#" target="_blank" className="block px-4 py-2 text-gray-500b hover:font-bold">CS IO</a>
+                        <NavLink exact to="/csio" target="_blank" className="block px-4 py-2 text-gray-500b hover:font-bold">CS IO</NavLink>
                     </div>
     const nav_bar =
                     <ul className="flex mr-10">
