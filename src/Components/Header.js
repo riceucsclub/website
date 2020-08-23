@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import csclublogo from '../Files/csclub_logo.png';
+import csclublogo from '../Files/logos/csclub_dark.png';
 //import { Tab } from "../Components/Tab"
 import gray_gradient from '../Files/gradient1.svg'
+// import gray_gradient from '../Files/header_gray.svg'
 import {
     NavLink
   } from 'react-router-dom';
@@ -14,7 +15,7 @@ function Header (props){
 
     const [open, setOpen] = useState(false);
     const drop_down = 
-                    <div className="absolute z-10 mt-2 ml-2 bg-white w-1/5 rounded-lg shadow-md">
+                    <div className="absolute z-20 mt-2 ml-2 bg-white w-1/5 rounded-lg shadow-md">
                         <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Remix CS</a>
                         <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">HackRice</a>
                         <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Rice Apps</a>
@@ -46,12 +47,12 @@ function Header (props){
        <header>
            <div className="flex justify-between items-center py-1">
                 <div>
-                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" width="120px" height="120px" className="justify-start px-3 relative z-10 py-6"/></NavLink>
+                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start px-6 relative z-10 py-6 w-1/5"/></NavLink>
                 </div>
                 <img className="absolute z-0 flex right-0 w-2/5" src={gray_gradient}/>
-                    <ul className="relative z-10 flex mr-10">
-                        {nav_bar}
-                    </ul>
+                <ul className="relative z-20 flex mr-10">
+                    {nav_bar}
+                </ul>
            </div>
        </header> 
     )

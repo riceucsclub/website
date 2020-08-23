@@ -4,8 +4,12 @@ import Header from '../../Components/Header'
 import triangles from '../../Files/Triangles.svg'
 import graphic from '../../Files/graphic1.jpg'
 import blue_gradient from '../../Files/gradient2.svg'
-import Subsidaries from './Home_Components/Subsidaries'
+
+import teal_grad from '../../Files/gradients/home_about.svg'
+import gray_grad from '../../Files/gradients/home_events.svg'
 import EventWheel from './Home_Components/EventWheel'
+
+import Subsidaries from './Home_Components/Subsidaries'
 
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
@@ -50,11 +54,12 @@ function HomePage() {
       <img class="object-left absolute -mt-16" width="250px" height="250px" src={triangles}/>
 
       <div class = "relative z-10 ml-24 mt-108 flex flex-row mb-20">
+      <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
         <gall class = "w-148">
           <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
           mouseTrackingEnabled buttonsDisabled/>  
         </gall>
-        <copy class = "ml-12 flex flex-col w-176">
+        <copy class = "relative z-10 ml-12 flex flex-col w-176">
           <subhead class = "font-semibold text-5xl -mt-4">
             Who we are
           </subhead>
@@ -68,16 +73,19 @@ function HomePage() {
         </copy>
       </div>
 
+      <img src={gray_grad} class = "absolute z-0 -mt-40"/>
       <div  class = "relative z-10 mb-24">
         <EventWheel/>
+        
       </div>
       
-      <div  class = "relative z-10 mb-64">
+
+      <div  class = "relative z-10 mb-48">
         <Subsidaries/>
       </div>
 
       {/* testimonials/interviews */}
-      <div class = "flex flex-col relative z-10 text-3xl font-light -ml-16 px-84 mb-40">
+      <div class = "flex flex-col relative z-10 text-3xl font-light -ml-16 px-84 mb-24">
         <copy>
         "I participated in HackRice my freshman year because I heard it was really fun. I didn’t know anyone else
         who was participating, so I joined a random team at the start of the event. We worked together really well 

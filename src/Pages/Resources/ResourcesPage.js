@@ -46,7 +46,7 @@ function ResourcesPage(props) {
       <h1 className="flex text-gray-500b underline text-2xl font-semibold justify-start ml-32">Career Help</h1>
       <p className="flex mx-32 py-5 justify-center">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
       
-      <div className="flex justify-between mx-64 py-5">
+      <div className="flex justify-around px-64 py-5">
         <Box title={props.box["nameR"]} desc={props.box["blurbR"]}/>
         <Box title={props.box["nameA"]} desc={props.box["blurbA"]}/>
       </div>
@@ -60,7 +60,7 @@ function ResourcesPage(props) {
               <FAQList/>
         </div>
         <p className="flex mx-32 mt-8 py-8 justify-start">Have a specific question? Reach out to one of our upperclassmen!</p>
-        <div className="flex ml-32 justify-center justify-around mb-12">{profilelist}</div>
+        <div className="flex px-16 justify-center justify-around mb-12">{profilelist}</div>
       </div>
       
       

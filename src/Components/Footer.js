@@ -4,8 +4,12 @@ import slacklogo from '../Files/slack_logo.svg';
 import facebooklogo from '../Files/fb_logo.png';
 import maillogo from '../Files/mail_logo.svg';
 import blue_gradient from '../Files/blue_gradient.svg'
+import side from '../Files/side_gradient.svg'
 
-// 
+import {
+    NavLink
+  } from 'react-router-dom';
+
 function Footer (){
     return (
         <div class = "relative">
@@ -22,7 +26,7 @@ function Footer (){
                     <img src={slacklogo} alt="Logo" onClick={() => window.open('https://ricecs.slack.com/signup')}/>
                 </div>
                 <div class="inline-block text-gray-700 text-center bg-gray-200 m-2">
-                    <img src={maillogo} alt="Logo" width="37px" height="35px"/>
+                    <NavLink exact to="/about"><img src={maillogo} alt="Logo" width="37px" height="35px"/></NavLink>
                 </div>
             </div>
             

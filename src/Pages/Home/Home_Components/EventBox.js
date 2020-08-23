@@ -10,6 +10,8 @@ function EventBox (props) {
     let link = props.link
     let time = props.time
 
+    console.log(link, "link");
+
     let content =
         <div class = "">
             <top class = "flex flex-row mt-2">
@@ -21,7 +23,7 @@ function EventBox (props) {
                         {month}
                     </m>
                 </date>
-                <name class = " w-7/12 text-lg text-center mt-1 ml-8 ">
+                <name class = "w-7/12 text-lg font-semibold text-center mt-1 ml-8 ">
                     {title}
                 </name>
             </top>
@@ -37,10 +39,14 @@ function EventBox (props) {
                 {desc}
             </blurb>
             <lonk class = "flex justify-center font-light text-sm text-blue-500 pb-2">
-                {link}
+                <a href={link} target="_blank">
+                    Facebook link
+                </a>
             </lonk>
                 
         </div>
+
+{/* <a  className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Remix CS</a> */}
 
     return(
         <div class = "w-1/4 rounded-lg bg-white shadow-teal">

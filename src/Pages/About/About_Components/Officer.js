@@ -12,7 +12,7 @@ function Officer (props) {
     
     let content = 
     <div className="flex w-2/3 flex-wrap center justify-center">
-        <div className="px-4 justify-center align-middle">
+        <div className="px-2 justify-center align-middle">
             <img src={image} className="flex items-center justify-center max-w-full h-auto border-none" />
             <h1 className="text-center">{name}</h1>
             <h1 className="text-center">{title}</h1>

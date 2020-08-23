@@ -20,7 +20,7 @@ function OfficerGallery () {
 
 
     return (
-        <div className="ml-24 mt-8 grid row-gap-8 col-gap-8 grid-cols-5">
+        <div className="ml-24 mt-8 grid row-gap-8 col-gap-4 grid-cols-6 ">
             {officers}
         </div>
     )
