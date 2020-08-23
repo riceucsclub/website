@@ -2,11 +2,13 @@
 
 @tailwind components;
 
+/*
 .main-nav {
     @apply text-gray-500b py-2 px-4 text-lg font-bold;
   }
 .main-nav-active {
     @apply text-blue-400b py-2 px-4 text-lg font-bold;
   }
+  */
 
 @tailwind utilities;
