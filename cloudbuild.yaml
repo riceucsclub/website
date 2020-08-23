@@ -1,7 +1,9 @@
 steps:
-- name: 'gcr.io/cloud-builders/yarn'
+- name: node
+  entrypoint: yarn
   args: ['install']
-- name: 'gcr.io/cloud-builders/yarn'
+- name: node
+  entrypoint: yarn
   args: ['run', 'build']
 - name: "gcr.io/cloud-builders/gcloud"
   args: ["app", "deploy", "client.yaml", "-v", "$_GAE_VERSION"]
