@@ -11,30 +11,29 @@ export default [
         "locale": "Online (Zoom)",
         "desc": `We hope that through Our Welcome (Back) Mixer we can continue creating 
         a warm, inclusive atmosphere for everyone! Some cool things will take place during 
-        this event`,
+        this event, including a puzzle hunt, raffle prizes, and the Big-Little Family Reveal!`,
         "link": "https://www.facebook.com/events/1135676923499760/?__mref=mb",
     },
     {
-        "title": "Short Name",
+        "title": "Internship and Recruiting Workshop",
         "month": "SEP",
-        "day": "29",
-        "time": "7:30 pm",
-        "locale": "Duncan Hall",
-        "desc": `Throughout the year, we hold social events such as lunches, 
-        study breaks, mixers, bowling nights, and random outings. We regularly 
-        host a study break or Christmas party after classes end.`,
-        "link": `Facebook link`,
+        "day": "17",
+        "time": "7:00 pm",
+        "locale": "Online (Zoom)",
+        "desc": `Practice technical interviews, get your resume checked and listen to 
+        our upperclasssmen talk about their internship experiences!`,
+        "link": `LINK NOT READY`,
     },
     {
-        "title": "Late Night Event with a Very Long Name 3",
-        "month": "OCT",
-        "day": "31",
-        "time": "7:30 pm",
-        "locale": "Duncan Hall",
+        "title": "Event Coming Soon!",
+        "month": "N/A",
+        "day": "N/A",
+        "time": "",
+        "locale": "",
         "desc": `Throughout the year, we hold social events such as lunches, 
         study breaks, mixers, bowling nights, and random outings. We regularly 
         host a study break or Christmas party after classes end.`,
-        "link": `Facebook link`,
+        "link": `LINK NOT READY`,
     },
     {
         "title": "Late Night Event with a Very Long Name 4",

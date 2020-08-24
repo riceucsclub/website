@@ -10,7 +10,7 @@ function EventBox (props) {
     let link = props.link
     let time = props.time
 
-    console.log(link, "link");
+
 
     let content =
         <div class = "">
@@ -38,7 +38,7 @@ function EventBox (props) {
             <blurb class = "flex justify-between font-light text-sm text-center mx-5 mt-1">
                 {desc}
             </blurb>
-            <lonk class = "flex justify-center font-light text-sm text-blue-500 pb-2">
+            <lonk class = "flex justify-center font-light text-sm text-blue-500">
                 <a href={link} target="_blank">
                     Facebook link
                 </a>
