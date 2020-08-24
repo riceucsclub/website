@@ -16,6 +16,7 @@ function AboutPage() {
   const head = "Welcome to the Rice CS Club!";
   
   return (
+
     <div className="relative">
       <Header/>
       {/* <img class = "absolute mt-36 bg-no-repeat bg-left z-10" src={triangles} width="250px" height="250px"/> */}
