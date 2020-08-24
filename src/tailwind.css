@@ -606,29 +606,14 @@ video {
   }
 }
 
+/*
 .main-nav {
-  --text-opacity: 1;
-  color: #313131;
-  color: rgba(49, 49, 49, var(--text-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 1.125rem;
-  font-weight: 700;
-}
-
+    @apply text-gray-500b py-2 px-4 text-lg font-bold;
+  }
 .main-nav-active {
-  --text-opacity: 1;
-  color: #154fff;
-  color: rgba(21, 79, 255, var(--text-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  font-size: 1.125rem;
-  font-weight: 700;
-}
+    @apply text-blue-400b py-2 px-4 text-lg font-bold;
+  }
+  */
 
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
