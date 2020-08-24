@@ -32,7 +32,7 @@ export default [
         "name": "Oeishi Banerjee",
         "title": "Co-President",
         "college": "Sid Rich 2021",
-        "hometown": "COMP, PYSC"
+        "hometown": "COMP, PSYC"
     },
     {
         "image": paul,
@@ -60,20 +60,20 @@ export default [
         "name": "Sarah Han",
         "title": "Co-External VP",
         "college": "Martel 2023",
-        "hometown": "COMP STAT"
+        "hometown": "COMP, STAT"
     },
     {
         "image": adam,
         "name": "Adam Zawierucha",
         "title": "Co-Treasurer",
-        "college": "Sid Rich 2023",
+        "college": "Brown 2023",
         "hometown": "COMP"
     },
     {
         "image": adrienne,
         "name": "Adrienne Li",
         "title": "Co-Treasurer",
-        "college": "Lovett 2023",
+        "college": "Brown 2023",
         "hometown": "COMP, ECON"
     },
 
@@ -96,7 +96,7 @@ export default [
         "name": "Manaal Khan",
         "title": "Co-Webmaster",
         "college": "Sid Rich 2023",
-        "hometown": "COMP"
+        "hometown": "COMP, DSCI"
     },
     {
         "image": benny,

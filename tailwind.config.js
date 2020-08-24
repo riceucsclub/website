@@ -3,14 +3,15 @@ const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: [],
   theme: {
+    maxHeight: {
+      '0': '0',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '85%',
+      'full': '100%',
+            },
     extend: {
-      maxHeight: {
-        '0': '0',
-        '1/4': '25%',
-        '1/2': '50%',
-        '3/4': '85%',
-        'full': '100%',
-              },
+      
       boxShadow: {
         'teal': '0 0 0 4px rgba(0, 173, 181, 1)'
       },

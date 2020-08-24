@@ -33,7 +33,7 @@ function Header (props){
                             <NavLink exact to="/events" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>Events</NavLink>
                         </li>
                         <li>
-                            <h1 className="text-gray-500b px-4 text-lg font-bold" onClick={() => setOpen(!open)}>Subsidiaries</h1>
+                            <a href="#" className="text-gray-500b px-4 text-lg font-bold" onClick={() => setOpen(!open)}>Subsidiaries</a>
                             {open && drop_down}
                         </li>
                         <li>

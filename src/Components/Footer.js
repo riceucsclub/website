@@ -17,13 +17,19 @@ function Footer (){
         <footer class="relative z-10 bg-gray-200 text-center text-s text-gray-700 p-2 bottom-0 w-full">
             <div class="flex justify-center bg-gray-200">
                 <div class="inline-block text-gray-700 text-center bg-gray-200">
-                    <img src={instalogo} alt="Logo" onClick={() => window.open('https://www.instagram.com/ricecsclub/?hl=en')}/>
+                    <a href='https://www.instagram.com/ricecsclub/?hl=en' target="_blank">
+                        <img src={instalogo} alt="Logo"/>
+                    </a>
                 </div>
                 <div class="inline-block text-gray-700 text-center bg-gray-200 px-1 m-1">
-                    <img src={facebooklogo} alt="Logo" width="33px" height="33px" onClick={() => window.open('https://www.facebook.com/ricecsclub')}/> 
+                    <a href='https://www.facebook.com/ricecsclub' target="_blank">
+                        <img src={facebooklogo} alt="Logo" width="33px" height="33px"/>
+                    </a>
                 </div> 
                 <div class="inline-block text-gray-700 text-center bg-gray-200 m-2">
-                    <img src={slacklogo} alt="Logo" onClick={() => window.open('https://ricecs.slack.com/signup')}/>
+                    <a href='https://ricecs.slack.com/signup' target="_blank">
+                        <img src={slacklogo} alt="Logo"/>
+                    </a>
                 </div>
                 <div class="inline-block text-gray-700 text-center bg-gray-200 m-2">
                     <NavLink exact to="/about"><img src={maillogo} alt="Logo" width="37px" height="35px"/></NavLink>

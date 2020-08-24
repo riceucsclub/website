@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import Footer from './Components/Footer'
-import Box from './Components/Box';
-import Header from './Components/Header';
-import triangles from './Files/Triangles.svg';
+
 import boxText from './Files/boxText'
 import {
   BrowserRouter as Router,
@@ -29,12 +26,7 @@ function App() {
     <div>
       
       <Router>
-      <Header 
-              activeTag={activeTag}
-              setActiveTag={setActiveTag}
-              tabs={tabs}
-              text={text}
-              link={link}/>
+      
 
         <Switch>
           <Route exact path="/">
@@ -56,7 +48,7 @@ function App() {
             <CSIO_Page/>
           </Route>
         </Switch>
-        <Footer/>
+        
       </Router>
 
       

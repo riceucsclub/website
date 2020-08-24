@@ -3,7 +3,7 @@ import Footer from '../../Components/Footer'
 import Header from '../../Components/Header'
 import triangles from '../../Files/Triangles.svg'
 import graphic from '../../Files/graphic1.jpg'
-import blue_gradient from '../../Files/gradient2.svg'
+
 
 import teal_grad from '../../Files/gradients/home_about.svg'
 import gray_grad from '../../Files/gradients/home_events.svg'
@@ -17,7 +17,7 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 import luay from '../../Files/Home_Gallery/12976851_1138128249563543_7955453846841172046_o.jpg'
 import tim from '../../Files/Home_Gallery/84334897_2881793055197045_101138358037643264_o.jpg'
 import beach from '../../Files/Home_Gallery/116396755_1957654227698199_1890081075763795255_n.jpg'
-import group from '../../Files/group.png'
+
 
 const head = "RICE UNIVERSITY";
 const first_blurb = `Creating a community of mentors 
@@ -43,7 +43,7 @@ function HomePage() {
 
     return (
     <div className="relative">
-      
+      <Header/>
       <img class="flex right-0 absolute mr-32" width="600px" src={graphic}></img>
       <div className="flex text-gray-500b text-6xl font-bold mt-24 ml-32 justify-start">{head}</div>
       <div className="flex text-gray-500b text-6xl font-bold ml-32 justify-start">CS CLUB</div>
@@ -97,7 +97,7 @@ function HomePage() {
           — Claire Wang, Class of 2022
         </person>
       </div>
-
+      <Footer/>
     </div>
        
     );

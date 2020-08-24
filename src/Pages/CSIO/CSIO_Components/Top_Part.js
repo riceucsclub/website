@@ -21,8 +21,8 @@ function Top_Part() {
     return (
       <div className="">
           {/* <img className = "absolute w-full top-0 z-0" src={tan_rect}/> */}
-        <header className="absolute z-10 px-6 bg-orange-200 py-6 font-bold text-2xl">CS IO</header>
-        <div className="bg-orange-200 relative z-0 flex justify-center content-around h-screen flex-wrap">
+        <header className="absolute z-10 px-6 bg-orange-200b py-6 font-bold text-2xl">CS IO</header>
+        <div className="bg-orange-200b relative z-0 flex justify-center content-around h-screen flex-wrap">
             <div className="font-bold justify-center text-center py-6 text-6xl" onMouseEnter={() => setIsShown(true)} onMouseLeave={() => setIsShown(false)}>We help students have their voices* heard.</div>
 	      </div>
       </div>
