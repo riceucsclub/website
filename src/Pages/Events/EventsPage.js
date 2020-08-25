@@ -29,7 +29,7 @@ function EventsPage(props){
             </div>
 
 
-            <div class = 'flex justify-around px-64 mt-16'>
+            <div class = 'relative z-10 flex justify-around px-64 mt-16'>
                 <Box title = {props.box["nameE"]} desc = {props.box["blurbE"]}/>
                 <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
