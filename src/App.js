@@ -13,6 +13,7 @@ import HomePage from './Pages/Home/HomePage'
 import ResourcesPage from './Pages/Resources/ResourcesPage'
 import AboutPage from './Pages/About/AboutPage'
 import CSIO_Page from './Pages/CSIO/CSIO_Page'
+import Helmet from 'react-helmet';
 
 
 function App() {
@@ -23,7 +24,11 @@ function App() {
   let link ='';
   
   return (
+
     <div>
+      <Helmet>
+        <title>{"Rice CS Club"}</title>
+      </Helmet>
       
       <Router>
       
