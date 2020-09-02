@@ -28,7 +28,7 @@ export default [
     {
         "title": "Internship and Recruiting Workshop",
         "month": "SEP",
-        "day": "17",
+        "day": "27",
         "time": "7:00 pm",
         "locale": "Online (Zoom)",
         "desc": `Practice technical interviews, get your resume checked and listen to 

@@ -20,7 +20,7 @@ function EventsPage(props){
             <img class = "absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'text-center'>
-                <div class = 'text-6xl font-semibold'>
+                <div class = 'text-5xl font-semibold'>
                     Check us out!
                 </div>
                 <div class = 'text-xl mt-3 text-light'>

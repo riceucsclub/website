@@ -20,7 +20,7 @@ function AboutPage() {
     <div className="relative">
       <Header/>
       {/* <img class = "absolute mt-36 bg-no-repeat bg-left z-10" src={triangles} width="250px" height="250px"/> */}
-      <div className="flex text-gray-500b text-5xl font-semibold justify-center">{head}</div>
+      <div className="relative z-10 flex text-gray-500b text-5xl font-semibold justify-center">{head}</div>
       <a className="flex underline justify-center" href= 'https://docs.google.com/document/d/1EEig4JVePLBKu0MTp7aa5qNrWEQGOorgcm3M4XtXUew/edit' target="_blank">
         View our constitution here
       </a>
