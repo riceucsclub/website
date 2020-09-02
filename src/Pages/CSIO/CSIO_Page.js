@@ -30,7 +30,10 @@ function CSIO_Page() {
               <div className="flex justify-center text-center bg-black mx-24 mt-24 text-white">{maintext}</div>
               <div className="flex justify-center text-center mx-24 mt-8 bg-black text-white">{secondtext}</div>
               <div className="flex justify-center text-center mx-24 mt-8 bg-black text-white">{thirdtext}</div>
-              <div className="flex justify-center text-center mx-24 mt-2 bg-black text-white" onClick={()=> window.open("https://forms.gle/b4mk1Zp4PqkGe2Tx8")}>{link_gf}</div>
+              <a className="flex justify-center text-center mx-24 mt-2 bg-black text-white" href= 'https://forms.gle/b4mk1Zp4PqkGe2Tx8' target="_blank">
+                {link_gf}
+              </a>
+              {/* <div className="flex justify-center text-center mx-24 mt-2 bg-black text-white" onClick={()=> window.open("https://forms.gle/b4mk1Zp4PqkGe2Tx8")}>{link_gf}</div> */}
           </div>
 
           <div className="relative z-10 text-4xl mt-24 bg-white font-bold">

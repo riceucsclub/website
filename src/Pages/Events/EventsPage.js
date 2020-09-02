@@ -34,7 +34,7 @@ function EventsPage(props){
                 <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
 
-            <div class = 'relative z-10 px-120 mt-16 mb-8'>
+            <div class = 'relative z-10 px-120 mt-16 mb-16'>
                 <Calender/>
             </div>
             <Footer/>
