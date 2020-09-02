@@ -15,6 +15,17 @@ export default [
         "link": "https://www.facebook.com/events/1135676923499760/?__mref=mb",
     },
     {
+        "title": "CS Club + CSters + Data Sci Joint Event",
+        "month": "SEP",
+        "day": "10",
+        "time": "7:00 pm",
+        "locale": "Online (Zoom)",
+        "desc": `The CS Club, CSters and Rice-Datasci combine forces to bring you the 
+        BIGGEST and BEST joint event this semester! Come through to learn about each club 
+        and meet amazing people! :0`,
+        "link": `LINK NOT READY`,
+    },
+    {
         "title": "Internship and Recruiting Workshop",
         "month": "SEP",
         "day": "17",
@@ -24,15 +35,5 @@ export default [
         our upperclasssmen talk about their internship experiences!`,
         "link": `LINK NOT READY`,
     },
-    {
-        "title": "Event Coming Soon!",
-        "month": "N/A",
-        "day": "N/A",
-        "time": "",
-        "locale": "",
-        "desc": `Throughout the year, we hold social events such as lunches, 
-        study breaks, mixers, bowling nights, and random outings. We regularly 
-        host a study break or Christmas party after classes end.`,
-        "link": `LINK NOT READY`,
-    },
+    
 ]
