@@ -45,15 +45,15 @@ function HomePage() {
     <div className="relative">
       <Header/>
       <img class="flex right-0 absolute mr-32" width="600px" src={graphic}></img>
-      <div className="flex text-gray-500b text-6xl font-bold mt-24 ml-32 justify-start">{head}</div>
+      <div className="flex text-gray-500b text-6xl font-bold mt-12 ml-32 justify-start">{head}</div>
       <div className="flex text-gray-500b text-6xl font-bold ml-32 justify-start">CS CLUB</div>
       
       <div class="w-148 rounded overflow-hidden mt-8 ml-32">
           <p class="text-gray-500b space-y-1 font-light leading-snug text-3xl">{first_blurb}</p>
       </div>
-      <img class="object-left absolute -mt-16" width="250px" height="250px" src={triangles}/>
+      <img class="object-left absolute -mt-8" width="240px" height="240px" src={triangles}/>
 
-      <div class = "relative z-10 ml-24 mt-108 flex flex-row mb-20">
+      <div class = "relative z-10 ml-24 mt-128 flex flex-row">
       <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
         <gall class = "w-148">
           <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
@@ -80,7 +80,7 @@ function HomePage() {
       </div>
       
 
-      <div  class = "relative z-10 mb-48">
+      <div  class = "relative z-10 mb-40">
         <Subsidaries/>
       </div>
 
