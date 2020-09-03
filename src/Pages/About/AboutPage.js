@@ -24,7 +24,7 @@ function AboutPage() {
       <a className="flex underline justify-center" href= 'https://docs.google.com/document/d/1EEig4JVePLBKu0MTp7aa5qNrWEQGOorgcm3M4XtXUew/edit' target="_blank">
         View our constitution here
       </a>
-      <a className="flex underline justify-center" href= 'http://eepurl.com/gBMAdr' target="_blank">
+      <a className="flex underline justify-center pt-1" href= 'http://eepurl.com/gBMAdr' target="_blank">
         Join our mailing list here
       </a>
       <h1 className="flex text-gray-500b underline text-2xl mt-8 font-semibold justify-start ml-32">2020-2021 Officers</h1>
