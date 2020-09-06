@@ -40,7 +40,7 @@ function EventBox (props) {
             </blurb>
             <lonk class = "flex justify-center font-light text-sm text-blue-500">
                 <a href={link} target="_blank">
-                    Facebook link
+                    Link
                 </a>
             </lonk>
                 

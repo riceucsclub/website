@@ -42,7 +42,7 @@ function FutureEvent (props) {
             </blurb>
             <social class = "font-light text-xs text-blue-500">
                 <a href={link} target="_blank">
-                    Facebook link
+                    Link
                 </a>
             </social>
         </info>
