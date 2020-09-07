@@ -69,6 +69,32 @@ export default [
         our upperclasssmen talk about their internship experiences!`,
         "link": `LINK NOT READY`,
     },
-    
+    {
+        "title": "CS Club F.R.E.E. x Airbnb",
+        "month": "SEP",
+        "day": "16",
+        "time": "5:00 pm",
+        "locale": "Zoom",
+        "desc": ``,
+        "link": `LINK NOT READY`,
+    },
+    {
+        "title": "CS Club F.R.E.E. x Paycom",
+        "month": "SEP",
+        "day": "22",
+        "time": "6:00 pm",
+        "locale": "Zoom",
+        "desc": ``,
+        "link": `LINK NOT READY`,
+    },
+    {
+        "title": "CS Club and CSters F.R.E.E. x Gartner",
+        "month": "OCT",
+        "day": "7",
+        "time": "6:00 pm",
+        "locale": "Zoom",
+        "desc": ``,
+        "link": `LINK NOT READY`,
+    },
 ]
 

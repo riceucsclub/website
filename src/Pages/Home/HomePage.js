@@ -73,7 +73,7 @@ function HomePage() {
         </copy>
       </div>
 
-      <img src={gray_grad} class = "absolute z-0 -mt-40"/>
+      <img src={gray_grad} class = "absolute z-0 -mt-32"/>
       <div  class = "relative z-10 mb-24">
         <EventWheel/>
         
