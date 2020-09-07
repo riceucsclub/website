@@ -49,6 +49,15 @@ export default [
         "link": `LINK NOT READY`,
     },
     {
+        "title": "CS Club F.R.E.E. x Airbnb",
+        "month": "SEP",
+        "day": "16",
+        "time": "5:00 pm",
+        "locale": "Zoom",
+        "desc": ``,
+        "link": `LINK NOT READY`,
+    },
+    {
         "title": "Hack Rice X",
         "month": "SEP",
         "day": "18",
@@ -60,6 +69,15 @@ export default [
         "link": `https://www.facebook.com/events/441468970107132/`,
     },
     {
+        "title": "CS Club F.R.E.E. x Paycom",
+        "month": "SEP",
+        "day": "22",
+        "time": "6:00 pm",
+        "locale": "Zoom",
+        "desc": ``,
+        "link": `LINK NOT READY`,
+    },
+    {
         "title": "Internship and Recruiting Workshop",
         "month": "SEP",
         "day": "27",
@@ -67,24 +85,6 @@ export default [
         "locale": "Zoom",
         "desc": `Practice technical interviews, get your resume checked and listen to 
         our upperclasssmen talk about their internship experiences!`,
-        "link": `LINK NOT READY`,
-    },
-    {
-        "title": "CS Club F.R.E.E. x Airbnb",
-        "month": "SEP",
-        "day": "16",
-        "time": "5:00 pm",
-        "locale": "Zoom",
-        "desc": ``,
-        "link": `LINK NOT READY`,
-    },
-    {
-        "title": "CS Club F.R.E.E. x Paycom",
-        "month": "SEP",
-        "day": "22",
-        "time": "6:00 pm",
-        "locale": "Zoom",
-        "desc": ``,
         "link": `LINK NOT READY`,
     },
     {
