@@ -83,7 +83,7 @@ export default [
         "day": "27",
         "time": "7:00 pm",
         "locale": "Zoom",
-        "desc": `Practice technical interviews, get your resume checked and listen to 
+        "desc": `Practice technical interviews, get your resume reviewed and listen to 
         our upperclasssmen talk about their internship experiences!`,
         "link": `LINK NOT READY`,
     },

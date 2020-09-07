@@ -13,8 +13,8 @@ import {
 function Subsidaries () {
 
     return (
-        <div className="px-12">
-            <h1 className="text-4xl py-16 text-gray-500b font-bold">We work with...</h1>
+        <div className="">
+            <h1 className="text-4xl py-16 px-24 text-gray-500b font-bold">We work with...</h1>
             <div class="mt-8 grid col-gap-40 grid-cols-10 ">
                 <div class="inline-block col-start-2 col-span-2 text-gray-700 text-center">
                     <a href="http://remixcs.rice.edu/" target="_blank">

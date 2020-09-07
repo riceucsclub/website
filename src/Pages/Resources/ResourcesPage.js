@@ -44,8 +44,8 @@ function ResourcesPage(props) {
       <Header/>
       <img class="z-10 object-left absolute mt-36" width="250px" height="250px" src={triangles}/>
       <div className="relative z-10 flex text-gray-500b text-5xl font-bold justify-center">{head}</div>
-      <h1 className="flex text-gray-500b underline text-2xl font-semibold justify-start ml-32">Career Help</h1>
-      <p className="flex mx-32 py-5 justify-center">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
+      <h1 className="flex text-gray-500b underline text-2xl font-semibold justify-start pl-36">Career Help</h1>
+      <p className="flex py-5 px-40 justify-center">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
       
       <div className="relative z-10 flex justify-around px-64 py-5">
         <Box title={props.box["nameR"]} desc={props.box["blurbR"]}/>
@@ -53,13 +53,13 @@ function ResourcesPage(props) {
       </div>
       
       <div class = "relative z-10">
-        <h1 className="flex text-gray-500b underline text-2xl font-semibold justify-start mt-12 ml-32">Advising</h1>
-        <p className="flex mx-32 py-5 justify-start">Have questions or just wondering what a CS degree looks like at Rice University? Check out some of our resources below!</p>
+        <h1 className="flex text-gray-500b underline text-2xl font-semibold justify-start mt-12 px-36">Advising</h1>
+        <p className="flex px-40 py-5 justify-start">Have questions or just wondering what a CS degree looks like at Rice University? Check out some of our resources below!</p>
         <a href = 'https://ga.rice.edu/programs-study/departments-programs/engineering/computer-science/computer-science-bscs/#requirementstext' target = "_blank" className="flex underline mx-40 justify-start">Four year plan</a>
         <a href = 'https://docs.google.com/document/d/1UoLQ3Y96eI0LkeFMrxg8VYh3cP-19I_rMoGvPjvicg4/edit' target = "_blank" className="flex underline mx-40 justify-start">Study abroad resources</a>
         <a href = 'https://coda.io/d/Rice-Computer-Science-Guide_dEcPwl0JjQR/Welcome_su77n?fbclid=IwAR34seYUl1bLnserMIyVGfIZ45VKSDr_KTzBCoqxWSfQvD-PTqnM_nmm-l8#_lupFc' target = "_blank" className="flex underline mx-40 justify-start">Frequently asked questions</a>
-        <p className="flex mx-32 py-8 justify-start">Have a specific question? Reach out to one of our upperclassmen!</p>
-        <div className="flex px-16 justify-center justify-around mb-12">{profilelist}</div>
+        <p className="flex px-36 py-8 justify-start">Have a specific question? Reach out to one of our upperclassmen!</p>
+        <div className="flex px-16 justify-center justify-around mb-16">{profilelist}</div>
       </div>
       <Footer/>
     </div>
