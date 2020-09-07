@@ -38,15 +38,15 @@ export default [
         "link": `https://www.facebook.com/events/1475529189304627/`,
     },
     {
-        "title": "CS Club + CSters + Data Sci Joint Event",
+        "title": "CS Clubs @ Rice Joint Event",
         "month": "SEP",
         "day": "10",
         "time": "7:00 pm",
         "locale": "Zoom",
-        "desc": `The CS Club, CSters and Rice-Datasci combine forces to bring you the 
-        BIGGEST and BEST joint event this semester! Come through to learn about each club 
-        and meet amazing people! :0`,
-        "link": `LINK NOT READY`,
+        "desc": `Come join CS Club, CSters, and DataSci Club on Thursday, September 10th, from 7-8 pm CST 
+        and learn more Rice’s computational clubs! There will be a Q&A session in the end to answer any 
+        questions students may have!`,
+        "link": `https://fb.me/e/2RtUMeRka`,
     },
     {
         "title": "CS Club F.R.E.E. x Airbnb",
@@ -54,7 +54,7 @@ export default [
         "day": "16",
         "time": "5:00 pm",
         "locale": "Zoom",
-        "desc": ``,
+        "desc": `Event info on the way!`,
         "link": `LINK NOT READY`,
     },
     {
@@ -74,7 +74,7 @@ export default [
         "day": "22",
         "time": "6:00 pm",
         "locale": "Zoom",
-        "desc": ``,
+        "desc": `Event info on the way!`,
         "link": `LINK NOT READY`,
     },
     {
@@ -93,7 +93,7 @@ export default [
         "day": "7",
         "time": "6:00 pm",
         "locale": "Zoom",
-        "desc": ``,
+        "desc": `Event info on the way!`,
         "link": `LINK NOT READY`,
     },
 ]
