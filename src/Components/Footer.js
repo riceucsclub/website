@@ -3,6 +3,7 @@ import instalogo from '../Files/insta_logo.svg';
 import slacklogo from '../Files/slack_logo.svg';
 import facebooklogo from '../Files/fb_logo.png';
 import maillogo from '../Files/mail_logo.svg';
+import discordlogo from '../Files/discord_logo.svg';
 import blue_gradient from '../Files/blue_gradient.svg'
 import side from '../Files/side_gradient.svg'
 
@@ -33,6 +34,11 @@ function Footer (){
                 </div>
                 <div class="inline-block text-gray-700 text-center bg-gray-200 m-2">
                     <NavLink exact to="/about"><img src={maillogo} alt="Logo" width="37px" height="35px"/></NavLink>
+                </div>
+                <div class="inline-block text-gray-700 text-center bg-gray-200 ml-2">
+                    <a href='https://ricecs.slack.com/signup' target="_blank">
+                        <img src={discordlogo} alt="Logo" width="50px" height="50px"/>
+                    </a>
                 </div>
             </div>
             

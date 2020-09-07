@@ -85,7 +85,7 @@ function HomePage() {
       </div>
 
       {/* testimonials/interviews */}
-      <div class = "flex flex-col relative z-10 text-3xl font-light -ml-16 px-84 mb-24">
+      <div class = "flex flex-col relative z-10 text-xl font-light -ml-16 px-84 mb-24">
         <copy>
         "I participated in HackRice my freshman year because I heard it was really fun. I didn’t know anyone else
         who was participating, so I joined a random team at the start of the event. We worked together really well 
