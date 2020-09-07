@@ -25,12 +25,6 @@ function App() {
     <div>
       
       <Router>
-      {/* <Header 
-              activeTag={activeTag}
-              setActiveTag={setActiveTag}
-              tabs={tabs}
-              text={text}
-              link={link}/> */}
 
         <Switch>
           <Route exact path="/">

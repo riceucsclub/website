@@ -55,10 +55,8 @@ function ResourcesPage() {
       <h1 className="flex text-gray-500 underline text-2xl font-semibold justify-start mt-12 ml-32">Advising</h1>
       <p className="flex mx-32 py-5 justify-start">Have questions or just wondering what a CS degree looks like at Rice University? Check out some of our resources below!</p>
       <p className="flex underline mx-40 justify-start" onClick={() => window.open('https://ga.rice.edu/programs-study/departments-programs/engineering/computer-science/computer-science-bscs/#requirementstext')}>Four year plan</p>
-      <p className="flex underline mx-40 mb-4 justify-start">Study abroad resources</p>
-      <div class = 'flex mx-40'>
-            <FAQList/>
-      </div>
+      <p className="flex underline mx-40 justify-start">Study abroad resources</p>
+      <p className="flex underline mx-40 justify-start">FAQs</p>
       <p className="flex mx-32 mt-8 py-8 justify-start">Have a specific question? Reach out to one of our upperclassmen!</p>
       <div className="flex ml-32 justify-center justify-around">{profilelist}</div>
       <div> 

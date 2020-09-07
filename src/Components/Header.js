@@ -20,20 +20,20 @@ function Header (){
     const nav_bar =
                     <ul className="flex mr-10">
                         <li>
-                            <NavLink exact to="/about" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>About</NavLink>
+                            <NavLink exact to="/about" className="text-gray-500 py-2 px-4 text-lg font-bold" activeClassName="text-blue-400 py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>About</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to="/resources" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>Resources</NavLink>
+                            <NavLink exact to="/resources" className="text-gray-500 py-2 px-4 text-lg font-bold" activeClassName="text-blue-400 py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Resources</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to="/events" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>Events</NavLink>
+                            <NavLink exact to="/events" className="text-gray-500 py-2 px-4 text-lg font-bold" activeClassName="text-blue-400 py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Events</NavLink>
                         </li>
                         <li>
-                            <h1 className="text-gray-500 px-4 text-lg font-bold" onClick={() => setOpen(!open)}>Subsidiaries</h1>
+                            <a href="#" className="text-gray-500 px-4 text-lg font-bold" onClick={() => setOpen(!open)}>Subsidiaries</a>
                             {open && drop_down}
                         </li>
                         <li>
-                            <NavLink exact to="/contact" className="main-nav" activeClassName="main-nav-active" onClick={() => setOpen(false)}>Contact</NavLink>
+                            <NavLink exact to="/contact" className="text-gray-500 py-2 px-4 text-lg font-bold" activeClassName="text-blue-400 py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Contact</NavLink>
                         </li>
 
                     </ul>
