@@ -36,7 +36,7 @@ function Footer (){
                     <NavLink exact to="/about"><img src={maillogo} alt="Logo" width="37px" height="35px"/></NavLink>
                 </div>
                 <div class="inline-block text-gray-700 text-center bg-gray-200 ml-2">
-                    <a href='https://ricecs.slack.com/signup' target="_blank">
+                    <a href='https://discord.gg/AjHeNH2' target="_blank">
                         <img src={discordlogo} alt="Logo" width="50px" height="50px"/>
                     </a>
                 </div>
