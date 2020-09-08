@@ -38,7 +38,7 @@ function EventBox (props) {
             <blurb class = "flex justify-between font-light text-sm text-center mx-5 mt-1">
                 {desc}
             </blurb>
-            <lonk class = "flex justify-center font-light text-sm text-blue-500">
+            <lonk class = "flex justify-center font-light text-sm text-blue-500 pb-4">
                 <a href={link} target="_blank">
                     Link
                 </a>

@@ -7,7 +7,7 @@ export default {
     resume content and formatting tips and provide constructive criticism in an informal setting.  
     A resume review session is usually held during the week before the university career expo.`, 
 
-    "nameP": "Puzzle Hunt",
+    "nameP": "Puzzle Hunts",
     "blurbP": `Puzzle Hunt is a fun filled event with lots of logic puzzles with different themes and topics! 
     These events range in duration from a couple hours to day-long grinds, and the depth of the puzzles are also 
     varied! If you're at all interested in thinking long and hard about a variety of topics (not just CS!!!) stay 
