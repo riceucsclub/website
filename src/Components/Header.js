@@ -49,7 +49,7 @@ function Header (props){
                 <div>
                     <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start px-6 relative z-10 py-6 w-1/5"/></NavLink>
                 </div>
-                <img className="absolute z-0 flex right-0 w-19/50" src={gray_gradient}/>
+                <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/>
                 <ul className="relative z-20 flex mr-10">
                     {nav_bar}
                 </ul>

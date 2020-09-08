@@ -53,7 +53,7 @@ function HomePage() {
       </div>
       <img class="object-left absolute -mt-8" width="240px" height="240px" src={triangles}/>
 
-      <div class = "relative z-10 ml-24 mt-128 flex flex-row">
+      <div class = "relative z-10 ml-24 mt-128 mb-16 flex flex-row">
       <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
         <gall class = "w-148">
           <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
@@ -73,8 +73,8 @@ function HomePage() {
         </copy>
       </div>
 
-      <img src={gray_grad} class = "absolute z-0 -mt-32"/>
-      <div  class = "relative z-10 mb-24">
+      <img src={gray_grad} class = "absolute z-0 -mt-16"/>
+      <div  class = "relative z-10 mb-32">
         <EventWheel/>
         
       </div>
