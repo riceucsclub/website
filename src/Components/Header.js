@@ -22,7 +22,7 @@ function Header (props){
                         <NavLink exact to="/csio" target="_blank" className="block px-4 py-2 text-gray-500b hover:font-bold">CS IO</NavLink>
                     </div>
     const nav_bar =
-                    <ul className="flex mr-10">
+                    <ul className="flex mr-3">
                         <li>
                             <NavLink exact to="/about" className="text-gray-500b py-2 px-4 text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>About</NavLink>
                         </li>
@@ -49,7 +49,7 @@ function Header (props){
                 <div>
                     <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start px-6 relative z-10 py-6 w-1/5"/></NavLink>
                 </div>
-                <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/>
+                <img className="absolute z-0 flex right-0 w-19/50" src={gray_gradient}/>
                 <ul className="relative z-20 flex mr-10">
                     {nav_bar}
                 </ul>

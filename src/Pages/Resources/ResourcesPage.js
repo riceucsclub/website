@@ -49,7 +49,7 @@ function ResourcesPage(props) {
       
       <div className="relative z-10 flex justify-around px-64 py-5">
         <Box title={props.box["nameR"]} desc={props.box["blurbR"]}/>
-        <Box title={props.box["nameA"]} desc={props.box["blurbA"]}/>
+        <Box title={props.box["nameP"]} desc={props.box["blurbP"]}/>
       </div>
       
       <div class = "relative z-10">
@@ -59,7 +59,7 @@ function ResourcesPage(props) {
         <a href = 'https://docs.google.com/document/d/1UoLQ3Y96eI0LkeFMrxg8VYh3cP-19I_rMoGvPjvicg4/edit' target = "_blank" className="flex underline mx-40 justify-start">Study abroad resources</a>
         <a href = 'https://coda.io/d/Rice-Computer-Science-Guide_dEcPwl0JjQR/Welcome_su77n?fbclid=IwAR34seYUl1bLnserMIyVGfIZ45VKSDr_KTzBCoqxWSfQvD-PTqnM_nmm-l8#_lupFc' target = "_blank" className="flex underline mx-40 justify-start">Frequently asked questions</a>
         <p className="flex px-36 py-8 justify-start">Have a specific question? Reach out to one of our upperclassmen!</p>
-        <div className="flex px-16 justify-center justify-around mb-16">{profilelist}</div>
+        <div className="flex px-16 justify-center justify-around mb-8">{profilelist}</div>
       </div>
       <Footer/>
     </div>

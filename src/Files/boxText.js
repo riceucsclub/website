@@ -7,11 +7,11 @@ export default {
     resume content and formatting tips and provide constructive criticism in an informal setting.  
     A resume review session is usually held during the week before the university career expo.`, 
 
-    "nameA": "Algorithm Challenge",
-    "blurbA": `Got technical interviews lined up from all those companies you applied to? Algorithm challenge 
-    can help you with those interviews! In these sessions, we’ll go over many popular technical problems and how to 
-    analyze, solve, and present them. Excellent for those interested in some real technical interview practice. 
-    Algorithm challenges are usually held every other week.`,
+    "nameP": "Puzzle Hunt",
+    "blurbP": `Puzzle Hunt is a fun filled event with lots of logic puzzles with different themes and topics! 
+    These events range in duration from a couple hours to day-long grinds, and the depth of the puzzles are also 
+    varied! If you're at all interested in thinking long and hard about a variety of topics (not just CS!!!) stay 
+    tuned for these throughout the semester. Absolutely NO CS experience necessary!!`,
 
     "nameC": "Campus Resources",
     "blurbC": `Rice University itself provides career resources to students; many of these are applicable to CS students.

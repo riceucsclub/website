@@ -28,7 +28,7 @@ function AboutPage() {
         Join our mailing list here
       </a>
       <h1 className="flex text-gray-500b underline text-2xl mt-8 font-semibold justify-start ml-32">2020-2021 Officers</h1>
-      <div class = "relative mb-16 z-10">
+      <div class = "relative mb-8 z-10">
         <OfficerGallery/>
       </div>
       <Footer/>
