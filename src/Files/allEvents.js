@@ -14,40 +14,40 @@ export default [
     //     this event, including a puzzle hunt, raffle prizes, and the Big-Little Family Reveal!`,
     //     "link": "https://www.facebook.com/events/1135676923499760/?__mref=mb",
     // },
-    {
-        "title": "CS Club F.R.E.E. x Two Sigma",
-        "month": "SEP",
-        "day": "9",
-        "time": "12:00 pm",
-        "locale": "Zoom",
-        "desc": `Two Sigma is a systematic investment manager founded with the goal of applying 
-        cutting edge technology to the data-rich world of finance. Join our interactive panel and 
-        Q&A session to learn about Two Sigma's culture, mission, and tech, and where you fit into 
-        the upcoming internship and career opportunities! `,
-        "link": `https://fb.me/e/1zetzNBcP`,
-    },
-    {
-        "title": "CS Club F.R.E.E. x HubSpot",
-        "month": "SEP",
-        "day": "9",
-        "time": "7:00 pm",
-        "locale": "Zoom",
-        "desc": `HubSpot is a growth platform offering full stack software for marketing, sales, 
-        and customer service. Join our interactive panel and Q&A session to learn about HubSpot's culture, 
-        mission, and tech, and where you fit into the upcoming internship and career opportunities!`,
-        "link": `https://www.facebook.com/events/1475529189304627/`,
-    },
-    {
-        "title": "CS Clubs @ Rice Joint Event",
-        "month": "SEP",
-        "day": "10",
-        "time": "7:00 pm",
-        "locale": "Zoom",
-        "desc": `Come join CS Club, CSters, and DataSci Club on Thursday, September 10th, from 7-8 pm CST 
-        and learn more Rice’s computational clubs! There will be a Q&A session in the end to answer any 
-        questions students may have!`,
-        "link": `https://fb.me/e/2RtUMeRka`,
-    },
+    // {
+    //     "title": "CS Club F.R.E.E. x Two Sigma",
+    //     "month": "SEP",
+    //     "day": "9",
+    //     "time": "12:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `Two Sigma is a systematic investment manager founded with the goal of applying 
+    //     cutting edge technology to the data-rich world of finance. Join our interactive panel and 
+    //     Q&A session to learn about Two Sigma's culture, mission, and tech, and where you fit into 
+    //     the upcoming internship and career opportunities! `,
+    //     "link": `https://fb.me/e/1zetzNBcP`,
+    // },
+    // {
+    //     "title": "CS Club F.R.E.E. x HubSpot",
+    //     "month": "SEP",
+    //     "day": "9",
+    //     "time": "7:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `HubSpot is a growth platform offering full stack software for marketing, sales, 
+    //     and customer service. Join our interactive panel and Q&A session to learn about HubSpot's culture, 
+    //     mission, and tech, and where you fit into the upcoming internship and career opportunities!`,
+    //     "link": `https://www.facebook.com/events/1475529189304627/`,
+    // },
+    // {
+    //     "title": "CS Clubs @ Rice Joint Event",
+    //     "month": "SEP",
+    //     "day": "10",
+    //     "time": "7:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `Come join CS Club, CSters, and DataSci Club on Thursday, September 10th, from 7-8 pm CST 
+    //     and learn more Rice’s computational clubs! There will be a Q&A session in the end to answer any 
+    //     questions students may have!`,
+    //     "link": `https://fb.me/e/2RtUMeRka`,
+    // },
     {
         "title": "CS Club F.R.E.E. x Airbnb",
         "month": "SEP",
