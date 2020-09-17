@@ -48,19 +48,19 @@ export default [
     //     questions students may have!`,
     //     "link": `https://fb.me/e/2RtUMeRka`,
     // },
-    {
-        "title": "CS Club F.R.E.E. x Airbnb",
-        "month": "SEP",
-        "day": "16",
-        "time": "5:00 pm",
-        "locale": "Zoom",
-        "desc": `The Airbnb team is kicking off a virtual event series with a casual chat with their 
-        recent new grads. As Airbnb and the world has changed in the past few months, so have their experiences 
-        and perspectives. During this session, you'll hear from their new grads about the amazing work they do to 
-        pursue their ethos of belonging, how they're evolving in uncertain times, and anything else you'd like to 
-        know!`,
-        "link": `http://airbnbnewgrads2020.splashthat.com`,
-    },
+    // {
+    //     "title": "CS Club F.R.E.E. x Airbnb",
+    //     "month": "SEP",
+    //     "day": "16",
+    //     "time": "5:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `The Airbnb team is kicking off a virtual event series with a casual chat with their 
+    //     recent new grads. As Airbnb and the world has changed in the past few months, so have their experiences 
+    //     and perspectives. During this session, you'll hear from their new grads about the amazing work they do to 
+    //     pursue their ethos of belonging, how they're evolving in uncertain times, and anything else you'd like to 
+    //     know!`,
+    //     "link": `http://airbnbnewgrads2020.splashthat.com`,
+    // },
     {
         "title": "Hack Rice X",
         "month": "SEP",
