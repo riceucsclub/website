@@ -78,8 +78,10 @@ export default [
         "day": "22",
         "time": "6:00 pm",
         "locale": "Zoom",
-        "desc": `Event info on the way!`,
-        "link": `LINK NOT READY`,
+        "desc": `Join us on Tuesday, September 22nd for our F.R.E.E x Paycom! This event will be in the 
+        style of a Tech Talk, followed by breakout rooms to learn more about the work and opportunities 
+        at Paycom from the recruiter and developers themselves! Can't wait to see you there!`,
+        "link": `https://www.facebook.com/events/327019468631847`,
     },
     {
         "title": "Internship and Recruiting Workshop",
