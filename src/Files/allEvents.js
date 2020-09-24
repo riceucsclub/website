@@ -61,36 +61,58 @@ export default [
     //     know!`,
     //     "link": `http://airbnbnewgrads2020.splashthat.com`,
     // },
-    {
-        "title": "Hack Rice X",
-        "month": "SEP",
-        "day": "18",
-        "time": "5:00 pm",
-        "locale": "Remote",
-        "desc": `Welcome to HackRice X! Come design, build, and code while meeting sponsors and peers 
-        and having fun! Check out everything you need to know at hack.rice.edu! If you are a Rice 
-        student, register at tinyurl.com/hackricex; non-Rice students may apply at hack.rice.edu!`,
-        "link": `https://www.facebook.com/events/441468970107132/`,
-    },
-    {
-        "title": "CS Club F.R.E.E. x Paycom",
-        "month": "SEP",
-        "day": "22",
-        "time": "6:00 pm",
-        "locale": "Zoom",
-        "desc": `Join us on Tuesday, September 22nd for our F.R.E.E x Paycom! This event will be in the 
-        style of a Tech Talk, followed by breakout rooms to learn more about the work and opportunities 
-        at Paycom from the recruiter and developers themselves! Can't wait to see you there!`,
-        "link": `https://www.facebook.com/events/327019468631847`,
-    },
+    // {
+    //     "title": "Hack Rice X",
+    //     "month": "SEP",
+    //     "day": "18",
+    //     "time": "5:00 pm",
+    //     "locale": "Remote",
+    //     "desc": `Welcome to HackRice X! Come design, build, and code while meeting sponsors and peers 
+    //     and having fun! Check out everything you need to know at hack.rice.edu! If you are a Rice 
+    //     student, register at tinyurl.com/hackricex; non-Rice students may apply at hack.rice.edu!`,
+    //     "link": `https://www.facebook.com/events/441468970107132/`,
+    // },
+    // {
+    //     "title": "CS Club F.R.E.E. x Paycom",
+    //     "month": "SEP",
+    //     "day": "22",
+    //     "time": "6:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `Join us on Tuesday, September 22nd for our F.R.E.E x Paycom! This event will be in the 
+    //     style of a Tech Talk, followed by breakout rooms to learn more about the work and opportunities 
+    //     at Paycom from the recruiter and developers themselves! Can't wait to see you there!`,
+    //     "link": `https://www.facebook.com/events/327019468631847`,
+    // },
     {
         "title": "Internship and Recruiting Workshop",
         "month": "SEP",
         "day": "27",
         "time": "7:00 pm",
         "locale": "Zoom",
-        "desc": `Practice technical interviews, get your resume reviewed and listen to 
-        our upperclasssmen talk about their internship experiences!`,
+        "desc": ` CS Club X CSters are hosting a BEGINNER'S GUIDE TO INTERNSHIPS/RESEARCH mostly targeted 
+        to frosh/sophomores, but open to anybody! We'll talk about big frosh/soph internship programs 
+        (Microsoft, Google, Facebook), a guide to doing research, startup life... and a guide to the 
+        confusing but very worth game that is ~internships~ Show up to learn more about summer opportunities!`,
+        "link": `https://fb.me/e/1LixleHtL`,
+    },
+    {
+        "title": "CS Club F.R.E.E. x Doordash",
+        "month": "SEP",
+        "day": "28",
+        "time": "12:00 pm",
+        "locale": "Zoom",
+        "desc": `Hi everyone! We're partnering with DoorDash for another Fall Recruiting and Engagement Event! 
+        Come out on Monday, Sept. 28 at 12:00 pm CST to learn about new grad and internship opportunities and 
+        DoorDash's mission and culture!`,
+        "link": `https://www.facebook.com/events/334366414466087`,
+    },
+    {
+        "title": "CS Club F.R.E.E. x Leidos",
+        "month": "OCT",
+        "day": "5",
+        "time": "12:00 pm",
+        "locale": "Zoom",
+        "desc": `Event info on the way!`,
         "link": `LINK NOT READY`,
     },
     {
@@ -102,5 +124,6 @@ export default [
         "desc": `Event info on the way!`,
         "link": `LINK NOT READY`,
     },
+    
 ]
 
