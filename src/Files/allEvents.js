@@ -83,37 +83,50 @@ export default [
     //     at Paycom from the recruiter and developers themselves! Can't wait to see you there!`,
     //     "link": `https://www.facebook.com/events/327019468631847`,
     // },
-    {
-        "title": "Internship and Recruiting Workshop",
-        "month": "SEP",
-        "day": "27",
-        "time": "7:00 pm",
-        "locale": "Zoom",
-        "desc": ` CS Club X CSters are hosting a BEGINNER'S GUIDE TO INTERNSHIPS/RESEARCH mostly targeted 
-        to frosh/sophomores, but open to anybody! We'll talk about big frosh/soph internship programs 
-        (Microsoft, Google, Facebook), a guide to doing research, startup life... and a guide to the 
-        confusing but very worth game that is ~internships~ Show up to learn more about summer opportunities!`,
-        "link": `https://fb.me/e/1LixleHtL`,
-    },
-    {
-        "title": "CS Club F.R.E.E. x Doordash",
-        "month": "SEP",
-        "day": "28",
-        "time": "12:00 pm",
-        "locale": "Zoom",
-        "desc": `Hi everyone! We're partnering with DoorDash for another Fall Recruiting and Engagement Event! 
-        Come out on Monday, Sept. 28 at 12:00 pm CST to learn about new grad and internship opportunities and 
-        DoorDash's mission and culture!`,
-        "link": `https://www.facebook.com/events/334366414466087`,
-    },
+    // {
+    //     "title": "Internship and Recruiting Workshop",
+    //     "month": "SEP",
+    //     "day": "27",
+    //     "time": "7:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": ` CS Club X CSters are hosting a BEGINNER'S GUIDE TO INTERNSHIPS/RESEARCH mostly targeted 
+    //     to frosh/sophomores, but open to anybody! We'll talk about big frosh/soph internship programs 
+    //     (Microsoft, Google, Facebook), a guide to doing research, startup life... and a guide to the 
+    //     confusing but very worth game that is ~internships~ Show up to learn more about summer opportunities!`,
+    //     "link": `https://fb.me/e/1LixleHtL`,
+    // },
+    // {
+    //     "title": "CS Club F.R.E.E. x Doordash",
+    //     "month": "SEP",
+    //     "day": "28",
+    //     "time": "12:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `Hi everyone! We're partnering with DoorDash for another Fall Recruiting and Engagement Event! 
+    //     Come out on Monday, Sept. 28 at 12:00 pm CST to learn about new grad and internship opportunities and 
+    //     DoorDash's mission and culture!`,
+    //     "link": `https://www.facebook.com/events/334366414466087`,
+    // },
     {
         "title": "CS Club F.R.E.E. x Leidos",
         "month": "OCT",
         "day": "5",
         "time": "12:00 pm",
         "locale": "Zoom",
-        "desc": `Event info on the way!`,
-        "link": `LINK NOT READY`,
+        "desc": `Leidos is an American Defense, Aviation, Information, Technology & Biomedical Research company. 
+        Come out to our session with Leidos to learn about new grad and intern opportunities with an interactive 
+        panel and Q&A featuring recruiters and engineers`,
+        "link": `https://fb.me/e/1B8Q9Td6k`,
+    },
+    {
+        "title": "CS Club and CSters F.R.E.E. x CDK Global",
+        "month": "OCT",
+        "day": "7",
+        "time": "12:00 pm",
+        "locale": "Zoom",
+        "desc": `CDK Global provides techology solutions to Auto, Truck, Motorcycle, Marine Recreational and 
+        Heavy Equipment Dealers. Come to the event to learn about new grad and internship opportunities with 
+        an interactive panel and Q&A featuring recruiters and engineers!`,
+        "link": `https://fb.me/e/1aNyQ9B7s`,
     },
     {
         "title": "CS Club and CSters F.R.E.E. x Gartner",
