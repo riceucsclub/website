@@ -106,26 +106,24 @@ export default [
     //     DoorDash's mission and culture!`,
     //     "link": `https://www.facebook.com/events/334366414466087`,
     // },
-    {
-        "title": "CS Club F.R.E.E. x Leidos",
-        "month": "OCT",
-        "day": "5",
-        "time": "12:00 pm",
-        "locale": "Zoom",
-        "desc": `Leidos is an American Defense, Aviation, Information, Technology & Biomedical Research company. 
-        Come out to our session with Leidos to learn about new grad and intern opportunities with an interactive 
-        panel and Q&A featuring recruiters and engineers`,
-        "link": `https://fb.me/e/1B8Q9Td6k`,
-    },
+    // {
+    //     "title": "CS Club F.R.E.E. x Leidos",
+    //     "month": "OCT",
+    //     "day": "5",
+    //     "time": "12:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `Leidos is an American Defense, Aviation, Information, Technology & Biomedical Research company. 
+    //     Come out to our session with Leidos to learn about new grad and intern opportunities with an interactive 
+    //     panel and Q&A featuring recruiters and engineers`,
+    //     "link": `https://fb.me/e/1B8Q9Td6k`,
+    // },
     {
         "title": "CS Club and CSters F.R.E.E. x CDK Global",
         "month": "OCT",
         "day": "7",
         "time": "12:00 pm",
         "locale": "Zoom",
-        "desc": `CDK Global provides techology solutions to Auto, Truck, Motorcycle, Marine Recreational and 
-        Heavy Equipment Dealers. Come to the event to learn about new grad and internship opportunities with 
-        an interactive panel and Q&A featuring recruiters and engineers!`,
+        "desc": `Event info on the way!`,
         "link": `https://fb.me/e/1aNyQ9B7s`,
     },
     {
@@ -135,6 +133,15 @@ export default [
         "time": "6:00 pm",
         "locale": "Zoom",
         "desc": `Event info on the way!`,
+        "link": `LINK NOT READY`,
+    },
+    {
+        "title": "CS Eats!",
+        "month": "OCT",
+        "day": "24",
+        "time": "6:00 pm",
+        "locale": "In person",
+        "desc": `Sign up to get a group meal with upperclassmen at a restuarant of your choice! Link on the way`,
         "link": `LINK NOT READY`,
     },
     
