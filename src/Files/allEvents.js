@@ -117,23 +117,35 @@ export default [
     //     panel and Q&A featuring recruiters and engineers`,
     //     "link": `https://fb.me/e/1B8Q9Td6k`,
     // },
+    // {
+    //     "title": "CS Club and CSters F.R.E.E. x CDK Global",
+    //     "month": "OCT",
+    //     "day": "7",
+    //     "time": "12:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `Event info on the way!`,
+    //     "link": `https://fb.me/e/1aNyQ9B7s`,
+    // },
+    // {
+    //     "title": "CS Club and CSters F.R.E.E. x Gartner",
+    //     "month": "OCT",
+    //     "day": "7",
+    //     "time": "6:00 pm",
+    //     "locale": "Zoom",
+    //     "desc": `Event info on the way!`,
+    //     "link": `LINK NOT READY`,
+    // },
     {
-        "title": "CS Club and CSters F.R.E.E. x CDK Global",
+        "title": "Facebook AR/VR Q&A",
         "month": "OCT",
-        "day": "7",
-        "time": "12:00 pm",
+        "day": "21",
+        "time": "3:30 pm",
         "locale": "Zoom",
-        "desc": `Event info on the way!`,
-        "link": `https://fb.me/e/1aNyQ9B7s`,
-    },
-    {
-        "title": "CS Club and CSters F.R.E.E. x Gartner",
-        "month": "OCT",
-        "day": "7",
-        "time": "6:00 pm",
-        "locale": "Zoom",
-        "desc": `Event info on the way!`,
-        "link": `LINK NOT READY`,
+        "desc": `Are you interested in augmented or virtual reality or just want to learn more? Want to know what 
+        the daily life of a Facebook employee is like? Do you think red is kinda sus? If so, come to our virtual 
+        Q&A panel featuring engineers (and Rice alumns) working on Facebook's AR and VR teams on Wednesday, 
+        Oct 21st, from 3:30-4:30 pm CST!`,
+        "link": `https://fb.me/e/1MvBI4ip5`,
     },
     {
         "title": "CS Eats!",
@@ -141,9 +153,23 @@ export default [
         "day": "24",
         "time": "6:00 pm",
         "locale": "In person",
-        "desc": `Sign up to get a group meal with upperclassmen at a restuarant of your choice! Link on the way`,
+        "desc": `Want to eat a ~heavily discounted~ dinner with your CS Club Fam? OR want to meet new people 
+        interested in CS while being with your friends and feasting on a ~tastefully cheapened~ meal? If yes, 
+        sign up below! CS Eats will be on Saturday, October 24th, 7pm CDT! Freshmen can sign 
+        up below, and upperclassmen can find the form in their Rice University Class Facebook groups. 
+        ***Sign ups will close this Friday, October 16th at 11:59pm CDT so sign up quickly!!***`,
+        "link": `https://docs.google.com/forms/d/e/1FAIpQLSeC2srm8VSvVM1zCgTl2KX1dKerJbPHzlBb8sPocumnpfALng/viewform`,
+    },
+    {
+        "title": "Event on the way!",
+        "month": "",
+        "day": "TBD",
+        "time": "TBD",
+        "locale": "N/A",
+        "desc": `Event info on the way!`,
         "link": `LINK NOT READY`,
     },
+
     
 ]
 
