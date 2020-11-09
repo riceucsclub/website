@@ -27,7 +27,7 @@ function EventBox (props) {
                     {title}
                 </name>
             </top>
-            <logistic class = "flex flex-row  justify-between font-light text-sm text-gray-600 mt-1">
+            <logistic class = "flex flex-row justify-between font-light text-sm text-gray-600 mt-1">
                 <loc class = "ml-10">
                     Location: {locale}
                 </loc>
@@ -35,7 +35,7 @@ function EventBox (props) {
                     Time: {time}
                 </tim>
             </logistic>
-            <blurb class = "flex justify-between font-light text-sm text-center mx-5 mt-1">
+            <blurb class = "flex justify-between font-light text-sm items-center text-center mx-5 mt-1">
                 {desc}
             </blurb>
             <lonk class = "flex justify-center font-light text-sm text-blue-500 pb-4">
