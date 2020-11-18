@@ -6,9 +6,12 @@ import benny from '../Files/officer_pics/benny.jpg'
 import clairew from '../Files/officer_pics/clairew.jpeg'
 import clairex from '../Files/officer_pics/clairex.jpeg'
 import emma from '../Files/officer_pics/emma.jpeg'
+import emily from '../Files/officer_pics/emily.jpeg'
+import jacob from '../Files/officer_pics/jacob.jpeg'
 import kelly from '../Files/officer_pics/kelly.jpeg'
 import luis from '../Files/officer_pics/luis.jpeg'
 import manaal from '../Files/officer_pics/manaal.jpeg'
+import megan from '../Files/officer_pics/megan.jpeg'
 import oeishi from '../Files/officer_pics/oeishi.jpg'
 import paul from '../Files/officer_pics/paul.jpeg'
 import sarah from '../Files/officer_pics/sarah.jpg'
@@ -16,10 +19,19 @@ import shaquille from '../Files/officer_pics/shaquille.jpeg'
 import thomas from '../Files/officer_pics/thomas.jpeg'
 import will from '../Files/officer_pics/will.jpeg'
 
+//template for buffer spots
+    // {
+    //     "image": "",
+    //     "name": "",
+    //     "title": "",
+    //     "college": "",
+    //     "hometown": ""
+    // },
+
 
 export default [
     //multi-line strings should be encapuslated with the ` character, same key as the ~ (tilde)
-    
+    //hometown is major. we should change that    
     {
         "image": luis,
         "name": "Luis Clague",
@@ -106,6 +118,27 @@ export default [
         "hometown": "COMP, DSCI"
     },
     {
+        "image": megan,
+        "name": "Megan Xiao",
+        "title": "Publicist",
+        "college": "Duncan 2023",
+        "hometown": "COMP, NEUR"
+    },
+    {
+        "image": emily,
+        "name": "Emily Huang",
+        "title": "Co-Freshman Rep",
+        "college": "McMurty 2024",
+        "hometown": "COMP, ECON"
+    },
+    {
+        "image": jacob,
+        "name": "Jacob Pan",
+        "title": "Co-Freshman Rep",
+        "college": "Martel 2024",
+        "hometown": "COMP"
+    },
+    {
         "image": clairew,
         "name": "Claire Wang",
         "title": "HackRice Co-Director",
@@ -140,5 +173,7 @@ export default [
         "college": "Martel 2022",
         "hometown": "COMP"
     },
+    
+    
     
 ]
