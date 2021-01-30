@@ -20,7 +20,11 @@ function OfficerGallery () {
 
 
     return (
-        <div className="ml-24 mt-8 grid row-gap-8 col-gap-4 grid-cols-5 ">
+        //number of columns must be manually adjusted for each size, 
+        //rough when the gallery dimensions change
+        //, 
+        <div className="px-24 mt-8 grid row-gap-8 col-gap-24 grid-cols-1 
+        sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {officers}
         </div>
     )
