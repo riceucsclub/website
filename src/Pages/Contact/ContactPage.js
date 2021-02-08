@@ -29,7 +29,7 @@ function ContactPage(props){
     return(
         <div class = "relative z-0">
             <Header/>
-            <img class = "absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+            <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'relative text-center z-10'>
                 <div class = 'text-5xl font-semibold'>
@@ -51,7 +51,7 @@ function ContactPage(props){
                 </div>
             </div>
 
-            <div class = 'relative flex justify-around z-10 mx-64 mt-20 mb-40'>
+            <div class = 'md:px-32 relative flex justify-around z-10 xl:px-64 mt-20 mb-40'>
                 <Box title = {boxText["nameT"]} desc = {boxText["blurbT"]}/>
                 <Box title = {props.box["nameS"]} desc = {props.box["blurbS"]}/>
             </div>

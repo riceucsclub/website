@@ -7,13 +7,13 @@ function Box (props){
 
     let contentt = 
         <div class = "static flex flex-row items-center justify-center h-56 rounded-lg bg-teal-500b shadow">
-            <div class = "text-4xl px-5 text-center text-white font-semibold">
+            <div class = "text-2xl md:text-3xl xl:text-4xl px-5 text-center text-white font-semibold">
                 {props.title}
             </div>            
         </div>
     
     let contentd = 
-        <div class = "static flex sm:text-xs md:text-base text-center items-center p-4 h-56 bg-white rounded-lg shadow-teal shadow">
+        <div class = " flex text-2xs md:text-base text-center items-center p-4 lg:h-56 bg-white rounded-lg shadow-teal shadow">
                 {props.desc}
         </div>
     

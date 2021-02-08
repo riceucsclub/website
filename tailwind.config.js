@@ -3,6 +3,10 @@ const { colors } = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: [],
   theme: {
+    fontsize: {
+      '2xs': '.675rem',
+      '3xs': '.5rem',
+    },
     maxHeight: {
       '0': '0',
       '1/4': '25%',
@@ -44,6 +48,7 @@ module.exports = {
        '120': '30rem',
        '128': '32rem',
        '148': '37rem',
+       '156': '39rem',
        '176': '44rem',
        '180': '45rem',
        '1/2': '50%',

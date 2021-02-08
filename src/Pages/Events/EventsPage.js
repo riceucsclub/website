@@ -17,24 +17,24 @@ function EventsPage(props){
     return(
         <div>
             <Header/>
-            <img class = "absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+            <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'text-center'>
                 <div class = 'text-5xl font-semibold'>
                     Check us out!
                 </div>
-                <div class = 'text-xl mt-3 text-light'>
+                <div class = 'px-4 text-2xl mt-3 text-light'>
                     To get notified of upcoming events, subscribe to our mailing list.
                 </div>
             </div>
 
 
-            <div class = 'relative z-10 flex justify-around px-64 mt-16'>
+            <div class = 'md:px-32 xl:px-64 relative z-20 flex justify-around mt-16'>                
                 <Box title = {props.box["nameE"]} desc = {props.box["blurbE"]}/>
                 <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
 
-            <div class = 'relative z-10 px-108 mt-16 mb-8'>
+            <div class = 'grid justify-center relative z-10 mt-16 mb-8'>
                 <Calender/>
             </div>
             <Footer/>

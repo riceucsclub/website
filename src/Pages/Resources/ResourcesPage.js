@@ -42,12 +42,12 @@ function ResourcesPage(props) {
   return (
     <div className="relative">
       <Header/>
-      <img class="z-10 object-left absolute mt-36" width="250px" height="250px" src={triangles}/>
+      <img class="opacity-0 md:opacity-100 object-left absolute mt-36" width="250px" height="250px" src={triangles}/>
       <div className="relative z-10 flex text-gray-500b text-5xl font-bold justify-center">{head}</div>
       <h1 className="flex text-gray-500b underline text-2xl font-semibold justify-start pl-36">Career Help</h1>
       <p className="flex py-5 px-40 justify-center">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
       
-      <div className="relative z-10 flex justify-around px-64 py-5">
+      <div className="relative md:px-24 z-20 flex justify-around lg:px-64 py-5">
         <Box title={props.box["nameR"]} desc={props.box["blurbR"]}/>
         <Box title={props.box["nameP"]} desc={props.box["blurbP"]}/>
       </div>

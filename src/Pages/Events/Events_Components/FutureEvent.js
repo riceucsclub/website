@@ -14,7 +14,7 @@ function FutureEvent (props) {
 
 
     let content = 
-    <h1 class = "w-180 flex flex-row">
+    <h1 class = "w-108 md:w-120 xl:w-156 flex flex-row">
         
         {/* left side of component */}
         <date class = "flex flex-col">
