@@ -44,7 +44,7 @@ function HomePage() {
     return (
     <div className="relative">
       <Header/>
-      <img class="visible flex right-0 absolute lg:invisible mr-32" width="600px" src={graphic}></img>
+      <img class="invisible flex right-0 absolute xl:visible mr-32" width="600px" src={graphic}></img>
       <div className="relative z-10 flex text-gray-500b text-6xl font-bold mt-12 ml-32 justify-start">{head}</div>
       <div className="relative z-10 flex text-gray-500b text-6xl font-bold ml-32 justify-start">CS CLUB</div>
       

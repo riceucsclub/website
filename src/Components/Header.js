@@ -24,20 +24,20 @@ function Header (props){
     const nav_bar =
                     <ul className="flex mr-3">
                         <li>
-                            <NavLink exact to="/about" className="text-gray-500b py-2 px-4 text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>About</NavLink>
+                            <NavLink exact to="/about" className="text-gray-500b py-2 px-4 text-md md:text-lg font-bold" activeClassName="text-blue-400b text-md md:text-lg py-2 px-4 font-bold" onClick={() => setOpen(false)}>About</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to="/resources" className="text-gray-500b py-2 px-4 text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Resources</NavLink>
+                            <NavLink exact to="/resources" className="text-gray-500b py-2 px-4 text-md md:text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-md md:text-lg font-bold" onClick={() => setOpen(false)}>Resources</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to="/events" className="text-gray-500b py-2 px-4 text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Events</NavLink>
+                            <NavLink exact to="/events" className="text-gray-500b py-2 px-4 text-md md:text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-md md:text-lg font-bold" onClick={() => setOpen(false)}>Events</NavLink>
                         </li>
                         <li>
-                            <a href="#" className="text-gray-500b px-4 text-lg font-bold" onClick={() => setOpen(!open)}>Subsidiaries</a>
+                            <a href="#" className="text-gray-500b px-4 text-md md:text-lg font-bold" onClick={() => setOpen(!open)}>Subsidiaries</a>
                             {open && drop_down}
                         </li>
                         <li>
-                            <NavLink exact to="/contact" className="text-gray-500b py-2 px-4 text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Contact</NavLink>
+                            <NavLink exact to="/contact" className="text-gray-500b py-2 px-4 text-md md:text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-md md:text-lg font-bold" onClick={() => setOpen(false)}>Contact</NavLink>
                         </li>
 
                     </ul>
@@ -47,9 +47,10 @@ function Header (props){
        <header>
            <div className="flex justify-between items-center py-1">
                 <div>
-                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start px-6 relative z-10 py-6 w-1/5"/></NavLink>
+                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start px-6 relative flex-shrink-0 z-10 py-6" width="125px" height="125px"/></NavLink>
                 </div>
-                <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/>
+                {/* w-5/12 */}
+                <img className="absolute z-0 flex right-0" width="600px" src={gray_gradient}/>
                 <ul className="relative z-20 flex mr-10">
                     {nav_bar}
                 </ul>
