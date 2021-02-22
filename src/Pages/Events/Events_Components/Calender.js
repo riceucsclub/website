@@ -10,7 +10,7 @@ function Calender() {
     for(let i = 0; i < allEvents.length; i++){
         console.log(allEvents[i])
         eventlist.push(
-            <FutureEvent 
+            <FutureEvent
                 title = {allEvents[i]["title"]}
                 month = {allEvents[i]["month"]}
                 day = {allEvents[i]["day"]}
@@ -28,7 +28,7 @@ function Calender() {
             <subheading class = 'font-semibold text-2xl'>
                 Future Events
             </subheading>
-            <events>
+            <events> 
                 {eventlist}
             </events>
         </div>

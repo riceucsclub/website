@@ -29,7 +29,7 @@ function ContactPage(props){
     return(
         <div class = "relative z-0">
             <Header/>
-            <img class = "absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+            <img class = "absolute z-10 mt-36 sm:opacity-50 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'relative text-center z-10'>
                 <div class = 'text-5xl font-semibold'>

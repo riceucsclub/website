@@ -28,7 +28,7 @@ function Box (props){
 
     return (
 
-        <div class = "relative group h-56  rounded-lg w-2/5 bg-blue-500...">
+        <div class = "relative group h-56 rounded-lg w-2/5 bg-blue-500...">
 
             {/* detects mouse presence */}
             {detector}

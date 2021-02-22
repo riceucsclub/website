@@ -44,14 +44,14 @@ function HomePage() {
     return (
     <div className="relative">
       <Header/>
-      <img class="flex right-0 absolute mr-32" width="600px" src={graphic}></img>
+      <img class="visible flex right-0 absolute lg:invisible mr-32" width="600px" src={graphic}></img>
       <div className="relative z-10 flex text-gray-500b text-6xl font-bold mt-12 ml-32 justify-start">{head}</div>
       <div className="relative z-10 flex text-gray-500b text-6xl font-bold ml-32 justify-start">CS CLUB</div>
       
       <div class="w-148 rounded overflow-hidden mt-8 ml-32">
           <p class="relative z-10 text-gray-500b space-y-1 font-light leading-snug text-3xl">{first_blurb}</p>
       </div>
-      <img class="object-left absolute -mt-8" width="240px" height="240px" src={triangles}/>
+      <img class="object-left sm:opacity-50 absolute -mt-8" width="240px" height="240px" src={triangles}/>
 
       <div class = "relative z-10 ml-24 mt-128 mb-4 flex flex-row">
       <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>

@@ -17,7 +17,7 @@ function EventsPage(props){
     return(
         <div>
             <Header/>
-            <img class = "absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+            <img class = "absolute z-10 mt-36 sm:opacity-50 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
 
             <div class = 'text-center'>
                 <div class = 'text-5xl font-semibold'>
@@ -29,7 +29,7 @@ function EventsPage(props){
             </div>
 
 
-            <div class = 'relative z-10 flex justify-around px-64 mt-16'>
+            <div classname = "relative z-10 flex justify-around mt-16 grid row-gap-8 col-gap-24 grid-cols-2 lg:grid-rows-1 justify-center sm:grid-rows-2">
                 <Box title = {props.box["nameE"]} desc = {props.box["blurbE"]}/>
                 <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
