@@ -17,15 +17,14 @@
     "vanilla-swipe": "^2.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build:css": "postcss src/index.css -o src/tailwind.css",
     "watch:css": "postcss src/index.css -o src/tailwind.css -w",
     "start": "yarn build:css && react-scripts start",
     "build": "yarn build:css && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
