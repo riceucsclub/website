@@ -13,13 +13,13 @@ import {
 function ContactPage(props){
 
     console.log(props, 'prop');
-    
+
     const [activeTag, setActiveTag] = useState("");
     const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
     let text = '';
 
     var link_mail = <a href = "mailto:riceucsclub@gmail.com"> iceucsclub@gmail.com</a>;
-    var link_mailing_list = 
+    var link_mailing_list =
         <ul>
             <li>
                 <NavLink exact to="/about"> ailing list</NavLink>
@@ -51,7 +51,7 @@ function ContactPage(props){
                 </div>
             </div>
 
-            <div class = 'md:px-32 relative flex justify-around z-10 xl:px-64 mt-20 mb-40'>
+            <div class = 'md:px-32 relative flex justify-around z-40 xl:px-64 mt-20 mb-40'>
                 <Box title = {boxText["nameT"]} desc = {boxText["blurbT"]}/>
                 <Box title = {props.box["nameS"]} desc = {props.box["blurbS"]}/>
             </div>
