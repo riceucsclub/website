@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import boxText from './Files/boxText'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   NavLink
@@ -22,17 +22,15 @@ function App() {
   const tabs = ['Home', 'About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
   let text = '';
   let link ='';
-  
+
   return (
 
     <div>
       <Helmet>
         <title>{"Rice CS Club"}</title>
       </Helmet>
-      
-      <Router>
-      
 
+      <Router basename={website}>
         <Switch>
           <Route exact path="/">
           <HomePage/>
@@ -53,10 +51,10 @@ function App() {
             <CSIO_Page/>
           </Route>
         </Switch>
-        
+
       </Router>
 
-      
+
       </div>
   );
 }
