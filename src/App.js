@@ -30,7 +30,7 @@ function App() {
         <title>{"Rice CS Club"}</title>
       </Helmet>
 
-      <Router basename={website}>
+      <Router basename={'website'}>
         <Switch>
           <Route exact path="/">
           <HomePage/>
