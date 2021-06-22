@@ -1,5 +1,6 @@
 node_modules/*
-build/*
+#include build folder for netlify
+#/build*
 package-lock.json
 yarn.lock
 **/.DS_Store
