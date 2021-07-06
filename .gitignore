@@ -1,6 +1,6 @@
 node_modules/*
-#include build folder for netlify
-#/build*
+#including build folder for netlify and ghpages
+/build*
 package-lock.json
 yarn.lock
 **/.DS_Store
