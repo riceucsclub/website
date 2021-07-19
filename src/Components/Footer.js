@@ -14,7 +14,7 @@ import {
 function Footer (){
     return (
         <div class = "relative">
-        <img class = "absolute bottom-0 z-0" src={blue_gradient}/> 
+        <img class = "absolute hidden md:flex bottom-0 z-0" src={blue_gradient}/> 
         <footer class="relative z-10 bg-gray-200 text-center text-s text-gray-700 py-2 w-full">
             <div class="flex justify-center bg-gray-200">
                 <div class="inline-block text-gray-700 text-center bg-gray-200">
