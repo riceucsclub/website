@@ -47,7 +47,7 @@ function Header (props){
        <header>
            <div className="flex justify-between items-center py-1">
                 <div>
-                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start px-6 relative z-10 py-6 w-1/5"/></NavLink>
+                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 my-3 sm:mx-20 sm:my-5 z-10 w-1/6 max-w-2xl min-w-70px"/></NavLink>
                 </div>
                 <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/>
                 <ul className="relative z-20 flex mr-10">

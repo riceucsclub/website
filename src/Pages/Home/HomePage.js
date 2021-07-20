@@ -42,7 +42,7 @@ function HomePage() {
     }
 
     return (
-    <div className="relative">
+    <div className="relative w-full">
       <Header/>
       <img class="flex right-0 absolute mr-32" width="600px" src={graphic}></img>
       <div className="relative z-10 flex text-gray-500b text-6xl font-bold mt-12 ml-32 justify-start">{head}</div>

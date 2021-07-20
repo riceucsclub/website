@@ -13,9 +13,35 @@ module.exports = {
       '1/2': '50%',
       '3/4': '85%',
       'full': '100%',
-            },
+    },
+    minWidth: {
+      '0': '0',
+      '1/8': '12%',
+      '1/4': '25%',
+      '1/2': '50%',
+      '3/4': '75%',
+      'full': '100%',
+      '70px': '70px',
+    },
     extend: {
-      
+      fontFamily: {
+        sans: [
+          '"Open Sans"',
+          'system-ui',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Helvetica Neue"',
+          'Arial',
+          '"Noto Sans"',
+          'sans-serif',
+          '"Apple Color Emoji"',
+          '"Segoe UI Emoji"',
+          '"Segoe UI Symbol"',
+          '"Noto Color Emoji"',
+        ],
+      },
       boxShadow: {
         'teal': '0 0 0 4px rgba(0, 173, 181, 1)'
       },
