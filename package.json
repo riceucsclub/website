@@ -14,7 +14,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "tailwindcss": "^1.9.6",
-    "vanilla-swipe": "^2.2.0"
+    "vanilla-swipe": "^2.2.0",
+    "yarn": "^1.22.10"
   },
   "scripts": {
     "predeploy": "npm run build",
