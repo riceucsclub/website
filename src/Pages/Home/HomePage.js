@@ -51,7 +51,7 @@ function HomePage() {
       <div class="w-148 rounded overflow-hidden mt-8 ml-32">
           <p class="relative z-10 text-gray-500b space-y-1 font-light leading-snug text-3xl">{first_blurb}</p>
       </div>
-      <img class="object-left absolute -mt-8" width="240px" height="240px" src={triangles}/>
+      <img class="opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/>
 
       <div class = "relative z-10 ml-24 mt-128 mb-4 flex flex-row">
       <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>

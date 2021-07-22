@@ -19007,23 +19007,19 @@ video {
 }
 
 .select-none {
-  -webkit-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .select-text {
-  -webkit-user-select: text;
-          user-select: text;
+  user-select: text;
 }
 
 .select-all {
-  -webkit-user-select: all;
-          user-select: all;
+  user-select: all;
 }
 
 .select-auto {
-  -webkit-user-select: auto;
-          user-select: auto;
+  user-select: auto;
 }
 
 .align-baseline {
@@ -25657,8 +25653,7 @@ video {
   }
 
   .sm\:appearance-none {
-    -webkit-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .sm\:bg-fixed {
@@ -42356,23 +42351,19 @@ video {
   }
 
   .sm\:select-none {
-    -webkit-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .sm\:select-text {
-    -webkit-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .sm\:select-all {
-    -webkit-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .sm\:select-auto {
-    -webkit-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .sm\:align-baseline {
@@ -47218,39 +47209,6 @@ video {
   .sm\:delay-300 {
     transition-delay: 300ms;
   }
-
-  .sm\:delay-500 {
-    transition-delay: 500ms;
-  }
-
-  .sm\:delay-700 {
-    transition-delay: 700ms;
-  }
-
-  .sm\:delay-1000 {
-    transition-delay: 1000ms;
-  }
-
-  .sm\:animate-none {
-    animation: none;
-  }
-
-  .sm\:animate-spin {
-    animation: spin 1s linear infinite;
-  }
-
-  .sm\:animate-ping {
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-  }
-
-  .sm\:animate-pulse {
-    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  }
-
-  .sm\:animate-bounce {
-    animation: bounce 1s infinite;
-  }
-}
 
   .sm\:delay-500 {
     transition-delay: 500ms;
@@ -57336,7 +57294,7 @@ video {
   }
 
   .md\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .md\:font-serif {
@@ -60371,8 +60329,28 @@ video {
     min-width: 0;
   }
 
+  .md\:min-w-1\/8 {
+    min-width: 12%;
+  }
+
+  .md\:min-w-1\/4 {
+    min-width: 25%;
+  }
+
+  .md\:min-w-1\/2 {
+    min-width: 50%;
+  }
+
+  .md\:min-w-3\/4 {
+    min-width: 75%;
+  }
+
   .md\:min-w-full {
     min-width: 100%;
+  }
+
+  .md\:min-w-70px {
+    min-width: 70px;
   }
 
   .md\:object-contain {
@@ -70557,7 +70535,6 @@ video {
   .md\:delay-1000 {
     transition-delay: 1000ms;
   }
-}
 
   .md\:animate-none {
     animation: none;
@@ -80631,7 +80608,7 @@ video {
   }
 
   .lg\:font-sans {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   .lg\:font-serif {
@@ -83664,6 +83641,22 @@ video {
 
   .lg\:min-w-0 {
     min-width: 0;
+  }
+
+  .lg\:min-w-1\/8 {
+    min-width: 12%;
+  }
+
+  .lg\:min-w-1\/4 {
+    min-width: 25%;
+  }
+
+  .lg\:min-w-1\/2 {
+    min-width: 50%;
+  }
+
+  .lg\:min-w-3\/4 {
+    min-width: 75%;
   }
 
   .lg\:min-w-full {
@@ -88986,23 +88979,19 @@ video {
   }
 
   .lg\:select-none {
-    -webkit-user-select: none;
-            user-select: none;
+    user-select: none;
   }
 
   .lg\:select-text {
-    -webkit-user-select: text;
-            user-select: text;
+    user-select: text;
   }
 
   .lg\:select-all {
-    -webkit-user-select: all;
-            user-select: all;
+    user-select: all;
   }
 
   .lg\:select-auto {
-    -webkit-user-select: auto;
-            user-select: auto;
+    user-select: auto;
   }
 
   .lg\:align-baseline {
@@ -93728,18 +93717,7 @@ video {
   .lg\:focus\:skew-y-6:focus {
     --transform-skew-y: 6deg;
   }
-  
-  .lg\:animate-ping {
-    animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-  }
 
-  .lg\:animate-pulse {
-    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  }
-
-  .lg\:animate-bounce {
-    animation: bounce 1s infinite;
-  }
   .lg\:focus\:skew-y-12:focus {
     --transform-skew-y: 12deg;
   }
@@ -93879,7 +93857,6 @@ video {
   .lg\:animate-spin {
     animation: spin 1s linear infinite;
   }
-}
 
   .lg\:animate-ping {
     animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
@@ -95583,7 +95560,7 @@ video {
     border-width: 0;
   }
 
-  .xl\:focus\:not-sr-only:focus {
+  .xl\:not-sr-only {
     position: static;
     width: auto;
     height: auto;
@@ -95618,8 +95595,7 @@ video {
   }
 
   .xl\:appearance-none {
-    -webkit-appearance: none;
-            appearance: none;
+    appearance: none;
   }
 
   .xl\:bg-fixed {
