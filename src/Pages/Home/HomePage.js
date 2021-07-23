@@ -19,7 +19,6 @@ import tim from '../../Files/Home_Gallery/84334897_2881793055197045_101138358037
 import beach from '../../Files/Home_Gallery/116396755_1957654227698199_1890081075763795255_n.jpg'
 
 
-const head = "RICE UNIVERSITY";
 const first_blurb = `Creating a community of mentors 
 and friends and partner with companies 
 to provide the best resources for students to 
@@ -44,11 +43,14 @@ function HomePage() {
     return (
     <div className="relative w-full">
       <Header/>
-      <img class="flex right-0 absolute mr-32" width="600px" src={graphic}></img>
-      <div className="relative z-10 flex text-gray-500b text-6xl font-bold ml-32 justify-start">RICE UNIVERSITY <br></br>CS CLUB</div>
-      
-      <div class="w-148 rounded overflow-hidden mt-8 ml-32">
-          <p class="relative z-10 text-gray-500b space-y-1 font-light leading-snug text-3xl">{first_blurb}</p>
+      <div className="flex flex-col md:flex-row border-black justify-between">
+        <div>
+          <div className="relative z-10 flex text-gray-500b text-6xl font-bold ml-32 justify-start">RICE UNIVERSITY <br></br>CS CLUB</div>
+          <div class="w-148 rounded overflow-hidden mt-8 ml-32">
+              <p class="relative z-10 text-gray-500b space-y-1 font-light leading-snug text-3xl">{first_blurb}</p>
+          </div>
+        </div>
+        <img class="flex right-0 mr-32" width="600px" src={graphic}></img>
       </div>
       <img class="opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/>
 
