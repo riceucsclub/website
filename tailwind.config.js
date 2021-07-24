@@ -21,7 +21,7 @@ module.exports = {
       '1/2': '50%',
       '3/4': '75%',
       'full': '100%',
-      '70px': '70px',
+      '60px': '60px',
     },
     extend: {
       fontFamily: {
@@ -62,7 +62,12 @@ module.exports = {
           ...colors.blue,
           '200b': '#00adb5',
           '400b': '#154fff',
-        }
+        },
+        'rice-blue': '#1d2858',
+        'light-blue-gray': '#adc7db',
+        'gull-gray': '#97a8b9',
+        'tumbleweed': '#dba27b',
+        'matterhorn': '#4e3f49',
       },
       spacing: {
        '36': '9rem',
@@ -88,6 +93,17 @@ module.exports = {
        '9/20': '45%',
        '9/25': '36%',
        '19/50': '38%', 
+       '200px': '200px',
+       '300px': '300px',
+       '400px': '400px',
+       '500px': '500px',
+       '600px': '600px',
+      },
+      screens: {
+        'mobile-s': "320px",
+        'mobile-m': "375px",
+        'mobile-l': "425px",
+        'laptop-l': "1440px",
       },
     },
   },

@@ -22,7 +22,8 @@ function Header (props){
                         <NavLink exact to="/csio" target="_blank" className="block px-4 py-2 text-gray-500b hover:font-bold">CS IO</NavLink>
                     </div>
     const nav_bar =
-                    <ul className="relative z-20 flex mr-10 border-4 border-indigo-500 border-opacity-100">
+                    //quick fix for constrained main div = flex-wrap
+                    <ul className="relative z-20 flex flex-wrap mr-10 border-4 border-indigo-500 border-opacity-100">
                         <li>
                             <NavLink exact to="/about" className="text-gray-500b py-2 px-4 text-lg font-bold" activeClassName="text-blue-400b py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>About</NavLink>
                         </li>
@@ -47,7 +48,7 @@ function Header (props){
        <header>
            <div className="flex justify-between items-center py-1">
                 <div>
-                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 my-3 sm:mx-20 sm:my-5 z-10 w-1/6 max-w-2xl min-w-70px"/></NavLink>
+                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 my-3 sm:mx-10 sm:my-5 z-10 w-1/6 max-w-2xl min-w-60px"/></NavLink>
                 </div>
                 <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/>
                 {nav_bar}
