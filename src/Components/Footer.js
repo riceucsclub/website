@@ -18,7 +18,7 @@ function Footer (){
         <img class = "absolute hidden md:flex bottom-0 z-0" src={blue_gradient}/> 
         <footer class="flex flex-col justify-center items-center relative z-10 bg-rice-blue text-center text-s text-gray-700 py-2 w-full">
             <div>
-                <a href="#"><img src={csclublogohorizontal} alt="Logo" className="w-108 my-10"/></a>
+                <a href="#"><img src={csclublogohorizontal} alt="Logo" className="w-72 md:w-108 my-10"/></a>
             </div>
             <div class="flex justify-center bg-transparent">
                 <div class="inline-block text-gray-700 text-center bg-transparent">
@@ -46,7 +46,7 @@ function Footer (){
                 </div>
             </div>
             
-            &copy; Rice University CS Club 2020
+            &copy; Rice University CS Club 2021
         </footer>
 
         </div>
