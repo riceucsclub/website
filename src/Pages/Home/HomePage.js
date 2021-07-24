@@ -2,8 +2,8 @@ import React from 'react'
 import Footer from '../../Components/Footer'
 import Header from '../../Components/Header'
 import triangles from '../../Files/Triangles.svg'
-import graphic from '../../Files/graphic1.jpg'
-
+/* import graphic from '../../Files/graphic1.jpg' */
+import graphic from '../../Files/undraw_building_websites.svg'
 
 import teal_grad from '../../Files/gradients/home_about.svg'
 import gray_grad from '../../Files/gradients/home_events.svg'
