@@ -61,8 +61,8 @@ function HomePage() {
 
       <img className="opacity-0 md:opacity-100 absolute z-10 -mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/>
 
-      <div class = "relative z-10 ml-24 mt-128 mb-4 flex flex-row">
-      <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
+      <div class = "relative z-10 ml-24 mt-72 mb-4 flex flex-row">
+        <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
         <gall class = "w-148">
           <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
           mouseTrackingEnabled buttonsDisabled/>  
