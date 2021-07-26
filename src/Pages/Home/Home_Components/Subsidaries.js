@@ -14,7 +14,7 @@ function Subsidaries () {
 
     return (
         <div className="">
-            <h1 className="text-3xl md:text-4xl py-12 px-24 text-gray-500b font-bold">We work with...</h1>
+            <h1 className="text-3xl md:text-4xl py-12 md:px-24 text-center md:text-left text-gray-500b font-bold">We work with...</h1>
             <div class="flex flex-col md:flex-row justify-center items-center">
                 <div class="flex mx-8 my-4 text-gray-700 text-center">
                     <a href="http://remixcs.rice.edu/" target="_blank">
