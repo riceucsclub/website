@@ -23,7 +23,7 @@ function Header (props){
                     </div>
     const nav_bar =
                     //quick fix for constrained main div = flex-wrap
-                    <ul className="relative z-20 flex flex-wrap mr-10 border-4 border-indigo-500 border-opacity-100">
+                    <ul className="relative z-20 flex flex-wrap mr-10">
                         <li>
                             <NavLink exact to="/about" className="text-gray-500b py-2 px-4 text-lg font-bold hover:text-light-blue-gray" activeClassName="text-blue-400b py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>About</NavLink>
                         </li>
@@ -45,15 +45,13 @@ function Header (props){
 
 
     return (
-       <header>
-           <div className="flex justify-between items-center py-1">
-                <div>
-                    <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 my-3 sm:mx-10 sm:my-5 z-10 w-1/6 max-w-2xl min-w-60px"/></NavLink>
-                </div>
-                <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/>
-                {nav_bar}
-           </div>
-       </header> 
+        <div className="flex justify-between items-center py-1 h-100px bg-white w-screen">
+            <div>
+                <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 my-3 sm:mx-10 sm:my-5 z-10 w-1/6 max-w-md min-w-60px"/></NavLink>
+            </div>
+            {/* <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/> */}
+            {nav_bar}
+        </div>
     )
 }
 
