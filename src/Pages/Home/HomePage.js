@@ -54,13 +54,13 @@ function HomePage() {
       </div>
       <img class="opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/>
 
-      <div class = "relative z-10 ml-24 mt-128 mb-4 flex flex-row">
+      <div class = "relative z-10 mb-4 flex flex-col md:flex-row">
       <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
-        <gall class = "w-148">
+        <gall class = "hidden md:block w-148">
           <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
           mouseTrackingEnabled buttonsDisabled/>  
         </gall>
-        <copy class = "relative z-10 ml-12 flex flex-col w-176">
+        <copy class = "relative z-10 flex flex-col">
           <subhead class = "font-semibold text-5xl -mt-4">
             Who we are
           </subhead>
@@ -72,21 +72,24 @@ function HomePage() {
             networking events, resume and algorithm review sessions, social outings, and tech workshops.
           </body>
         </copy>
+        {/* <gall class = "flex md:hidden w-1/3">
+          <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
+          mouseTrackingEnabled buttonsDisabled/>  
+        </gall> */}
       </div>
 
       <img src={gray_grad} class = "absolute z-0 -mt-8"/>
-      <div  class = "relative z-10 mb-32">
+      <div  class = "relative content-center">
         <EventWheel/>
-        
       </div>
       
 
-      <div  class = "relative z-10 mb-40">
+      <div  class = "relative z-10">
         <Subsidaries/>
       </div>
 
       {/* testimonials/interviews */}
-      <div class = "flex flex-col relative z-10 text-xl font-light -ml-16 px-84 mb-24">
+      <div class = "flex flex-col relative z-10 text-xl font-light mx-1/6 mb-4 mt-24">
         <copy>
         "I participated in HackRice my freshman year because I heard it was really fun. I didn’t know anyone else
         who was participating, so I joined a random team at the start of the event. We worked together really well 
@@ -94,7 +97,7 @@ function HomePage() {
         learn from so many different people, make lots of new friends, and see some really interesting projects. I 
         had such a great time and I wanted to give back, so I’ve stayed involved ever since. This year I’m co-directing HackRice!"
         </copy>
-        <person class = "ml-12 mt-8">
+        <person class = "ml-1/10 my-4">
           — Claire Wang, Class of 2022
         </person>
       </div>
