@@ -14,24 +14,24 @@ function EventBox (props) {
 
     let content =
         <div class = "">
-            <top class = "flex flex-row mt-2">
-                <date class = "flex flex-col ml-5">
-                    <d class = "text-3xl">
+            <top class = "flex flex-col justify-center mt-2">
+                <date class = "flex flex-col text-center">
+                    <d class = "text-4xl md:text-5xl">
                         {day}
                     </d>
-                    <m class = "text-blue-600 -mt-2"> 
+                    <m class = "text-xl md:text-2xl text-blue-600 -mt-2"> 
                         {month}
                     </m>
                 </date>
-                <name class = "w-7/12 text-lg font-semibold text-center mt-1 ml-8 ">
+                <name class = "text-lg font-semibold text-center mt-1">
                     {title}
                 </name>
             </top>
-            <logistic class = "flex flex-row justify-between font-light text-sm text-gray-600 mt-1">
-                <loc class = "ml-10">
+            <logistic class = "flex flex-col justify-center font-light text-sm text-gray-600 mt-1">
+                <loc class = "flex justify-center">
                     Location: {locale}
                 </loc>
-                <tim class = "mr-12">
+                <tim class = "flex justify-center">
                     Time: {time}
                 </tim>
             </logistic>
@@ -49,7 +49,7 @@ function EventBox (props) {
 {/* <a  className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Remix CS</a> */}
 
     return(
-        <div class = "w-1/2 md:w-1/4 my-4 rounded-lg bg-white shadow-teal">
+        <div class = "w-3/5 md:w-1/4 my-4 rounded-xl bg-white shadow-teal px-2">
             {content}
         </div>
     )
