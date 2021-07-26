@@ -43,7 +43,7 @@ function HomePage() {
     return (
     <div className="relative">
       <Header/>
-      <div className="flex flex-col md:flex-row justify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
+      <div className="flex flex-col md:flex-row j ustify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
         <div className="md:w-400px lg:w-500px laptop-l:w-600px md:ml-10 ">
           <div className="relative z-10 text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10 ease-animation">
             Rice University
@@ -61,16 +61,16 @@ function HomePage() {
 
       {/* <img className="opacity-0 md:opacity-0 absolute z-10 -mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/> */}
 
-      <div class = "relative z-10 mt-12 mb-4 flex flex-col md:flex-row mx-12 justify-center">
-        <img src={teal_grad} class = "hidden absolute z-0 -mt-20 right-0"/>
-        <div class="flex justify-center order-last md:order-first mt-2 mr-8">
-          <gall class = "md:w-128 w-2/3">
+      <div class = "relative z-10 mt-12 mb-12 flex flex-col md:flex-row mx-12 justify-center">
+        {/* <img src={teal_grad} class = "hidden absolute z-0 -mt-20 right-0"/> */}
+        <div class="flex justify-center order-last md:order-first mt-2 md:mr-8">
+          <gall class = "md:w-128 w-4/5">
             <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
             mouseTrackingEnabled buttonsDisabled/>  
           </gall>
         </div>
         <copy class = "relative z-10 flex flex-col">
-          <subhead class = "text-center md:text-left font-semibold text-4xl md:text-5xl -mt-4">
+          <subhead class = "text-center md:text-left font-semibold text-3xl md:text-4xl">
             Who we are
           </subhead>
           <body class = "text-center md:text-left font-light text-xl md:text-2xl mx-2 md:mx-0">
@@ -83,7 +83,7 @@ function HomePage() {
         </copy>
       </div>
 
-      <img src={gray_grad} class = "absolute z-0 -mt-8"/>
+      {/* <img src={gray_grad} class = "absolute z-0 -mt-8"/> */}
       <div  class = "relative justify-center">
         <EventWheel/>
       </div>
