@@ -43,7 +43,7 @@ function HomePage() {
     return (
     <div className="relative">
       <Header/>
-      <div className="flex flex-col md:flex-row j ustify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
+      <div className="flex flex-col md:flex-row justify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
         <div className="md:w-400px lg:w-500px laptop-l:w-600px md:ml-10 ">
           <div className="relative z-10 text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10 ease-animation">
             Rice University
