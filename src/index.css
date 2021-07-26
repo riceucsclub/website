@@ -12,3 +12,25 @@
   */
 
 @tailwind utilities;
+
+.ease-animation {
+  animation-timing-function: ease;
+  animation: mymove 0.8s 1;
+}
+
+@keyframes mymove {
+  from {left: -300px;}
+  to {left: 0px;}
+}
+
+
+/* had to add this to fix a weird white space on the right side of the website */
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* DISABLE THIS WHEN DEVELOPING, ENABLE WHEN TESTING HOW IT FEELS TO THE USER. Remember to do npm start again :) */
+    overflow-x: hidden; 
+}

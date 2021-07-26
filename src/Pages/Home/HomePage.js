@@ -22,7 +22,7 @@ import beach from '../../Files/Home_Gallery/116396755_1957654227698199_189008107
 const first_blurb = `Creating a community of mentors 
 and friends and partnering with companies 
 to provide the best resources for students to 
-explore computer science and software`;
+explore computer science and software engineering.`;
 
 
 
@@ -41,25 +41,25 @@ function HomePage() {
     }
 
     return (
-    <div className="relative w-auto h-auto border-4 border-indigo-500 border-opacity-100">
+    <div className="relative">
       <Header/>
-      <div className="flex flex-col md:flex-row justify-evenly items-center">
-        <div className="md:w-400px lg:w-500px laptop-l:w-600px">
-          <div className="relative z-10  text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl">
-            RICE UNIVERSITY 
+      <div className="flex flex-col md:flex-row justify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
+        <div className="md:w-400px lg:w-500px laptop-l:w-600px md:ml-10 ">
+          <div className="relative z-10 text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10 ease-animation">
+            Rice University
             <br></br>
-            CS CLUB
+            CS Club
           </div>
-          <div className="rounded overflow-hidden text-center md:text-left mx-10 md:mx-0">
-              <p className="relative z-10 my-10 md:mt-0 text-gray-500b font-light leading-snug text-xl lg:text-2xl laptop-l:text-3xl">
+          <div className="rounded text-rice-blue text-center md:text-left mx-10 md:mx-0">
+              <p className="relative z-10 my-20 w-auto md:mt-0 font-light leading-snug text-xl lg:text-2xl laptop-l:text-3xl ease-animation">
                 {first_blurb}
               </p>
           </div>
         </div>
-        <img className=" w-300px my-10 justify-self-center md:w-400px lg:w-500px laptop-l:w-600px" src={graphic}></img>
+        <img className="w-300px mb-10 md:mb-0 justify-self-center md:w-300px lg:w-500px laptop-l:w-600px md:mr-10" src={graphic}></img>
       </div>
 
-      <img className="opacity-0 md:opacity-100 absolute z-10 -mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/>
+      {/* <img className="opacity-0 md:opacity-0 absolute z-10 -mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/> */}
 
       <div class = "relative z-10 ml-24 mt-72 mb-4 flex flex-row">
         <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
