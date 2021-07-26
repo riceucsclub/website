@@ -2,8 +2,8 @@ import React from 'react'
 import Footer from '../../Components/Footer'
 import Header from '../../Components/Header'
 import triangles from '../../Files/Triangles.svg'
-import graphic from '../../Files/graphic1.jpg'
-
+/* import graphic from '../../Files/graphic1.jpg' */
+import graphic from '../../Files/undraw_building_websites.svg'
 
 import teal_grad from '../../Files/gradients/home_about.svg'
 import gray_grad from '../../Files/gradients/home_events.svg'
@@ -20,7 +20,7 @@ import beach from '../../Files/Home_Gallery/116396755_1957654227698199_189008107
 
 
 const first_blurb = `Creating a community of mentors 
-and friends and partner with companies 
+and friends and partnering with companies 
 to provide the best resources for students to 
 explore computer science and software`;
 
@@ -41,22 +41,29 @@ function HomePage() {
     }
 
     return (
-    <div className="relative w-full">
+    <div className="relative w-auto h-auto border-4 border-indigo-500 border-opacity-100">
       <Header/>
-      <div className="flex flex-col md:flex-row border-black justify-between">
-        <div>
-          <div className="relative z-10 flex text-gray-500b text-6xl font-bold ml-32 justify-start">RICE UNIVERSITY <br></br>CS CLUB</div>
-          <div class="w-148 rounded overflow-hidden mt-8 ml-32">
-              <p class="relative z-10 text-gray-500b space-y-1 font-light leading-snug text-3xl">{first_blurb}</p>
+      <div className="flex flex-col md:flex-row justify-evenly items-center">
+        <div className="md:w-400px lg:w-500px laptop-l:w-600px">
+          <div className="relative z-10  text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl">
+            RICE UNIVERSITY 
+            <br></br>
+            CS CLUB
+          </div>
+          <div className="rounded overflow-hidden text-center md:text-left mx-10 md:mx-0">
+              <p className="relative z-10 my-10 md:mt-0 text-gray-500b font-light leading-snug text-xl lg:text-2xl laptop-l:text-3xl">
+                {first_blurb}
+              </p>
           </div>
         </div>
-        <img class="flex right-0 mr-32" width="600px" src={graphic}></img>
+        <img className=" w-300px my-10 justify-self-center md:w-400px lg:w-500px laptop-l:w-600px" src={graphic}></img>
       </div>
-      <img class="opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/>
 
-      <div class = "relative z-10 mb-4 flex flex-col md:flex-row">
-      <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
-        <gall class = "hidden md:block w-148">
+      <img className="opacity-0 md:opacity-100 absolute z-10 -mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/>
+
+      <div class = "relative z-10 ml-24 mt-72 mb-4 flex flex-row">
+        <img src={teal_grad} class = "absolute z-0 -mt-20 right-0"/>
+        <gall class = "w-148">
           <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
           mouseTrackingEnabled buttonsDisabled/>  
         </gall>
