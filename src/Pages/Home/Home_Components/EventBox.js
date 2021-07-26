@@ -49,7 +49,7 @@ function EventBox (props) {
 {/* <a  className="block px-4 py-2 border-b text-gray-500b hover:font-bold">Remix CS</a> */}
 
     return(
-        <div class = "w-1/4 rounded-lg bg-white shadow-teal">
+        <div class = "w-1/2 md:w-1/4 my-4 rounded-lg bg-white shadow-teal">
             {content}
         </div>
     )

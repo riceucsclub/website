@@ -22,12 +22,12 @@ function EventWheel () {
     }
 
     return (
-        <div class = 'flex flex-col items-center'>
+        <div class = 'flex flex-col justify-center'>
             <div class = "font-semibold text-center text-4xl md:text-5xl">
                 Check out our events!
             </div>
-            <div class = "flex flex-col md:flex-row justify-around mt-12 md:space-x-12">
-                {eventlist}    
+            <div class = "flex flex-col md:flex-row justify-center items-center mt-12 md:space-x-12">
+                {eventlist}
             </div>
             
         </div>
