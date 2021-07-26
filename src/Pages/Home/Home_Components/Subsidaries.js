@@ -14,24 +14,24 @@ function Subsidaries () {
 
     return (
         <div className="">
-            <h1 className="text-4xl py-16 px-24 text-gray-500b font-bold">We work with...</h1>
-            <div class="flex flex-col md:flex-row justify-center">
-                <div class="flex mx-8 text-gray-700 text-center">
+            <h1 className="text-3xl md:text-4xl py-12 px-24 text-gray-500b font-bold">We work with...</h1>
+            <div class="flex flex-col md:flex-row justify-center items-center">
+                <div class="flex mx-8 my-4 text-gray-700 text-center">
                     <a href="http://remixcs.rice.edu/" target="_blank">
                         <img src={remixcs_logo} alt="Logo" width="200px"/>
                     </a>
                 </div>
-                <div class="flex mx-8 text-gray-700 text-center">
+                <div class="flex mx-8 my-4 text-gray-700 text-center">
                     <a href="https://hack.rice.edu/" target="_blank">
                         <img src={hackrice_logo} alt="Logo" width="200px"/>
                     </a>
                 </div>
-                <div class="flex mx-8 text-gray-700 text-center">
+                <div class="flex mx-8 my-4 text-gray-700 text-center">
                     <a href="http://riceapps.org/" target="_blank">
                         <img src={riceapps_logo} alt="Logo" width="200px"/>
                     </a>
                 </div>
-                <NavLink exact to="/csio" target="_blank" class="flex mx-8">
+                <NavLink exact to="/csio" target="_blank" class="flex mx-8 my-4">
                     <img src={csio_logo} alt="Logo" width="200px"/>
                 </NavLink>
             </div>
