@@ -43,7 +43,7 @@ function HomePage() {
     return (
     <div className="relative">
       <Header/>
-      <div className="flex flex-col md:flex-row j ustify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
+      <div className="flex flex-col md:flex-row justify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
         <div className="md:w-400px lg:w-500px laptop-l:w-600px md:ml-10 ">
           <div className="relative z-10 text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10 ease-animation">
             Rice University
@@ -61,10 +61,10 @@ function HomePage() {
 
       {/* <img className="opacity-0 md:opacity-0 absolute z-10 -mt-36 bg-no-repeat bg-left" width="240px" height="240px" src={triangles}/> */}
 
-      <div class = "relative z-10 mt-12 mb-12 flex flex-col lg:flex-row mx-12 justify-center">
+      <div class = "relative z-10 mt-12 mb-12 flex flex-col lg:flex-row mx-12 justify-center ">
         {/* <img src={teal_grad} class = "hidden absolute z-0 -mt-20 right-0"/> */}
-        <div class="flex justify-center order-last lg:order-first mt-2 md:mr-8">
-          <gall class = "lg:w-148 w-4/5">
+        <div class="flex justify-center order-last md:order-first mt-2 md:mr-8">
+          <gall class = "laptop-l:w-128 md:w-84 w-4/5">
             <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
             mouseTrackingEnabled buttonsDisabled/>  
           </gall>
