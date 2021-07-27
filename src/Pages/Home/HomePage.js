@@ -63,17 +63,17 @@ function HomePage() {
 
       <div class = "relative z-10 mt-12 mb-12 flex flex-col lg:flex-row mx-12 justify-center ">
         {/* <img src={teal_grad} class = "hidden absolute z-0 -mt-20 right-0"/> */}
-        <div class="flex justify-center order-last md:order-first mt-2 md:mr-8">
-          <gall class = "laptop-l:w-128 md:w-84 w-4/5">
+        <div class="flex justify-center order-last lg:order-first mt-2 md:mr-8">
+          <gall class = "lg:w-128 w-4/5">
             <AliceCarousel items = {gall} autoPlay={true} autoPlayInterval={2500} duration = {1000} 
             mouseTrackingEnabled buttonsDisabled/>  
           </gall>
         </div>
         <copy class = "relative z-10 flex flex-col">
-          <subhead class = "text-center md:text-left font-semibold text-3xl md:text-4xl">
+          <subhead class = "text-center lg:text-left font-semibold text-3xl md:text-4xl">
             Who we are
           </subhead>
-          <body class = "text-center md:text-left font-light text-xl md:text-2xl mx-2 md:mx-0">
+          <body class = "text-center lg:text-left font-light text-xl md:text-2xl mx-2 md:mx-0 my-4 lg:my-0">
             Rice CS Club is an organization dedicated to providing Rice students with a tight-knit community 
             of friends and mentors to promote and advocate computer science and working with tech. Community 
             events include study breaks, social outings, and meet and greets between different classes. We 
