@@ -17,7 +17,7 @@ function EventsPage(props){
     return(
         <div>
             <Header/>
-            <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+            {/* <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/> */}
 
             <div class = 'text-center'>
                 <div className="relative z-10 flex text-gray-500b text-5xl font-bold justify-center py-10">

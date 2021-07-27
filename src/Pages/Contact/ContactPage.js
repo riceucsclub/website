@@ -24,7 +24,7 @@ function ContactPage(props){
 return(
     <div class = "relative z-0">
         <Header/>
-        <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/>
+        {/* <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/> */}
         <div className="px-10">
             <div class = 'text-4xl md:text-5xl text-center font-semibold'>
                 We love hearing from you!
