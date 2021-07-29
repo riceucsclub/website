@@ -28,7 +28,7 @@ function AboutPage() {
       <a className="flex underline justify-center pt-1" href= 'http://eepurl.com/gBMAdr' target="_blank">
         Join our mailing list here
       </a>
-      <h1 className="flex text-gray-500b justify-center underline text-2xl mt-8 font-semibold justify-start">2020-2021 Officers</h1>
+      <h1 className="flex text-gray-500b justify-center text-2xl mt-8 font-semibold justify-start">2020-2021 Officers</h1>
       <div class = "relative mb-8 z-10 justify-center">
         <OfficerGallery/>
       </div>
