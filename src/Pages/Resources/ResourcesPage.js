@@ -43,8 +43,8 @@ function ResourcesPage(props) {
       <div className="relative">
         <Header/>
         {/* <img class="opacity-0 md:opacity-100 object-left absolute mt-36" width="250px" height="250px" src={triangles}/> */}
-        <div className="relative z-10 flex text-gray-500b text-4xl md:text-5xl font-bold justify-center text-center px-1/6 py-10">{head}</div>
-        <h1 className="flex text-gray-500b text-2xl md:text-3xl font-semibold justify-start px-1/6">Career Help</h1>
+        <div className="relative z-10 text-rice-blue text-center font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10">{head}</div>
+        <h1 className="flex text-gray-500b text-2xl md:text-3xl font-semibold justify-start px-1/6 mt-12">Career Help</h1>
         <p className="flex md:text-xl py-5 px-1/6 justify-end">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
         
         <div className="hidden md:flex px-1/6 md:px-32 xl:px-64 relative z-20 justify-around mt-16">

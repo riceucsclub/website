@@ -6,19 +6,19 @@ function Box (props){
 
 
     let contentt =
-        <div class = "static flex items-center justify-center md:mx-2 md:h-56 rounded-lg bg-teal-500b shadow">
+        <div class = "static flex items-center justify-center md:mx-2 md:h-56 rounded-lg bg-rice-blue shadow">
             <div class = "text-2xl md:text-3xl xl:text-4xl px-5 text-center text-white font-semibold">
                 {props.title}
             </div>
         </div>
 
     let contentd =
-        <div class = "flex text-2xs md:text-base text-center items-center md:p-2 bg-white rounded-lg shadow-teal shadow">
+        <div class = "flex text-2xs md:text-base text-center items-center md:p-2 bg-white rounded-lg border-rice-blue border-4">
                 {props.desc}
         </div>
 
     let detector =
-        <button class = "absolute w-full h-64 bg-green-500 opacity-0"
+        <button class = "absolute w-full h-64 bg-rice-blue opacity-0"
             onMouseEnter = {() => setHover(true)}
             onMouseLeave = {() => setHover(false)}
         >
@@ -28,7 +28,7 @@ function Box (props){
 
     return (
 
-        <div class = "relative group h-56  rounded-lg w-2/5 bg-blue-500...">
+        <div class = "relative group h-56  rounded-lg w-2/5 bg-rice-blue...">
 
             {/* detects mouse presence */}
             {detector}
