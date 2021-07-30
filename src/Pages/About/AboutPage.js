@@ -21,13 +21,15 @@ function AboutPage() {
     <div className="relative">
       <Header/>
 
-      <div className="relative z-10 flex text-gray-500b text-3xl lg:text-5xl font-semibold justify-center">{head}</div>
-      <a className="flex underline justify-center" href= 'https://docs.google.com/document/d/1EEig4JVePLBKu0MTp7aa5qNrWEQGOorgcm3M4XtXUew/edit' target="_blank">
-        View our constitution here
-      </a>
-      <a className="flex underline justify-center pt-1" href= 'http://eepurl.com/gBMAdr' target="_blank">
-        Join our mailing list here
-      </a>
+      <div className="relative z-10 text-rice-blue text-center font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10 mb-6">{head}</div>
+      <div class="flex flex-col md:flex-row justify-center">
+        <a className="flex justify-center py-1 m-2" href= 'https://docs.google.com/document/d/1EEig4JVePLBKu0MTp7aa5qNrWEQGOorgcm3M4XtXUew/edit' target="_blank">
+          <button class="bg-rice-blue hover:bg-gull-gray text-white py-2 px-4 rounded-full">View our constitution here!</button>
+        </a>
+        <a className="flex justify-center py-1 m-2" href= 'http://eepurl.com/gBMAdr' target="_blank">
+          <button class="bg-rice-blue hover:bg-gull-gray text-white py-2 px-4 rounded-full">Join our mailing list here!</button>
+        </a>
+      </div>
       <h1 className="flex text-gray-500b justify-center text-2xl mt-8 font-semibold justify-start">2020-2021 Officers</h1>
       <div class = "relative mb-8 z-10 justify-center">
         <OfficerGallery/>
