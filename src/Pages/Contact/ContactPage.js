@@ -26,7 +26,7 @@ return(
         <Header/>
         {/* <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/> */}
         <div className="px-10">
-            <div class = 'text-4xl md:text-5xl text-center font-semibold'>
+            <div class = 'text-4xl lg:text-5xl laptop-l:text-6xl text-rice-blue text-center font-semibold'>
                 We love hearing from you!
             </div>
             <p className="text-center text-xl mt-3 text-light">
@@ -49,11 +49,11 @@ return(
         </div>
 
         <div className="md:hidden flex relative flex-col justify-center items-center mx-24">
-            <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg shadow-teal shadow">
+            <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-4 border-rice-blue">
                 <h2 class = "text-xl font-semibold">{props.box["nameT"]}</h2>
                 <p>{props.box["blurbT"]}</p>
             </div>
-            <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg shadow-teal shadow">
+            <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-4 border-rice-blue">
                 <h2 class = "text-xl font-semibold">{props.box["nameS"]}</h2>
                 <p>{props.box["blurbS"]}</p>
             </div>

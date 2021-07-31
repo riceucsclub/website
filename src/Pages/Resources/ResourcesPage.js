@@ -53,11 +53,11 @@ function ResourcesPage(props) {
         </div>
         
         <div className="md:hidden flex relative flex-col justify-center items-center mx-1/6">
-          <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg shadow-teal shadow">
+          <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-4 border-rice-blue">
             <h2 class = "text-xl font-semibold">{props.box["nameR"]}</h2>
             <p>{props.box["blurbR"]}</p>
           </div>
-          <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg shadow-teal shadow">
+          <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-4 border-rice-blue">
             <h2 class = "text-xl font-semibold">{props.box["nameP"]}</h2>
             <p>{props.box["blurbP"]}</p>
           </div>
