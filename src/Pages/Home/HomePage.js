@@ -45,13 +45,13 @@ function HomePage() {
       <Header/>
       <div className="flex flex-col md:flex-row justify-evenly items-center h-900px md:h-90vh bg-whitegeometric">
         <div className="md:w-400px lg:w-500px laptop-l:w-600px md:ml-10 ">
-          <div className="relative z-10 text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10 ease-animation">
+          <div className="relative text-rice-blue text-center md:text-left font-bold text-4xl lg:text-5xl laptop-l:text-6xl mt-10 ease-animation">
             Rice University
             <br></br>
             CS Club
           </div>
           <div className="rounded text-rice-blue text-center md:text-left mx-10 md:mx-0">
-              <p className="relative z-10 my-20 w-auto md:mt-0 font-light leading-snug text-xl lg:text-2xl laptop-l:text-3xl ease-animation">
+              <p className="relative z- my-20 w-auto md:mt-0 font-light leading-snug text-xl lg:text-2xl laptop-l:text-3xl ease-animation">
                 {first_blurb}
               </p>
           </div>
