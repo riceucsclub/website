@@ -69,9 +69,9 @@ function Header (props){
                                 </div>
     //this is the mobile sidebar. Note that in the mobile state, the subsidiaries anchor also has a switching up and down arrow svg.
     const mobile_nav_sidebar = 
-                            <div id="mobile_nav_wrapper" className="absolute z-20 left-0 top-0 bottom-0 w-full">
+                            <div id="mobile_nav_wrapper" className="absolute overflow-y-hidden h-full z-20 left-0 top-0 bottom-0 w-full">
                                 <div id="close-nav-area" onClick={() => setNavOpen(!navOpen)} className="left-0 top-0 h-full w-full bg-opaque-white"></div>
-                                <div className="flex flex-col justify-start items-start absolute top-0 right-0 z-20 h-full bg-rice-blue w-max">
+                                <div className="flex flex-col justify-start items-start fixed top-0 right-0 z-20 h-screen bg-rice-blue w-max">
                                     <button type="button" onClick={() => setNavOpen(!navOpen)} className="relative text-red-500 ml-4 text-5xl font-bold self-end w-50px">
                                         × 
                                     </button>
@@ -116,9 +116,9 @@ function Header (props){
 
 
     return (
-        <div className="flex justify-between items-center py-1 h-100px bg-white w-screen m-0">
+        <div className="flex justify-between items-center py-1 h-100px bg-white w-screen z-30">
             <div>
-                <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 my-3 sm:mx-10 sm:my-5 z-10 w-1/6 max-w-md min-w-60px"/></NavLink>
+                <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 sm:mx-10 z-10 w-1/6 max-w-md min-w-60px"/></NavLink>
             </div>
             {/* <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/> */}
             {nav_bar}
