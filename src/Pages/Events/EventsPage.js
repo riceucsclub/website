@@ -20,10 +20,10 @@ function EventsPage(props){
             {/* <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/> */}
 
             <div class = 'text-center'>
-                <div className="relative z-10 flex text-rice-blue text-4xl lg:text-5xl laptop-l:text-6xl font-bold justify-center py-10">
+                <div className="relative z-10 flex text-rice-blue text-4xl lg:text-5xl laptop-l:text-6xl font-bold justify-center pt-100px pb-10">
                     Check Us Out!
                 </div>
-                <h1 className="flex text-gray-500b text-2xl justify-center md:px-1/6 px-24">
+                <h1 className="flex text-gray-500b text-2xl justify-center px-1/6">
                     To get notified of upcoming events, subscribe to our mailing list.
                 </h1>
             </div>
@@ -34,7 +34,7 @@ function EventsPage(props){
                 <Box title = {props.box["nameH"]} desc = {props.box["blurbH"]}/>
             </div>
 
-            <div className="md:hidden flex relative flex-col justify-center items-center mx-24">
+            <div className="md:hidden flex relative flex-col justify-center items-center mx-1/6">
                 <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-4 border-rice-blue">
                     <h2 class = "text-xl font-semibold">{props.box["nameE"]}</h2>
                     <p>{props.box["blurbE"]}</p>

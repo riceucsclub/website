@@ -25,7 +25,7 @@ return(
     <div class = "relative z-0">
         <Header/>
         {/* <img class = "opacity-0 md:opacity-100 absolute z-10 mt-36 bg-no-repeat bg-left" src={triangles} width="250px" height="250px"/> */}
-        <div className="px-10">
+        <div className="px-10 pt-100px">
             <div class = 'text-4xl lg:text-5xl laptop-l:text-6xl text-rice-blue text-center font-semibold'>
                 We love hearing from you!
             </div>
@@ -48,7 +48,7 @@ return(
             <Box title = {props.box["nameS"]} desc = {props.box["blurbS"]}/>
         </div>
 
-        <div className="md:hidden flex relative flex-col justify-center items-center mx-24">
+        <div className="md:hidden flex relative flex-col justify-center items-center mx-1/6">
             <div class = "flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-4 border-rice-blue">
                 <h2 class = "text-xl font-semibold">{props.box["nameT"]}</h2>
                 <p>{props.box["blurbT"]}</p>
