@@ -1,3 +1,31 @@
+import jQuery from 'jquery';
+
+window.$ = window.jQuery = jQuery;
+
+let eventlist = []
+
+// Stuff to hook it up to the Google Cloud Api, API_KEY are unique
+// Will add instructions on how to get API_KEY 
+const API_KEY = 'AIzaSyDmgrkOrEu0ZFMxT8ra1H42evtCDoKXhA8';
+
+// This needs to be set to a PUBLIC Google calendar
+// Also this type of access is read-only so you can't push events from the cs club website if you wanted to try that
+// Will also add instructions here on how to get the calendar id
+const CAL_ID = '25h073198b7tpg7qcj6uhu1t8k@group.calendar.google.com';
+
+    jQuery.ajax({
+        url:"https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + "/events?key=" + API_KEY,
+        success: function(data) {
+          console.log(data);
+          eventlist = data;
+        }
+          });
+// eventlist needs to parsed for the relevant information and then exported 
+// Will update events on both the HOME and EVENT pages
+// Also may need logic to only send the most recent three events
+// This method draws on all events in the calendar
+
+
 export default [
     //events are in order of date, months are typed as three letter abbreviations in all caps
     //JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
