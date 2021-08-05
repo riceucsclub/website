@@ -14,7 +14,7 @@ const API_KEY = 'AIzaSyDmgrkOrEu0ZFMxT8ra1H42evtCDoKXhA8';
 const CAL_ID = '25h073198b7tpg7qcj6uhu1t8k@group.calendar.google.com';
 
 let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
-let newEvents = [];
+let allEvents = [];
 
     jQuery.ajax({
         url:"https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=" + (new Date()).toISOString() + "&key=" + API_KEY,
@@ -46,7 +46,7 @@ let newEvents = [];
             }
             let time = hours.toString() + eventlist[i].start.dateTime.substring(13, 16) + " " + suffix;
 
-            newEvents.push({
+            allEvents.push({
                 "title": eventlist[i].summary,
                 "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
                 "day": eventlist[i].start.dateTime.substring(8, 10),
@@ -65,7 +65,7 @@ let newEvents = [];
 
 // export default eventlist.items
 
-export default newEvents
+export default allEvents
 
 /*[
     //events are in order of date, months are typed as three letter abbreviations in all caps
