@@ -1,16 +1,20 @@
 import React from 'react'
 
 
+
+
 function FutureEvent (props) {
     //takes in title, month, day, locale, desc, and link
 
     let title = props.title
-    let month = props.month
+    let month = props.month 
     let day = props.day
     let locale = props.locale
     let desc = props.desc
     let link = props.link
     let time = props.time
+
+    
 
 
     let content = 

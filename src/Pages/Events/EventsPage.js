@@ -14,6 +14,8 @@ function EventsPage(props){
     const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
     let text = '';
 
+    
+    
     return(
         <div>
             <Header/>

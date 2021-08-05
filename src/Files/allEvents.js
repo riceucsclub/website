@@ -1,4 +1,73 @@
-export default [
+import jQuery from 'jquery';
+
+window.$ = window.jQuery = jQuery;
+
+let eventlist = []
+
+// Stuff to hook it up to the Google Cloud Api, API_KEY are unique
+// Generating an API Key: https://developers.google.com/workspace/guides/create-project
+const API_KEY = 'AIzaSyDmgrkOrEu0ZFMxT8ra1H42evtCDoKXhA8';
+
+// This needs to be set to a PUBLIC Google calendar
+// Also this type of access is read-only so you can't push events from the cs club website if you wanted to try that
+// How to get calendar ID: https://yabdab.zendesk.com/hc/en-us/articles/205945926-Find-Google-Calendar-ID
+const CAL_ID = '25h073198b7tpg7qcj6uhu1t8k@group.calendar.google.com';
+
+let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
+let newEvents = [];
+
+    jQuery.ajax({
+        url:"https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=" + (new Date()).toISOString() + "&key=" + API_KEY,
+        type: "GET",
+        dataType: "json",
+        async:false,
+        // async lets the data stay saved after the inital call, otherwise the data will be removed after the success call
+        success: function(data) {
+          console.log(data);
+          eventlist = data.items;
+          console.log(eventlist);
+        }
+          });
+
+
+          for(var i = 0; i < eventlist.length; i++){
+            let hours = parseInt(eventlist[i].start.dateTime.substring(11, 13));
+            let suffix = "";
+
+            if (hours >= 12) {
+                suffix = "PM";
+                hours %= 12;
+            }
+            else {
+                suffix = "AM";
+                if (hours == 0) {
+                    hours = 12;
+                }
+            }
+            let time = hours.toString() + eventlist[i].start.dateTime.substring(13, 16) + " " + suffix;
+
+            newEvents.push({
+                "title": eventlist[i].summary,
+                "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
+                "day": eventlist[i].start.dateTime.substring(8, 10),
+                "time": time,
+                "locale": eventlist[i].location,
+                "desc": eventlist[i].description,
+                "link": eventlist[i].htmlLink,
+            });            
+        }
+// eventlist needs to parsed for the relevant information and then exported 
+// Will update events on both the HOME and EVENT pages
+// Also may need logic to only send the most recent three events
+// This method draws on all events in the calendar
+
+// Please put the link in the location, so it's easy to draw from!
+
+// export default eventlist.items
+
+export default newEvents
+
+/*[
     //events are in order of date, months are typed as three letter abbreviations in all caps
     //JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
     //multi-line strings should be encapuslated with the ` character, same key as the ~ (tilde)
@@ -192,5 +261,5 @@ export default [
     },
 
     
-]
+] */
 

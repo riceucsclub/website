@@ -1,11 +1,22 @@
 import React from 'react'
 import FutureEvent from './FutureEvent'
 import allEvents from '../../../Files/allEvents'
+// import ApiCalendar from 'react-google-calendar-api';
+
+import jQuery from 'jquery';
+
+
+
 
 function Calender() {
-    //imports json with all future events and makes event objects from each entry
+
+    window.$ = window.jQuery = jQuery;
 
     let eventlist = []
+
+    // Moved the google calendar draw to the allEvents.js page in Files
+            
+    //imports json with all future events and makes event objects from each entry
 
     for(let i = 0; i < allEvents.length; i++){
         console.log(allEvents[i])
@@ -26,7 +37,7 @@ function Calender() {
     return (
         <div>
             <subheading class = 'font-semibold text-2xl'>
-                Future Events
+                Upcoming Events
             </subheading>
             <events>
                 {eventlist}
