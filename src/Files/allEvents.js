@@ -5,12 +5,12 @@ window.$ = window.jQuery = jQuery;
 let eventlist = []
 
 // Stuff to hook it up to the Google Cloud Api, API_KEY are unique
-// Will add instructions on how to get API_KEY 
+// Generating an API Key: https://developers.google.com/workspace/guides/create-project
 const API_KEY = 'AIzaSyDmgrkOrEu0ZFMxT8ra1H42evtCDoKXhA8';
 
 // This needs to be set to a PUBLIC Google calendar
 // Also this type of access is read-only so you can't push events from the cs club website if you wanted to try that
-// Will also add instructions here on how to get the calendar id
+// How to get calendar ID: https://yabdab.zendesk.com/hc/en-us/articles/205945926-Find-Google-Calendar-ID
 const CAL_ID = '25h073198b7tpg7qcj6uhu1t8k@group.calendar.google.com';
 
 let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
