@@ -33,28 +33,23 @@ let queries = "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&t
         }
           });
 
+          function getFormattedTime(digitTime){
+            var hours24 = parseInt(digitTime.split(':')[0]);
+            var hours = ((hours24 + 11) % 12) + 1;
+            var amPm = hours24 > 11 ? 'PM' : 'AM';
+            var minutes = digitTime.split(':')[1];
+        
+            return hours + ":" + minutes + " " + amPm;
+        };
+
 
           for(var i = 0; i < eventlist.length; i++){
-            let hours = parseInt(eventlist[i].start.dateTime.substring(11, 13));
-            let suffix = "";
-
-            if (hours >= 12) {
-                suffix = "PM";
-                hours %= 12;
-            }
-            else {
-                suffix = "AM";
-                if (hours == 0) {
-                    hours = 12;
-                }
-            }
-            let time = hours.toString() + eventlist[i].start.dateTime.substring(13, 16) + " " + suffix;
 
             allEvents.push({
                 "title": eventlist[i].summary,
                 "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
                 "day": eventlist[i].start.dateTime.substring(8, 10),
-                "time": time,
+                "time": getFormattedTime(eventlist[i].start.dateTime.split('T')[1]),
                 "locale": eventlist[i].location,
                 "desc": eventlist[i].description,
                 "link": eventlist[i].htmlLink,
