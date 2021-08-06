@@ -16,8 +16,12 @@ const CAL_ID = '25h073198b7tpg7qcj6uhu1t8k@group.calendar.google.com';
 let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 let allEvents = [];
 
+// Add the queries for drawing events here, separate each query with an &
+// There may be a way to automate each of the possible options and generate a url for queries based on that, but I haven't found it yet
+let queries = "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=";
+
     jQuery.ajax({
-        url:"https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=" + (new Date()).toISOString() + "&key=" + API_KEY,
+        url:"https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + queries + (new Date()).toISOString() + "&key=" + API_KEY,
         type: "GET",
         dataType: "json",
         async:false,
