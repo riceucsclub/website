@@ -45,14 +45,23 @@ let queries = "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&t
 
           for(var i = 0; i < eventlist.length; i++){
 
+            // Separates event link from the description if it's there otherwise it links the google link 
+            let link = eventlist[i].description.split("http");
+            if (link.length > 1) {
+                link = "http" + link[1];
+            }
+            else {
+                link = eventlist[i].htmlLink;
+            }
+
             allEvents.push({
                 "title": eventlist[i].summary,
                 "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
                 "day": eventlist[i].start.dateTime.substring(8, 10),
                 "time": getFormattedTime(eventlist[i].start.dateTime.split('T')[1]),
                 "locale": eventlist[i].location,
-                "desc": eventlist[i].description,
-                "link": eventlist[i].htmlLink,
+                "desc": eventlist[i].description.split("http")[0],
+                "link": link,
             });            
         }
 // eventlist needs to parsed for the relevant information and then exported 
@@ -60,8 +69,8 @@ let queries = "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&t
 // Also may need logic to only send the most recent three events
 // This method draws on all events in the calendar
 
-// Please put the link in the location, so it's easy to draw from!
-
+// Please put the link in the description after your event blurb, so it's easy to draw from!
+// Also you need your urls to start with http
 // export default eventlist.items
 
 export default allEvents
