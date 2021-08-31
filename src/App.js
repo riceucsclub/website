@@ -30,6 +30,7 @@ function App() {
         <title>{"Rice CS Club"}</title>
       </Helmet>
       
+      
       <Router>
       
 
