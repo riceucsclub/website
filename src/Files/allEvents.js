@@ -14,10 +14,14 @@ const API_KEY = 'AIzaSyDmgrkOrEu0ZFMxT8ra1H42evtCDoKXhA8';
 const CAL_ID = '25h073198b7tpg7qcj6uhu1t8k@group.calendar.google.com';
 
 let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
-let newEvents = [];
+let allEvents = [];
+
+// Add the queries for drawing events here, separate each query with an &
+// There may be a way to automate each of the possible options and generate a url for queries based on that, but I haven't found it yet
+let queries = "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=";
 
     jQuery.ajax({
-        url:"https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=" + (new Date()).toISOString() + "&key=" + API_KEY,
+        url:"https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + queries + (new Date()).toISOString() + "&key=" + API_KEY,
         type: "GET",
         dataType: "json",
         async:false,
@@ -29,31 +33,35 @@ let newEvents = [];
         }
           });
 
+          function getFormattedTime(digitTime){
+            var hours24 = parseInt(digitTime.split(':')[0]);
+            var hours = ((hours24 + 11) % 12) + 1;
+            var amPm = hours24 > 11 ? 'PM' : 'AM';
+            var minutes = digitTime.split(':')[1];
+        
+            return hours + ":" + minutes + " " + amPm;
+        };
+
 
           for(var i = 0; i < eventlist.length; i++){
-            let hours = parseInt(eventlist[i].start.dateTime.substring(11, 13));
-            let suffix = "";
 
-            if (hours >= 12) {
-                suffix = "PM";
-                hours %= 12;
+            // Separates event link from the description if it's there otherwise it links the google link 
+            let link = eventlist[i].description.split("http");
+            if (link.length > 1) {
+                link = "http" + link[1];
             }
             else {
-                suffix = "AM";
-                if (hours == 0) {
-                    hours = 12;
-                }
+                link = eventlist[i].htmlLink;
             }
-            let time = hours.toString() + eventlist[i].start.dateTime.substring(13, 16) + " " + suffix;
 
-            newEvents.push({
+            allEvents.push({
                 "title": eventlist[i].summary,
                 "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
                 "day": eventlist[i].start.dateTime.substring(8, 10),
-                "time": time,
+                "time": getFormattedTime(eventlist[i].start.dateTime.split('T')[1]),
                 "locale": eventlist[i].location,
-                "desc": eventlist[i].description,
-                "link": eventlist[i].htmlLink,
+                "desc": eventlist[i].description.split("http")[0],
+                "link": link,
             });            
         }
 // eventlist needs to parsed for the relevant information and then exported 
@@ -61,11 +69,11 @@ let newEvents = [];
 // Also may need logic to only send the most recent three events
 // This method draws on all events in the calendar
 
-// Please put the link in the location, so it's easy to draw from!
-
+// Please put the link in the description after your event blurb, so it's easy to draw from!
+// Also you need your urls to start with http
 // export default eventlist.items
 
-export default newEvents
+export default allEvents
 
 /*[
     //events are in order of date, months are typed as three letter abbreviations in all caps

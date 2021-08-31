@@ -1,16 +1,13 @@
 import React from 'react'
 import FutureEvent from './FutureEvent'
 import allEvents from '../../../Files/allEvents'
-// import ApiCalendar from 'react-google-calendar-api';
 
-import jQuery from 'jquery';
 
 
 
 
 function Calender() {
 
-    window.$ = window.jQuery = jQuery;
 
     let eventlist = []
 
