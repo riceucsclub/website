@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+node_modules
+=======
+node_modules/*
+#including build folder for netlify and ghpages
+/build*
+package-lock.json
+yarn.lock
+**/.DS_Store
+>>>>>>> benny

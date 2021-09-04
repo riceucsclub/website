@@ -1,13 +1,36 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+
+@tailwind components;
+
+/*
+.main-nav {
+    @apply text-gray-500b py-2 px-4 text-lg font-bold;
+  }
+.main-nav-active {
+    @apply text-blue-400b py-2 px-4 text-lg font-bold;
+  }
+  */
+
+@tailwind utilities;
+
+.ease-animation {
+  animation-timing-function: ease;
+  animation: mymove 0.8s 1;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes mymove {
+  from {left: -300px;}
+  to {left: 0px;}
+}
+
+
+/* had to add this to fix a weird white space on the right side of the website */
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /* DISABLE THIS WHEN DEVELOPING, ENABLE WHEN TESTING HOW IT FEELS TO THE USER. Remember to do npm start again :) */
+    overflow-x: hidden; 
 }
