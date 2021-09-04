@@ -16,22 +16,22 @@ function EventBox (props) {
         <div class = "">
             <top class = "flex flex-col justify-center mt-2">
                 <date class = "flex flex-col text-center">
-                    <d class = "text-4xl md:text-5xl">
+                    <d class = "text-4xl p-2 md:text-5xl">
                         {day}
                     </d>
                     <m class = "text-xl md:text-2xl text-blue-600 -mt-2"> 
                         {month}
                     </m>
                 </date>
-                <name class = "text-lg font-semibold text-center mt-1">
+                <name class = "text-lg font-semibold text-center mt-1 mx-5">
                     {title}
                 </name>
             </top>
-            <logistic class = "flex flex-col justify-center font-light text-sm text-gray-600 mt-1">
-                <loc class = "flex justify-center">
+            <logistic class = "flex flex-col justify-left font-light text-sm text-gray-600 mt-1">
+                <loc class = "flex justify-center mx-5">
                     Location: {locale}
                 </loc>
-                <tim class = "flex justify-center">
+                <tim class = "flex justify-center mx-5">
                     Time: {time}
                 </tim>
             </logistic>
