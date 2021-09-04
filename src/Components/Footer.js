@@ -1,7 +1,7 @@
 import React from 'react'
-import instalogo from '../Files/insta_logo.svg';
+import instalogo from '../Files/insta-logo-white.svg';
 import slacklogo from '../Files/slack_logo.svg';
-import facebooklogo from '../Files/fb_logo.png';
+import facebooklogo from '../Files/facebook-logo-white.png';
 import maillogo from '../Files/mail_logo.svg';
 import discordlogo from '../Files/discord_logo.svg';
 import blue_gradient from '../Files/blue_gradient.svg'
@@ -23,12 +23,12 @@ function Footer (){
             <div class="flex justify-center bg-transparent">
                 <div class="inline-block text-gray-700 text-center bg-transparent">
                     <a href='https://www.instagram.com/ricecsclub/?hl=en' target="_blank">
-                        <img src={instalogo} alt="Logo"/>
+                        <img src={instalogo} alt="Logo" class="w-70px"/>
                     </a>
                 </div>
                 <div class="inline-block text-gray-700 text-center bg-transparent px-1 m-1">
                     <a href='https://www.facebook.com/ricecsclub' target="_blank">
-                        <img src={facebooklogo} alt="Logo" width="33px" height="33px"/>
+                        <img src={facebooklogo} alt="Logo" class="w-30px"/>
                     </a>
                 </div> 
                 <div class="inline-block text-gray-700 text-center bg-transparent m-2">
