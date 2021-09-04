@@ -118,7 +118,7 @@ function Header (props){
     return (
         <div className="flex fixed justify-between items-center py-1 h-70px md:h-100px bg-white w-screen z-30">
             <div>
-                <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 sm:mx-10 z-10 w-1/6 max-w-md min-w-60px"/></NavLink>
+                <NavLink exact to="/"><img src={csclublogo} alt="Logo" className="justify-start relative mx-5 sm:mx-10 z-10 w-60px "/></NavLink>
             </div>
             {/* <img className="absolute z-0 flex right-0 w-5/12" src={gray_gradient}/> */}
             {nav_bar}
