@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Header from '../../Components/Header'
 import Footer from '../../Components/Footer'
 import Box from '../../Components/Box'
-import Calender from './Events_Components/Calender'
+import Calendar from './Events_Components/Calendar'
 
 
 import triangles from '../../Files/Triangles.svg'
@@ -47,8 +47,8 @@ function EventsPage(props){
                 </div>
             </div>
 
-            <div class = 'grid justify-center relative z-10 mt-16 mb-8'>
-                <Calender/>
+            <div class = 'grid text-center md:text-left mt-16 mb-8'>
+                <Calendar/>
             </div>
             <Footer/>
         </div>

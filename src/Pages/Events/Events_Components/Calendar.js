@@ -33,7 +33,7 @@ function Calender() {
 
     return (
         <div>
-            <subheading class = 'font-semibold text-2xl'>
+            <subheading class = 'font-semibold text-2xl py-2 md:mx-32 xl:mx-64'>
                 Upcoming Events
             </subheading>
             <events>

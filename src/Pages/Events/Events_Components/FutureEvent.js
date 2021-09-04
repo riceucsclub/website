@@ -18,14 +18,14 @@ function FutureEvent (props) {
 
 
     let content = 
-    <h1 class = "w-108 md:w-120 xl:w-156 flex flex-row">
+    <h1 class = "flex flex-row mx-1/6 md:mx-36 xl:mx-72">
         
         {/* left side of component */}
         <date class = "flex flex-col">
             <d class = "text-3xl font-light">
                 {day}
             </d>
-            <m class = "-mt-1 text-blue-600 font-light">
+            <m class = "text-blue-600 font-light">
                 {month}
             </m>
         </date>
@@ -35,7 +35,7 @@ function FutureEvent (props) {
             <name class = "">
                 {title}
             </name>
-            <loc class = "flex flex-row -mt-1 text-gray-600 font-light text-sm">
+            <loc class = "flex flex-row text-gray-600 font-light text-sm">
                 <div class = "mr-2">
                     {locale}
                 </div>
