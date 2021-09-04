@@ -43,7 +43,7 @@ return(
             </div>
         </div>
 
-        <div class = 'hidden md:px-32 relative md:flex justify-around z-40 xl:px-64 mt-20 mb-40'>
+        <div class = 'hidden md:px-32 relative md:flex justify-around xl:px-64 mt-20 mb-40'>
             <Box title = {boxText["nameT"]} desc = {boxText["blurbT"]}/>
             <Box title = {props.box["nameS"]} desc = {props.box["blurbS"]}/>
         </div>
