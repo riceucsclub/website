@@ -13,15 +13,12 @@ function AboutPage() {
   const [activeTag, setActiveTag] = useState("");
   const tabs = ['About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
   let text = '';
-  const head = "Welcome to the Rice CS Club!";
 
-  //{/* <img class = "absolute mt-36 bg-no-repeat bg-left z-10" src={triangles} width="250px" height="250px"/> */}
   return (
-
     <div className="relative">
       <Header/>
 
-      <div className="relative z-10 text-rice-blue text-center font-bold text-4xl lg:text-5xl laptop-l:text-6xl pt-100px mb-6">{head}</div>
+      <div className="relative z-10 text-rice-blue text-center font-bold text-4xl lg:text-5xl laptop-l:text-6xl pt-100px mb-6">Welcome to the Rice CS Club!</div>
       <div class="flex flex-col md:flex-row justify-center">
         <a className="flex justify-center py-1 m-2" href= 'https://docs.google.com/document/d/1EEig4JVePLBKu0MTp7aa5qNrWEQGOorgcm3M4XtXUew/edit' target="_blank">
           <button class="bg-rice-blue hover:bg-gull-gray text-white py-2 px-4 rounded-full">View our constitution here!</button>
