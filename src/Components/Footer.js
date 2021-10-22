@@ -15,7 +15,6 @@ import {
 function Footer (){
     return (
         <div class = "relative">
-        {/* <img class = "absolute hidden md:flex bottom-0 z-0" src={blue_gradient}/>  */}
         <footer class="flex flex-col justify-center items-center relative z-10 bg-rice-blue text-center text-s text-light-blue-gray py-2 w-full">
             <div>
                 <a href="#"><img src={csclublogohorizontal} alt="Logo" className="w-72 md:w-108 my-10"/></a>
