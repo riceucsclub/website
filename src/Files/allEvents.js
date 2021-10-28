@@ -1,4 +1,5 @@
 import jQuery from 'jquery';
+import React from 'react';
 
 window.$ = window.jQuery = jQuery;
 
@@ -42,11 +43,29 @@ function getFormattedTime(digitTime) {
     return hours + ":" + minutes + " " + amPm;
 };
 
+// credit to hanszen college webmasters for this function!
+function zoom_link_embedder(value) {
+    if (value != null && value != "") {
+        if (value.substring(0, 4) == "http") {
+            return '<a href="'+value+'" target="_blank" class="hover:text-gull-gray transition">Zoom Link</a>';
+        } else {
+            return value
+        }
+    } else {
+        return "Info Not Available"
+    }
+}
+
+
+
 
 for (var i = 0; i < eventlist.length; i++) {
-
-    // Separates event link from the description if it's there otherwise it links the google link 
     let desc = eventlist[i].description;
+
+    // by convention, event zoom links are placed in location field (for now) -- commenting out
+    /*
+    // Separates event link from the description if it's there otherwise it links the google link 
+    
     let link;
     if (desc) {
         link = desc.split("http");
@@ -61,17 +80,31 @@ for (var i = 0; i < eventlist.length; i++) {
     else {
         link = eventlist[i].htmlLink;
     }
+    */
+
+    // parse (only one) extra link in event description
+    if (desc) {
+        let linkTest = desc.split("<a");
+        if (linkTest.length > 1) {
+            let test = desc.split("<a", 2)
+            desc = test[0] + "<a class='text-blue-600 hover:text-rice-blue transition' " + test[1]
+        }
+    }
+
+   
 
     allEvents.push({
         "title": eventlist[i].summary,
         "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
         "day": eventlist[i].start.dateTime.substring(8, 10),
         "time": getFormattedTime(eventlist[i].start.dateTime.split('T')[1]),
-        "locale": eventlist[i].location,
+         // If location is a Zoom link, embeds hyperlink
+        "locale": zoom_link_embedder(eventlist[i].location),
         "desc": desc,
-        "link": link,
+        "link": eventlist[i].htmlLink,
     });
 }
+
 // eventlist needs to parsed for the relevant information and then exported 
 // Will update events on both the HOME and EVENT pages
 // Also may need logic to only send the most recent three events
