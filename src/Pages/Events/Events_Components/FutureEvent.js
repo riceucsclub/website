@@ -18,7 +18,7 @@ function FutureEvent (props) {
 
 
     let content = 
-    <h1 class = "flex flex-row mx-1/6 md:mx-36 xl:mx-72">
+    <h1 class = "flex flex-row my-4 mx-1/6 md:mx-36 xl:mx-72">
         
         {/* left side of component */}
         <date class = "flex flex-col">
@@ -37,14 +37,15 @@ function FutureEvent (props) {
             </name>
             <loc class = "flex flex-row text-gray-600 font-light text-sm">
                 <div class = "mr-2">
-                    {locale}
+                    <div dangerouslySetInnerHTML={{ __html: locale }} />
                 </div>
                 {time}    
             </loc>
             <blurb class = "font-light text-xs">
-                {desc}
+                {/* any html in the event description will get parsed correctly this way */}
+                <div dangerouslySetInnerHTML={{ __html: desc }} />
             </blurb>
-            <social class = "font-light text-xs text-blue-500">
+            <social class = "font-light text-xs text-blue-500 hover:text-rice-blue transition">
                 <a href={link} target="_blank">
                     Link
                 </a>
