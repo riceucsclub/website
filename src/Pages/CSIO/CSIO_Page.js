@@ -4,6 +4,7 @@ import React from 'react';
 // import profile_pic from '../../Files/empty_profile.png';
 import Top_Part from './CSIO_Components/Top_Part'
 
+import { NavLink } from "react-router-dom";
 
 // import {
 //   NavLink
@@ -106,7 +107,6 @@ function CSIO_Page() {
               </div>
               </div>
           </div> */}
-
             <footer className="text-center py-4 text-white">&copy; CS IO 2020</footer>
         </div>
     );
