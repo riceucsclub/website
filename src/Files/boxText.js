@@ -21,13 +21,13 @@ export default {
     //Contact Page
     "nameT": 'Tech Talks and Info Sessions',
     "blurbT": `Tech Talks are a great way to get Rice students interested in what your company does and get in 
-    contact with potential interns and employees. If you are interested in hosting one of these, please email our 
-    current President Luis Clague. Please be ready to provide a preferred date, time, and duration.`,
+    contact with potential interns and employees. If you are interested in hosting one of these, please email us above. 
+    Please be ready to provide a preferred date, time, and duration.`,
 
     "nameS": 'Sponsorship',
     "blurbS": `Putting together HackRice every year is expensive, so we really appreciate all of our sponsors. 
     If you’d like to support HackRice and other club activities financially, we have a variety of sponsorship packages 
-    available. Please contact our current HackRice Chair Anthony Cho for more information.`,
+    available. Please contact one of our current HackRice Co-Chairs for more information.`,
 
     //Events Page
     "nameE": 'Social Events',
