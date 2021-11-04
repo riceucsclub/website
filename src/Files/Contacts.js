@@ -1,9 +1,10 @@
-import profile_pic from './empty_profile.png'
-import oeishi from '../Files/officer_pics/oeishi.jpg'
-import luis from '../Files/officer_pics/luis.jpeg'
-import shaquille from '../Files/officer_pics/shaquille.jpeg'
-import will from '../Files/officer_pics/will.jpeg'
+// import profile_pic from './empty_profile.png'
+// import oeishi from '../Files/officer_pics/oeishi.jpg'
+// import luis from '../Files/officer_pics/luis.jpeg'
+// import shaquille from '../Files/officer_pics/shaquille.jpeg'
+// import will from '../Files/officer_pics/will.jpeg'
 
+/* 
 export default [
     //multi-line strings should be encapuslated with the ` character, same key as the ~ (tilde)
     
@@ -29,3 +30,4 @@ export default [
     }
     
 ]
+*/

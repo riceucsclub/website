@@ -22,7 +22,7 @@ function OfficerGallery () {
     //rough when the gallery dimensions change
     return (
         <div className="px-24 mt-8 grid row-gap-8 col-gap-24 grid-cols-1 sm:grid-col-2
-        md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5">
+        md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
             {officers}
         </div>
     )

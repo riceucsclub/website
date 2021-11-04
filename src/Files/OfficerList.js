@@ -1,32 +1,22 @@
 import adam from "../Files/officer_pics/adam.jpg";
-import adrienne from "../Files/officer_pics/adrienne.jpg";
-import alp from "../Files/officer_pics/alp.jpeg";
+import alp from "../Files/officer_pics/alp.jpg";
 import angie from "../Files/officer_pics/angie.jpeg";
-import benny from "../Files/officer_pics/benny.jpg";
-import clairew from "../Files/officer_pics/clairew.jpeg";
-import clairex from "../Files/officer_pics/clairex.jpeg";
+import baylee from "../Files/officer_pics/baylee.png";
+import eddie from "../Files/officer_pics/eddie.jpeg";
+import eliot from "../Files/officer_pics/eliot.jpg";
 import emma from "../Files/officer_pics/emma.jpeg";
 import emily from "../Files/officer_pics/emily.jpeg";
 import jacob from "../Files/officer_pics/jacob.jpeg";
 import kelly from "../Files/officer_pics/kelly.jpeg";
-import luis from "../Files/officer_pics/luis.jpeg";
-import manaal from "../Files/officer_pics/manaal.jpeg";
-import megan from "../Files/officer_pics/megan.jpeg";
-import oeishi from "../Files/officer_pics/oeishi.jpg";
-import paul from "../Files/officer_pics/paul.jpeg";
-import shaquille from "../Files/officer_pics/shaquille.jpeg";
-import thomas from "../Files/officer_pics/thomas.jpeg";
-import will from "../Files/officer_pics/will.jpeg";
-import victor from "../Files/officer_pics/victor.jpeg";
-import eliot from "../Files/officer_pics/eliot.png";
-import sarah from "../Files/officer_pics/sarah.png";
-import quang from "../Files/officer_pics/quang.jpeg";
-import sanjay from "../Files/officer_pics/sanjay.jpeg";
-import eddie from "../Files/officer_pics/eddie.jpeg";
-import lucia from "../Files/officer_pics/lucia.jpeg";
-import ryan from "../Files/officer_pics/ryan.jpeg";
-import shourya from "../Files/officer_pics/shourya.jpeg";
 import linh from "../Files/officer_pics/linh.jpeg";
+import lucia from "../Files/officer_pics/lucia.jpeg";
+import megan from "../Files/officer_pics/megan.jpeg";
+import quang from "../Files/officer_pics/quang.jpeg";
+import ryan from "../Files/officer_pics/ryan.jpeg";
+import sanjay from "../Files/officer_pics/sanjay.jpeg";
+import sarah from "../Files/officer_pics/sarah.png";
+import shourya from "../Files/officer_pics/shourya.jpeg";
+import victor from "../Files/officer_pics/victor.jpeg";
 import vivian from "../Files/officer_pics/vivian.jpeg";
 
 //template for buffer spots
@@ -45,15 +35,15 @@ export default [
     image: emma,
     name: "Emma Dunn",
     title: "Co-President",
-    college: "Brown 2021",
-    hometown: "COMP",
+    college: "Wiess 2022",
+    hometown: "COMP, STAT",
   },
   {
     image: alp,
     name: "Berk Alp Yakici",
     title: "Co-President",
-    college: "Sid Rich 2021",
-    hometown: "COMP, PSYC",
+    college: "Hanszen 2022",
+    hometown: "COMP, DSCI",
   },
   {
     image: jacob,
@@ -81,7 +71,7 @@ export default [
     name: "Sarah Han",
     title: "Co-External VP",
     college: "Martel 2023",
-    hometown: "COMP, STAT",
+    hometown: "COMP, DSCI",
   },
   {
     image: sanjay,
@@ -95,8 +85,8 @@ export default [
     image: emily,
     name: "Emily Huang",
     title: "Co-Events Chair",
-    college: "Wiess 2023",
-    hometown: "COMP, BUSI",
+    college: "McMurtry 2024",
+    hometown: "COMP",
   },
   {
     image: megan,
@@ -105,13 +95,13 @@ export default [
     college: "Duncan 2023",
     hometown: "COMP, NEUR",
   },
-  // {
-  //   image: baylee,
-  //   name: "Baylee Keevan",
-  //   title: "Co-Webmaster",
-  //   college: "Baker 2024",
-  //   hometown: "COMP, DSCI",
-  // },
+  {
+    image: baylee,
+    name: "Baylee Keevan",
+    title: "Co-Webmaster",
+    college: "Baker 2024",
+    hometown: "COMP",
+  },
   {
     image: quang,
     name: "Quang Nguyen",
@@ -120,10 +110,9 @@ export default [
     hometown: "COMP, DSCI",
   },
   {
-    image: thomas,
     name: "Newton Huynh",
     title: "Publicist",
-    college: "Duncan 2022",
+    college: "Will Rice 2023",
     hometown: "COMP",
   },
   {
@@ -144,21 +133,21 @@ export default [
     image: eddie,
     name: "Eddie Xiong",
     title: "HackRice Co-Director",
-    college: "McMurtry 2022",
-    hometown: "CAAM",
+    college: "Jones 2023",
+    hometown: "MATH",
   },
   {
     image: ryan,
     name: "Ryan Draper",
     title: "HackRice Co-Director",
-    college: "Lovett 2022",
+    college: "Lovett 2023",
     hometown: "COMP",
   },
   {
     image: lucia,
     name: "Lucia Lu",
     title: "HackRice Co-Director",
-    college: "Wiess 2022",
+    college: "Jones 2023",
     hometown: "COMP",
   },
   {
@@ -187,6 +176,6 @@ export default [
     name: "Angie Chen",
     title: "RemixCS Chair",
     college: "Martel 2022",
-    hometown: "COMP, Entrepreneurship",
+    hometown: "COMP, ENTR",
   },
 ];

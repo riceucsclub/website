@@ -27,7 +27,7 @@ function AboutPage() {
           <button class="bg-rice-blue hover:bg-gull-gray text-white py-2 px-4 rounded-full">Join our mailing list here!</button>
         </a>
       </div>
-      <h1 className="flex text-gray-500b justify-center text-2xl mt-8 font-semibold justify-start">2020-2021 Officers</h1>
+      <h1 className="flex text-gray-500b justify-center text-2xl mt-8 font-semibold justify-start">2021-2022 Officers</h1>
       <div class="relative mb-8 z-10 justify-center">
         <OfficerGallery />
       </div>
