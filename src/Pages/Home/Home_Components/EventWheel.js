@@ -6,22 +6,26 @@ function EventWheel() {
 
     let eventlist = []
 
-    for (let i = 0; i < 3; i++) {
-        // if fewer than 3 events, shows only 1-2
-        if (allEvents[i]) {
-            console.log(allEvents[i])
-            eventlist.push(
-                <EventBox
-                    title={allEvents[i]["title"]}
-                    month={allEvents[i]["month"]}
-                    day={allEvents[i]["day"]}
-                    time={allEvents[i]["time"]}
-                    locale={allEvents[i]["locale"]}
-                    desc={allEvents[i]["desc"]}
-                    link={allEvents[i]["link"]}
-                />
-            )
+    if (allEvents.length > 0) {
+        for (let i = 0; i < 3; i++) {
+            // if fewer than 3 events, shows only 1-2
+            if (allEvents[i]) {
+                console.log(allEvents[i])
+                eventlist.push(
+                    <EventBox
+                        title={allEvents[i]["title"]}
+                        month={allEvents[i]["month"]}
+                        day={allEvents[i]["day"]}
+                        time={allEvents[i]["time"]}
+                        locale={allEvents[i]["locale"]}
+                        desc={allEvents[i]["desc"]}
+                        link={allEvents[i]["link"]}
+                    />
+                )
+            }
         }
+    } else {
+        eventlist.push(<h1 class="text-md text-center -mt-5 mx-5">No events currently scheduled... Check back later!</h1>)
     }
 
     return (
