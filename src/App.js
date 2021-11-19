@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import boxText from './Files/boxText'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  NavLink
+  Route
 } from 'react-router-dom';
 import ContactPage from './Pages/Contact/ContactPage'
 import EventsPage from './Pages/Events/EventsPage'
@@ -18,10 +17,10 @@ import Helmet from 'react-helmet';
 
 function App() {
 
-  const [activeTag, setActiveTag] = useState("");
-  const tabs = ['Home', 'About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
-  let text = '';
-  let link ='';
+  // const [activeTag, setActiveTag] = useState("");
+  // const tabs = ['Home', 'About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
+  // let text = '';
+  // let link ='';
   
   return (
 
