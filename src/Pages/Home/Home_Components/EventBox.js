@@ -28,15 +28,19 @@ function EventBox (props) {
                 </name>
             </top>
             <logistic class = "flex flex-col justify-left font-light text-sm text-gray-600 mt-1">
-                <loc class = "flex justify-center mx-5">
-                    Location: {locale}
-                </loc>
+                <div class="flex flex-row justify-center">
+                    <loc class = "flex justify-center mx-1">
+                        Location:
+                    </loc>
+                    <loc class = "flex justify-center mx-1" dangerouslySetInnerHTML={{ __html: locale }}>
+                    </loc>
+                </div>
                 <tim class = "flex justify-center mx-5">
                     Time: {time}
                 </tim>
             </logistic>
             <blurb class = "flex justify-between font-light text-sm items-center text-center mx-5 mt-1">
-                {desc}
+                <div dangerouslySetInnerHTML={{ __html: desc }} />
             </blurb>
             <lonk class = "flex justify-center font-light text-sm text-blue-500 pb-4">
                 <a href={link} target="_blank">

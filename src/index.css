@@ -32,5 +32,5 @@ html,body
     margin: 0px;
     padding: 0px;
     /* DISABLE THIS WHEN DEVELOPING, ENABLE WHEN TESTING HOW IT FEELS TO THE USER. Remember to do npm start again :) */
-    overflow-x: hidden; 
+    /* overflow-x: hidden;  */
 }
