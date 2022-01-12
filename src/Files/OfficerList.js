@@ -28,6 +28,7 @@ import ryan from "../Files/officer_pics/ryan.jpeg";
 import shourya from "../Files/officer_pics/shourya.jpeg";
 import linh from "../Files/officer_pics/linh.jpeg";
 import vivian from "../Files/officer_pics/vivian.jpeg";
+import newton from "../Files/officer_pics/newton.jpeg";
 
 //template for buffer spots
 // {
@@ -120,7 +121,7 @@ export default [
     hometown: "COMP, DSCI",
   },
   {
-    image: thomas,
+    image: newton,
     name: "Newton Huynh",
     title: "Publicist",
     college: "Duncan 2022",
