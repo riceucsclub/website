@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Footer from '../../Components/Footer'
 import Box from '../../Components/Box'
 import Header from '../../Components/Header'
@@ -6,8 +6,8 @@ import Header from '../../Components/Header'
 // import gray_gradient from '../../Files/gradient1.svg'
 // import triangles from '../../Files/Triangles.svg'
 // import FAQList from './Resources_Components/FAQList'
-import Profile from './Resources_Components/Profile'
-import Contacts from '../../Files/Contacts'
+// import Profile from './Resources_Components/Profile'
+// import Contacts from '../../Files/Contacts'
 
 // import boxText from '../../Files/boxText'
 
@@ -26,16 +26,16 @@ function ResourcesPage(props) {
 
 
 
-  let profilelist = []
-  for (let i = 0; i < Contacts.length; i++) {
-    profilelist.push(
-      <Profile
-        image={Contacts[i]["image"]}
-        name={Contacts[i]["name"]}
-        email={Contacts[i]["email"]}
-      />
-    )
-  }
+  // let profilelist = []
+  // for (let i = 0; i < Contacts.length; i++) {
+  //   profilelist.push(
+  //     <Profile
+  //       image={Contacts[i]["image"]}
+  //       name={Contacts[i]["name"]}
+  //       email={Contacts[i]["email"]}
+  //     />
+  //   )
+  // }
 
 
 
@@ -45,21 +45,21 @@ function ResourcesPage(props) {
       {/* <img class="opacity-0 md:opacity-100 object-left absolute mt-36" width="250px" height="250px" src={triangles}/> */}
       <div className="relative z-10 text-rice-blue text-center font-bold text-4xl lg:text-5xl laptop-l:text-6xl pt-100px">{head}</div>
       <h1 className="text-gray-500b text-center md:text-left text-2xl md:text-3xl font-semibold px-1/6 mt-12">Career Help</h1>
-      <p className="flex md:text-xl py-5 px-1/6 justify-end">CS Club provides career guidance to students by way of interview preparation sessions, resume review sessions, and course planning sessions (watch the mailing list for these events). We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
+      <p className="flex md:text-xl py-5 px-1/6 justify-end">CS Club provides career guidance to students through interview preparation sessions, resume review sessions, and academic planning sessions. We also give plain old peer-to-peer assistance—feel free to contact any of our officers with questions. We love to see people thrive in their computer science classes and get internships and job offers of their choice!</p>
 
       <div className="hidden lg:flex px-1/6 md:px-32 xl:px-64 relative z-20 justify-around mt-16">
-        <Box title={props.box["nameR"]} desc={props.box["blurbR"]} />
-        <Box title={props.box["nameP"]} desc={props.box["blurbP"]} />
+        <Box title={props.box["name4"]} desc={props.box["blurb4"]} />
+        <Box title={props.box["name5"]} desc={props.box["blurb5"]} />
       </div>
 
       <div className="lg:hidden flex relative flex-col justify-center items-center mx-1/6">
-        <div class="flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-rice-blue border-4">
-          <h2 class="text-xl font-semibold">{props.box["nameR"]}</h2>
-          <p>{props.box["blurbR"]}</p>
+        <div class="flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-5 bg-white rounded-lg border-rice-blue border-4">
+          <h2 class="text-xl font-semibold">{props.box["name4"]}</h2>
+          <p>{props.box["blurb4"]}</p>
         </div>
-        <div class="flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-2 bg-white rounded-lg border-rice-blue border-4">
-          <h2 class="text-xl font-semibold">{props.box["nameP"]}</h2>
-          <p>{props.box["blurbP"]}</p>
+        <div class="flex flex-col text-2xs md:text-base text-center items-center my-5 px-5 py-5 bg-white rounded-lg border-rice-blue border-4">
+          <h2 class="text-xl font-semibold">{props.box["name5"]}</h2>
+          <p>{props.box["blurb5"]}</p>
         </div>
       </div>
 
