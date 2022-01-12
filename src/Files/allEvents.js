@@ -52,7 +52,7 @@ function zoom_link_embedder(value) {
             return value
         }
     } else {
-        return "Info Not Available"
+        return "Info unavailable"
     }
 }
 
@@ -91,8 +91,8 @@ for (var i = 0; i < eventlist.length; i++) {
         }
     }
 
-   
-
+    // timed event
+   if (eventlist[i].start.dateTime) {
     allEvents.push({
         "title": eventlist[i].summary,
         "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
@@ -103,6 +103,23 @@ for (var i = 0; i < eventlist.length; i++) {
         "desc": desc,
         "link": eventlist[i].htmlLink,
     });
+    // all-day event
+   } else {
+    allEvents.push({
+        "title": eventlist[i].summary,
+        "month": months[parseInt(eventlist[i].start.date.substring(5, 7)) - 1],
+        "day": eventlist[i].start.date.substring(8, 10),
+        "time": null,
+        "endMonth": months[parseInt(eventlist[i].end.date.substring(5, 7)) - 1],
+        "endDay": eventlist[i].end.date.substring(8, 10),
+         // If location is a Zoom link, embeds hyperlink
+        "locale": zoom_link_embedder(eventlist[i].location),
+        "desc": desc,
+        "link": eventlist[i].htmlLink,
+    });
+   }
+
+    
 }
 
 // eventlist needs to parsed for the relevant information and then exported 

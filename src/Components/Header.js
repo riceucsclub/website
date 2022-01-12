@@ -24,8 +24,8 @@ function Header (props){
                     <div className="absolute z-20 -mt-1 ml-2 bg-white w-1/5 rounded-lg shadow-md" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>
                         <a href="http://remixcs.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b">Remix CS</a>
                         <a href="https://hack.rice.edu/" target="_blank" className="block px-4 py-2 border-b text-gray-500b">HackRice</a>
-                        <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500b">Rice Apps</a>
-                        <NavLink exact to="/csio" className="block px-4 py-2 text-gray-500b">CS IO</NavLink>
+                        <a href="http://riceapps.org/" target="_blank" className="block px-4 py-2 border-b text-gray-500b">RiceApps</a>
+                        <NavLink exact to="/csio" className="block px-4 py-2 text-gray-500b">CS I/O</NavLink>
                     </div>
     const nav_bar =
                     //quick fix for constrained main div = flex-wrap
@@ -40,7 +40,7 @@ function Header (props){
                             <NavLink exact to="/events" className="text-gray-500b py-2 px-4 text-lg font-bold hover:text-light-blue-gray" activeClassName="text-light-blue-gray py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Events</NavLink>
                         </li>
                         <li>
-                            <a href="#" className="text-gray-500b px-4 text-lg font-bold hover:text-light-blue-gray" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>Subsidiaries</a>
+                            <a href="/subsidiaries" className="text-gray-500b px-4 text-lg font-bold hover:text-light-blue-gray" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>Subsidiaries</a>
                             {open && drop_down}
                         </li>
                         <li>

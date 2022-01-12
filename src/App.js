@@ -12,6 +12,7 @@ import HomePage from './Pages/Home/HomePage'
 import ResourcesPage from './Pages/Resources/ResourcesPage'
 import AboutPage from './Pages/About/AboutPage'
 import CSIO_Page from './Pages/CSIO/CSIO_Page'
+import SubsidiariesPage from './Pages/Subsidiaries/SubsidiariesPage'
 import Helmet from 'react-helmet';
 
 
@@ -51,6 +52,9 @@ function App() {
           </Route>
           <Route exact path='/csio'>
             <CSIO_Page/>
+          </Route>
+          <Route exact path='/subsidiaries'>
+            <SubsidiariesPage/>
           </Route>
         </Switch>
         

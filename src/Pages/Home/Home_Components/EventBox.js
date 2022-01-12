@@ -9,8 +9,24 @@ function EventBox (props) {
     let desc = props.desc
     let link = props.link
     let time = props.time
+    let endMonth = props.endMonth
+    // capitalize only first letter of month
+    endMonth = endMonth.charAt(0) + endMonth.substring(1).toLowerCase();
+    let endDay = props.endDay
+    let dateTime = null
 
-
+    // handles both timed and all-day events
+    if (time != null) {
+        dateTime = 
+            <tim class = "flex justify-center mx-5">
+                Time: {time}
+            </tim>
+    } else {
+        dateTime =
+            <tim class = "flex justify-center mx-5">
+                Ends: {endMonth} {endDay}
+            </tim>
+    }
 
     let content =
         <div class = "">
@@ -29,15 +45,13 @@ function EventBox (props) {
             </top>
             <logistic class = "flex flex-col justify-left font-light text-sm text-gray-600 mt-1">
                 <div class="flex flex-row justify-center">
-                    <loc class = "flex justify-center mx-1">
+                    <loc class = "flex justify-center">
                         Location:
                     </loc>
                     <loc class = "flex justify-center mx-1" dangerouslySetInnerHTML={{ __html: locale }}>
                     </loc>
                 </div>
-                <tim class = "flex justify-center mx-5">
-                    Time: {time}
-                </tim>
+                {dateTime}
             </logistic>
             <blurb class = "flex justify-between font-light text-sm items-center text-center mx-5 mt-1">
                 <div dangerouslySetInnerHTML={{ __html: desc }} />

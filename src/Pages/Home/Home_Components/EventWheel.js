@@ -17,6 +17,8 @@ function EventWheel() {
                         month={allEvents[i]["month"]}
                         day={allEvents[i]["day"]}
                         time={allEvents[i]["time"]}
+                        endMonth={allEvents[i]["endMonth"]}
+                        endDay={allEvents[i]["endDay"]}
                         locale={allEvents[i]["locale"]}
                         desc={allEvents[i]["desc"]}
                         link={allEvents[i]["link"]}
