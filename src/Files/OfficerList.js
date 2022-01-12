@@ -18,6 +18,7 @@ import sarah from "../Files/officer_pics/sarah.png";
 import shourya from "../Files/officer_pics/shourya.jpeg";
 import victor from "../Files/officer_pics/victor.jpeg";
 import vivian from "../Files/officer_pics/vivian.jpeg";
+import newton from "../Files/officer_pics/newton.jpeg";
 
 //template for buffer spots
 // {
@@ -110,6 +111,7 @@ export default [
     hometown: "COMP, DSCI",
   },
   {
+    image: newton,
     name: "Newton Huynh",
     title: "Publicist",
     college: "Will Rice 2023",
