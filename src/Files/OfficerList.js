@@ -71,7 +71,7 @@ export default [
     image: sarah,
     name: "Sarah Han",
     title: "Co-External VP",
-    college: "Martel 2023",
+    college: "Wiess 2023",
     hometown: "COMP, DSCI",
   },
   {
