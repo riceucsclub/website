@@ -1,90 +1,69 @@
-import jQuery from "jquery";
-import React from "react";
+import jQuery from 'jquery';
+import React from 'react';
 
 window.$ = window.jQuery = jQuery;
 
-let eventlist = [];
+let eventlist = []
 
 // Stuff to hook it up to the Google Cloud Api, API_KEY are unique
 // Generating an API Key: https://developers.google.com/workspace/guides/create-project
-const API_KEY = "AIzaSyDmgrkOrEu0ZFMxT8ra1H42evtCDoKXhA8";
+const API_KEY = 'AIzaSyDmgrkOrEu0ZFMxT8ra1H42evtCDoKXhA8';
 
 // This needs to be set to a PUBLIC Google calendar
 // Also this type of access is read-only so you can't push events from the cs club website if you wanted to try that
 // How to get calendar ID: https://yabdab.zendesk.com/hc/en-us/articles/205945926-Find-Google-Calendar-ID
-const CAL_ID = "o10val6sb8gbqt74v3tle2deeg@group.calendar.google.com";
+const CAL_ID = 'o10val6sb8gbqt74v3tle2deeg@group.calendar.google.com';
 
-let months = [
-  "JAN",
-  "FEB",
-  "MAR",
-  "APR",
-  "MAY",
-  "JUN",
-  "JUL",
-  "AUG",
-  "SEP",
-  "OCT",
-  "NOV",
-  "DEC",
-];
+let months = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"]
 let allEvents = [];
 
 // Add the queries for drawing events here, separate each query with an &
 // There may be a way to automate each of the possible options and generate a url for queries based on that, but I haven't found it yet
-let queries =
-  "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=";
+let queries = "/events?singleEvents=true&orderBy=startTime&sortOrder=ascending&timeMin=";
 
 jQuery.ajax({
-  url:
-    "https://www.googleapis.com/calendar/v3/calendars/" +
-    CAL_ID +
-    queries +
-    new Date().toISOString() +
-    "&key=" +
-    API_KEY,
-  type: "GET",
-  dataType: "json",
-  async: false,
-  // async lets the data stay saved after the inital call, otherwise the data will be removed after the success call
-  success: function (data) {
-    console.log(data);
-    eventlist = data.items;
-    console.log(eventlist);
-  },
+    url: "https://www.googleapis.com/calendar/v3/calendars/" + CAL_ID + queries + (new Date()).toISOString() + "&key=" + API_KEY,
+    type: "GET",
+    dataType: "json",
+    async: false,
+    // async lets the data stay saved after the inital call, otherwise the data will be removed after the success call
+    success: function (data) {
+        console.log(data);
+        eventlist = data.items;
+        console.log(eventlist);
+    }
 });
 
 function getFormattedTime(digitTime) {
-  var hours24 = parseInt(digitTime.split(":")[0]);
-  var hours = ((hours24 + 11) % 12) + 1;
-  var amPm = hours24 > 11 ? "PM" : "AM";
-  var minutes = digitTime.split(":")[1];
+    var hours24 = parseInt(digitTime.split(':')[0]);
+    var hours = ((hours24 + 11) % 12) + 1;
+    var amPm = hours24 > 11 ? 'PM' : 'AM';
+    var minutes = digitTime.split(':')[1];
 
-  return hours + ":" + minutes + " " + amPm;
-}
+    return hours + ":" + minutes + " " + amPm;
+};
 
 // credit to hanszen college webmasters for this function!
 function zoom_link_embedder(value) {
-  if (value != null && value != "") {
-    if (value.substring(0, 4) == "http") {
-      return (
-        '<a href="' +
-        value +
-        '" target="_blank" class="hover:text-gull-gray transition">Zoom Link</a>'
-      );
+    if (value != null && value != "") {
+        if (value.substring(0, 4) == "http") {
+            return '<a href="'+value+'" target="_blank" class="hover:text-gull-gray transition">Zoom Link</a>';
+        } else {
+            return value
+        }
     } else {
-      return "Info unavailable";
+        return "Info unavailable"
     }
-  } else {
-    return "Info unavailable";
-  }
 }
 
-for (var i = 0; i < eventlist.length; i++) {
-  let desc = eventlist[i].description;
 
-  // by convention, event zoom links are placed in location field (for now) -- commenting out
-  /*
+
+
+for (var i = 0; i < eventlist.length; i++) {
+    let desc = eventlist[i].description;
+
+    // by convention, event zoom links are placed in location field (for now) -- commenting out
+    /*
     // Separates event link from the description if it's there otherwise it links the google link 
     
     let link;
@@ -103,50 +82,47 @@ for (var i = 0; i < eventlist.length; i++) {
     }
     */
 
-  // parse (only one) extra link in event description
-  if (desc) {
-    let linkTest = desc.split("<a");
-    if (linkTest.length > 1) {
-      let test = desc.split("<a", 2);
-      desc =
-        test[0] +
-        "<a class='text-blue-600 hover:text-rice-blue transition' " +
-        test[1];
+    // parse (only one) extra link in event description
+    if (desc) {
+        let linkTest = desc.split("<a");
+        if (linkTest.length > 1) {
+            let test = desc.split("<a", 2)
+            desc = test[0] + "<a class='text-blue-600 hover:text-rice-blue transition' " + test[1]
+        }
     }
-  }
 
-  // timed event
-  if (eventlist[i].start.dateTime) {
+    // timed event
+   if (eventlist[i].start.dateTime) {
     allEvents.push({
-      title: eventlist[i].summary,
-      month: months[parseInt(eventlist[i].start.date.substring(5, 7)) - 1],
-      day: eventlist[i].start.date.substring(8, 10),
-      time: null,
-      endMonth: months[parseInt(eventlist[i].end.date.substring(5, 7)) - 1],
-      endDay: eventlist[i].end.date.substring(8, 10),
-      // If location is a Zoom link, embeds hyperlink
-      locale: zoom_link_embedder(eventlist[i].location),
-      desc: desc,
-      link: eventlist[i].htmlLink,
+        "title": eventlist[i].summary,
+        "month": months[parseInt(eventlist[i].start.dateTime.substring(5, 7)) - 1],
+        "day": eventlist[i].start.dateTime.substring(8, 10),
+        "time": getFormattedTime(eventlist[i].start.dateTime.split('T')[1]),
+         // If location is a Zoom link, embeds hyperlink
+        "locale": zoom_link_embedder(eventlist[i].location),
+        "desc": desc,
+        "link": eventlist[i].htmlLink,
     });
     // all-day event
-  } else {
+   } else {
     allEvents.push({
-      title: eventlist[i].summary,
-      month: months[parseInt(eventlist[i].start.date.substring(5, 7)) - 1],
-      day: eventlist[i].start.date.substring(8, 10),
-      time: null,
-      endMonth: months[parseInt(eventlist[i].end.date.substring(5, 7)) - 1],
-      endDay: eventlist[i].end.date.substring(8, 10),
-      // If location is a Zoom link, embeds hyperlink
-      locale: zoom_link_embedder(eventlist[i].location),
-      desc: desc,
-      link: eventlist[i].htmlLink,
+        "title": eventlist[i].summary,
+        "month": months[parseInt(eventlist[i].start.date.substring(5, 7)) - 1],
+        "day": eventlist[i].start.date.substring(8, 10),
+        "time": null,
+        "endMonth": months[parseInt(eventlist[i].end.date.substring(5, 7)) - 1],
+        "endDay": eventlist[i].end.date.substring(8, 10),
+         // If location is a Zoom link, embeds hyperlink
+        "locale": zoom_link_embedder(eventlist[i].location),
+        "desc": desc,
+        "link": eventlist[i].htmlLink,
     });
-  }
+   }
+
+    
 }
 
-// eventlist needs to parsed for the relevant information and then exported
+// eventlist needs to parsed for the relevant information and then exported 
 // Will update events on both the HOME and EVENT pages
 // Also may need logic to only send the most recent three events
 // This method draws on all events in the calendar
@@ -155,12 +131,13 @@ for (var i = 0; i < eventlist.length; i++) {
 // Also you need your urls to start with http
 // export default eventlist.items
 
-export default allEvents;
+export default allEvents
 
 /*[
     //events are in order of date, months are typed as three letter abbreviations in all caps
     //JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, OCT, NOV, DEC
     //multi-line strings should be encapuslated with the ` character, same key as the ~ (tilde)
+
     // {
     //     "title": "Welcome (Back) Mixer",
     //     "month": "AUG",
@@ -348,4 +325,7 @@ export default allEvents;
         382! Who wouldn't want to show up??`,
         "link": `https://fb.me/e/203IbcTGS`,
     },
+
+
 ] */
+
