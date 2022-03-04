@@ -1,7 +1,7 @@
 import React from 'react'
 
 function EventBox (props) {
-
+    console.log(props);
     let title = props.title
     let month = props.month
     let day = props.day
@@ -11,7 +11,9 @@ function EventBox (props) {
     let time = props.time
     let endMonth = props.endMonth
     // capitalize only first letter of month
-    endMonth = endMonth.charAt(0) + endMonth.substring(1).toLowerCase();
+    if (endMonth) {
+        endMonth = endMonth.charAt(0) + endMonth.substring(1).toLowerCase();
+    }
     let endDay = props.endDay
     let dateTime = null
 
