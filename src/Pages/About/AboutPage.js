@@ -21,7 +21,7 @@ function AboutPage() {
       <div class="flex flex-col md:flex-row justify-center">
         <a
           className="flex justify-center py-1 m-2"
-          href="https://docs.google.com/document/d/1EEig4JVePLBKu0MTp7aa5qNrWEQGOorgcm3M4XtXUew/edit"
+          href="https://docs.google.com/document/d/15nBECgAnR3ZiHaNqSZV-4NDMksp5aBd6aceaykslgeI/edit?usp=sharing"
           target="_blank"
         >
           <button class="bg-rice-blue hover:bg-gull-gray text-white py-2 px-4 rounded-full">
