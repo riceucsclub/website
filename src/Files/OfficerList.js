@@ -5,7 +5,7 @@ import april from "../Files/officer_pics/april_tong.jpg"
 import ben from "../Files/officer_pics/ben_liu.jpg"
 import brandon from "../Files/officer_pics/brandon_rice.jpg"
 import daniel from "../Files/officer_pics/daniel_liang.jpg"
-import emily from "../Files/officer_pics/emily_huang.jpg"
+//import emily from "../Files/officer_pics/emily_huang.jpg"
 import megan from "../Files/officer_pics/megan_xiao.jpg"
 import victor from "../Files/officer_pics/victor_xie.jpg"
 import vivian from "../Files/officer_pics/vivian_xiao.jpg"
@@ -51,13 +51,13 @@ export default [
     college: "?",
     hometown: "COMP",
   },
-  {
-    image: emily,
-    name: "Emily Huang",
-    title: "Co-External VP",
-    college: "?",
-    hometown: "COMP",
-  },
+//   {
+//     image: emily,
+//     name: "Emily Huang",
+//     title: "Co-External VP",
+//     college: "?",
+//     hometown: "COMP",
+//   },
   {
     image: megan,
     name: "Megan Xiao",
