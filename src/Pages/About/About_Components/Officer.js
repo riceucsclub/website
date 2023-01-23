@@ -6,7 +6,7 @@ function Officer(props) {
   let name = props.name;
   let title = props.title;
   let college = props.college;
-  let hometown = props.hometown;
+  let major = props.major;
 
   let content = (
     <div className="flex flex-wrap center justify-center">
@@ -19,7 +19,7 @@ function Officer(props) {
         <h1 className="pt-1 text-center">{name}</h1>
         <h1 className="text-center">{title}</h1>
         <h1 className="text-center">{college}</h1>
-        <h1 className="text-center">{hometown}</h1>
+        <h1 className="text-center">{major}</h1>
       </div>
     </div>
   );

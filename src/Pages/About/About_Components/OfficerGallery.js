@@ -12,7 +12,7 @@ function OfficerGallery () {
                 image = {OfficerList[i]["image"]}
                 name = {OfficerList[i]["name"]}
                 title = {OfficerList[i]["title"]}
-                hometown = {OfficerList[i]["hometown"]}
+                major = {OfficerList[i]["major"]}
                 college = {OfficerList[i]["college"]}
             />
         )
