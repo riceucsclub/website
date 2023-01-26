@@ -8,7 +8,7 @@ import OfficerGallery from "./About_Components/OfficerGallery";
 
 function AboutPage() {
   const [activeTag, setActiveTag] = useState("");
-  const tabs = ["About", "Resources", "Events", "Subsidiaries", "Contact"];
+  const tabs = ["About", "Resources", "Events", "Contact"];
   let text = "";
 
   return (
@@ -33,7 +33,7 @@ function AboutPage() {
         </a> */}
       </div>
       <h1 className="flex text-gray-500b justify-center text-2xl mt-8 font-semibold justify-start">
-        2021-2022 Officers
+        2022-2023 Officers
       </h1>
       <div class="relative mb-8 z-10 justify-center">
         <OfficerGallery />

@@ -42,7 +42,7 @@ export default [
     name: "Daniel Liang",
     title: "Co-Internal VP",
     college: "McMurtry 2024",
-    major: "COMP",
+    major: "COMP, DSCI",
   },
   {
     image: jacob,
@@ -69,8 +69,8 @@ export default [
     image: brandon,
     name: "Brandon Rice",
     title: "Treasurer",
-    college: "?",
-    major: "COMP",
+    college: "Jones 2024",
+    major: "COMP, BUSI",
   },
 
   {
@@ -85,14 +85,14 @@ export default [
     name: "Victor Xie",
     title: "Co-Events Chair",
     college: "Lovett 2025",
-    major: "COMP",
+    major: "COMP, DSCI",
   },
   {
     image: joy,
     name: "Joy Yu",
     title: "Publicist",
     college: "Sid 2025",
-    major: "COMP",
+    major: "COMP, BUSI",
   },
   {
     image: ben,
