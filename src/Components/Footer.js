@@ -45,7 +45,7 @@ function Footer (){
                 </div>
             </div>
             
-            &copy; Rice University CS Club 2021
+            &copy; Rice University CS Club 2023
         </footer>
 
         </div>

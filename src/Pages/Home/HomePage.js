@@ -9,6 +9,8 @@ import teal_grad from '../../Files/gradients/home_about.svg'
 import gray_grad from '../../Files/gradients/home_events.svg'
 import EventWheel from './Home_Components/EventWheel'
 
+import Subsidaries from './Home_Components/Subsidaries'
+
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 
@@ -86,6 +88,10 @@ function HomePage() {
         <EventWheel/>
       </div>
       
+
+      <div  class = "relative z-10">
+        <Subsidaries/>
+      </div>
 
       {/* testimonials/interviews */}
       <div class = "flex flex-col relative z-10 text-xl font-light mx-1/6 mb-4 mt-24">

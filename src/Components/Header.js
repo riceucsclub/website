@@ -39,10 +39,10 @@ function Header (props){
                         <li>
                             <NavLink exact to="/events" className="text-gray-500b py-2 px-4 text-lg font-bold hover:text-light-blue-gray" activeClassName="text-light-blue-gray py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Events</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="/subsidiaries" className="text-gray-500b px-4 text-lg font-bold hover:text-light-blue-gray" onMouseEnter={() => setOpen(true)} onMouseLeave={() => setOpen(false)}>Subsidiaries</a>
                             {open && drop_down}
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink exact to="/contact" className="text-gray-500b py-2 px-4 text-lg font-bold hover:text-light-blue-gray" activeClassName="text-light-blue-gray py-2 px-4 text-lg font-bold" onClick={() => setOpen(false)}>Contact</NavLink>
                         </li>
