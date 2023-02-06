@@ -16,7 +16,7 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 
 import luay from '../../Files/Home_Gallery/12976851_1138128249563543_7955453846841172046_o.jpg'
 import tim from '../../Files/Home_Gallery/84334897_2881793055197045_101138358037643264_o.jpg'
-import officers from '../../Files/Home_Gallery/315519109_865666021095998_2787665385305417684_n.jpg'
+import officers from '../../Files/Home_Gallery/officers2022-23.jpg'
 
 const first_blurb = `Creating a community of mentors 
 and friends and partnering with companies 

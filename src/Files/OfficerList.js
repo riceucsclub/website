@@ -90,7 +90,7 @@ export default [
   {
     image: joy,
     name: "Joy Yu",
-    title: "Publicist",
+    title: "Publicist, Webmaster",
     college: "Sid 2025",
     major: "COMP, BUSI",
   },
