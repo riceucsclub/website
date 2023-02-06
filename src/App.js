@@ -18,7 +18,7 @@ import Helmet from 'react-helmet';
 function App() {
 
   // const [activeTag, setActiveTag] = useState("");
-  // const tabs = ['Home', 'About', 'Resources', 'Events', 'Subsidiaries', 'Contact'];
+  // const tabs = ['Home', 'About', 'Resources', 'Events', 'Contact'];
   // let text = '';
   // let link ='';
   

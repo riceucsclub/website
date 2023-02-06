@@ -55,7 +55,7 @@ export default [
     image: emily,
     name: "Emily Huang",
     title: "Co-External VP",
-    college: "McMurty 2024",
+    college: "McMurtry 2024",
     major: "COMP, ECON",
   },
   {

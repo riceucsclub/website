@@ -16,8 +16,7 @@ import 'react-alice-carousel/lib/alice-carousel.css'
 
 import luay from '../../Files/Home_Gallery/12976851_1138128249563543_7955453846841172046_o.jpg'
 import tim from '../../Files/Home_Gallery/84334897_2881793055197045_101138358037643264_o.jpg'
-import beach from '../../Files/Home_Gallery/116396755_1957654227698199_1890081075763795255_n.jpg'
-
+import officers from '../../Files/Home_Gallery/315519109_865666021095998_2787665385305417684_n.jpg'
 
 const first_blurb = `Creating a community of mentors 
 and friends and partnering with companies 
@@ -28,7 +27,7 @@ explore computer science and software engineering.`;
 
 function HomePage() {
 
-    let imgs = [luay, tim, beach]
+    let imgs = [luay, tim, officers]
     let gall = []
     
 
