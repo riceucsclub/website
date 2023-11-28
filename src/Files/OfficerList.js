@@ -10,7 +10,7 @@ import keshav from "../Files/officer_pics/officers_2023-2024/keshav.jpg"
 import isabelle from "../Files/officer_pics/officers_2023-2024/isabelle.png"
 import gavin from "../Files/officer_pics/officers_2023-2024/gavin.jpg"
 import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
-import anna from "../Files/officer_pics/officers_2023-2024/anna.jpg"
+import anna_nguyen from "../Files/officer_pics/officers_2023-2024/anna.jpg"
 
 //template for buffer spots
 // {
@@ -96,7 +96,7 @@ export default [
     major: "COMP",
   },
   {
-    image: anna,
+    image: anna_nguyen,
     name: "Anna Nguyen",
     title: "Webmaster",
     college: "McMurtry 2026",
