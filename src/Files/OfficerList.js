@@ -1,15 +1,16 @@
-import sarah from "../Files/officer_pics/sarah_han.jpg"
-import eliot from "../Files/officer_pics/eliot_solomon.png"
-import jacob from "../Files/officer_pics/jacob_pan.jpg"
-import april from "../Files/officer_pics/april_tong.jpg"
-import ben from "../Files/officer_pics/ben_liu.png"
-import brandon from "../Files/officer_pics/brandon_rice.jpg"
-import daniel from "../Files/officer_pics/daniel_liang.jpg"
-import emily from "../Files/officer_pics/emily_huang.jpg"
-import megan from "../Files/officer_pics/megan_xiao.jpeg"
-import victor from "../Files/officer_pics/victor_xie.jpg"
-import vivian from "../Files/officer_pics/vivian_xiao.JPG"
-import joy from "../Files/officer_pics/joy_yu.jpg"
+import jacob from "../Files/officer_pics/officers_2023-2024/jacob.png"
+import april from "../Files/officer_pics/officers_2023-2024/april.jpg"
+import ben from "../Files/officer_pics/officers_2023-2024/ben.jpg"
+import brandon from "../Files/officer_pics/officers_2023-2024/brandon.jpg"
+import emily from "../Files/officer_pics/officers_2023-2024/emily.jpg"
+import victor from "../Files/officer_pics/officers_2023-2024/victor.jpg"
+import vivian from "../Files/officer_pics/officers_2023-2024/vivian.JPG"
+import joy from "../Files/officer_pics/officers_2023-2024/joy.jpg"
+import keshav from "../Files/officer_pics/officers_2023-2024/keshav.jpg"
+import isabelle from "../Files/officer_pics/officers_2023-2024/isabelle.png"
+import gavin from "../Files/officer_pics/officers_2023-2024/gavin.jpg"
+import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
+import anna from "../Files/officer_pics/officers_2023-2024/anna.jpg"
 
 //template for buffer spots
 // {
@@ -116,7 +117,7 @@ export default [
     major: "COMP, BUSI",
   },
   {
-    image: gavin,
+    image: sophia,
     name: "Sophia Xing",
     title: "Co-Freshman Rep",
     college: "Lovett 2026",
