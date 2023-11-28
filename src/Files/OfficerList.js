@@ -113,14 +113,14 @@ export default [
     image: gavin,
     name: "Gavin Ni",
     title: "Co-Freshman Rep",
-    college: "McMurtry 2026",
+    college: "Brown 2027",
     major: "COMP, BUSI",
   },
   {
     image: sophia,
     name: "Sophia Xing",
     title: "Co-Freshman Rep",
-    college: "Lovett 2026",
+    college: "Hanszen 2027",
     major: "COMP, BUSI",
   },
 ];
