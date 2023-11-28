@@ -113,7 +113,7 @@ export default [
     image: gavin,
     name: "Gavin Ni",
     title: "Co-Freshman Rep",
-    college: "Brown 2027",
+    college: "Hanszen 2027",
     major: "COMP, BUSI",
   },
   {
