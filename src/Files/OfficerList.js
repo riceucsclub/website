@@ -1,5 +1,5 @@
 import jacob from "../Files/officer_pics/officers_2023-2024/jacob.png"
-import april from "../Files/officer_pics/officers_2023-2024/april.jpg"
+import april from "../Files/officer_pics/officers_2023-2024/april.jpeg"
 import ben from "../Files/officer_pics/officers_2023-2024/ben.jpg"
 import brandon from "../Files/officer_pics/officers_2023-2024/brandon.jpg"
 import emily from "../Files/officer_pics/officers_2023-2024/emily.jpg"
