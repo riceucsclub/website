@@ -110,17 +110,18 @@ export default [
     major: "COMP, STAT, BUSI",
   },
   {
-    image: gavin,
-    name: "Gavin Ni",
-    title: "Co-Freshman Rep",
-    college: "Hanszen 2027",
-    major: "COMP, BUSI",
-  },
-  {
     image: sophia,
     name: "Sophia Xing",
     title: "Co-Freshman Rep",
     college: "Hanszen 2027",
     major: "COMP, BUSI",
   },
+  {
+    image: gavin,
+    name: "Gavin Ni",
+    title: "Co-Freshman Rep",
+    college: "Hanszen 2027",
+    major: "COMP, BUSI",
+  }
+
 ];
