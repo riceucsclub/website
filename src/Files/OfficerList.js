@@ -7,7 +7,7 @@ import victor from "../Files/officer_pics/officers_2023-2024/victor.jpeg"
 import vivian from "../Files/officer_pics/officers_2023-2024/vivian.jpeg"
 import joy from "../Files/officer_pics/officers_2023-2024/joy.jpg"
 import keshav from "../Files/officer_pics/officers_2023-2024/keshav.jpg"
-import isabelle from "..Files/officer_pics/officers_2023-2024/IMG_8112 - Isabelle Goodman.JPG"
+import isabelle1 from "..Files/officer_pics/officers_2023-2024/IMG_8112 - Isabelle Goodman.JPG"
 import gavin from "../Files/officer_pics/officers_2023-2024/gavin.jpeg"
 import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
 import anna_nguyen from "../Files/officer_pics/officers_2023-2024/anna.jpg"
@@ -82,7 +82,7 @@ export default [
     major: "COMP",
   },
   {
-    image: isabelle,
+    image: isabelle1,
     name: "Isabelle Goodman",
     title: "Co-Events Chair",
     college: "Will Rice 2025",
