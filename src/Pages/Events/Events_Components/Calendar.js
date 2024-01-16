@@ -43,11 +43,11 @@ function Calendar() {
   `;
 
   return (
-    <div>
+    <div className="flex flex-col items-center"> {/* Centering container */}
       <subheading className="font-semibold text-2xl py-2 md:mx-32 xl:mx-64">
         Upcoming Events
       </subheading>
-      <div dangerouslySetInnerHTML={{ __html: googleCalendarCode }} />
+      <div dangerouslySetInnerHTML={{ __html: googleCalendarCode }} className="my-4" />
       {eventlist}
     </div>
   );
