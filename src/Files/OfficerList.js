@@ -7,7 +7,7 @@ import victor from "../Files/officer_pics/officers_2023-2024/victor.jpeg"
 import vivian from "../Files/officer_pics/officers_2023-2024/vivian.jpeg"
 import joy from "../Files/officer_pics/officers_2023-2024/joy.jpg"
 import keshav from "../Files/officer_pics/officers_2023-2024/keshav.jpg"
-import isabelle from "..Files/officer_pics/officers_2023-2024/isabelle.jpg"
+//import isabelle from "..Files/officer_pics/officers_2023-2024/isabelle.jpg"
 import gavin from "../Files/officer_pics/officers_2023-2024/gavin.jpeg"
 import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
 import anna_nguyen from "../Files/officer_pics/officers_2023-2024/anna.jpg"
@@ -81,13 +81,13 @@ export default [
     college: "Baker 2026",
     major: "COMP",
   },
-  {
-    image: isabelle,
-    name: "Isabelle Goodman",
-    title: "Co-Events Chair",
-    college: "Will Rice 2025",
-    major: "COMP, STAT, DSCI",
-  },
+  // {
+  //   image: isabelle,
+  //   name: "Isabelle Goodman",
+  //   title: "Co-Events Chair",
+  //   college: "Will Rice 2025",
+  //   major: "COMP, STAT, DSCI",
+  // },
   {
     image: dustin,
     name: "Dustin Ho",
