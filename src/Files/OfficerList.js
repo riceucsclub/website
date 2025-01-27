@@ -101,6 +101,20 @@ export default [
     title: "Co-Events Chair",
     college: "Brown 2027",
     major: "COMP, BUSI",
+  },
+  {
+    image: gavin,
+    name: "Granger Bering-James",
+    title: "Co-Freshmen Rep",
+    college: "Brown 2027",
+    major: "COMP, BUSI",
+  },
+  {
+    image: gavin,
+    name: "* Prad Chebolu ",
+    title: "Co-Freshmen Rep",
+    college: "Brown 2027",
+    major: "COMP, BUSI",
   }
 
 ];
