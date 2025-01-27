@@ -33,7 +33,7 @@ export default [
     major: "COMP, DSCI",
   },
   {
-    image: jacob,
+    image: vivian,
     name: "Vivian Xiao",
     title: "Co-President",
     college: "Sid 2025",
@@ -54,28 +54,6 @@ export default [
     major: "COMP, DSCI",
   },
   {
-    image: vivian,
-    name: "Vivian Xiao",
-    title: "Co-Internal VP",
-    college: "Sid 2025",
-    major: "COMP, VADA",
-  },
-  {
-    image: victor,
-    name: "Victor Xie",
-    title: "Co-External VP",
-    college: "Lovett 2025",
-    major: "COMP, DSCI",
-  },
-  {
-    image: brandon,
-    name: "Josh Stallings",
-    title: "Treasurer",
-    college: "Jones 2024",
-    major: "COMP, BUSI",
-  },
-
-  {
     image: keshav,
     name: "Keshav Shah",
     title: "Co-Internal VP",
@@ -91,17 +69,17 @@ export default [
   },
   {
     image: keshav,
-    name: "Keshav Shah",
-    title: "Co-Internal VP",
-    college: "Baker 2026",
-    major: "COMP",
-  },
-  {
-    image: keshav,
     name: "Ashton Lee",
     title: "Co-Internal VP",
     college: "???",
     major: "COMP",
+  },
+  {
+    image: brandon,
+    name: "Josh Stallings",
+    title: "Treasurer",
+    college: "Jones 2024",
+    major: "COMP, BUSI",
   },
   {
     image: joy,
