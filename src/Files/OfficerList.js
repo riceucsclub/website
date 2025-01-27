@@ -69,7 +69,7 @@ export default [
   },
   {
     image: brandon,
-    name: "Brandon Rice",
+    name: "Josh Stallings",
     title: "Treasurer",
     college: "Jones 2024",
     major: "COMP, BUSI",
