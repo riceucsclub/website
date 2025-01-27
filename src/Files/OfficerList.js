@@ -27,10 +27,10 @@ export default [
   //hometown is major. we should change that
   {
     image: emily,
-    name: "Emily Huang",
+    name: "Victor Xie",
     title: "Co-President",
-    college: "McMurtry 2024",
-    major: "COMP, ECON",
+    college: "Lovett 2025",
+    major: "COMP, DSCI",
   },
   {
     image: jacob,
