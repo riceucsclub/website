@@ -26,7 +26,7 @@ export default [
   //multi-line strings should be encapuslated with the ` character, same key as the ~ (tilde)
   //hometown is major. we should change that
   {
-    image: emily,
+    image: victor,
     name: "Victor Xie",
     title: "Co-President",
     college: "Lovett 2025",
@@ -44,7 +44,7 @@ export default [
     name: "April Tong",
     title: "Co-External VP",
     college: "Lovett 2026",
-    major: "COMP,",
+    major: "COMP",
   },
   {
     image: ben,

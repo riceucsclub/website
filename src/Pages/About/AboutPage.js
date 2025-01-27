@@ -33,7 +33,7 @@ function AboutPage() {
         </a> */}
       </div>
       <h1 className="flex text-gray-500b justify-center text-2xl mt-8 font-semibold justify-start">
-        2022-2023 Officers
+        2024-2025 Officers
       </h1>
       <div class="relative mb-8 z-10 justify-center">
         <OfficerGallery />
