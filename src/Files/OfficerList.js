@@ -111,7 +111,7 @@ export default [
     image: prad,
     name: "Prad Chebolu ",
     title: "Co-Freshmen Rep",
-    college: "Brown 2028",
-    major: "COMP, BUSI",
+    college: "Duncan 2028",
+    major: "COMP, COG SCI",
   }
 ];
