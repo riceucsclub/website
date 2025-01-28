@@ -10,7 +10,7 @@ import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
 import chloe from "../Files/officer_pics/officers_2023-2024/chloe.jpeg"
 import prad from "../Files/officer_pics/officers_2023-2024/prad.jpeg"
 import granger from "../Files/officer_pics/officers_2023-2024/granger.jpg"
-
+import hannah from "../Files/officer_pics/officers_2023-2024/hannah.jpeg"
 //template for buffer spots
 // {
 //     "image": "",
@@ -45,11 +45,11 @@ export default [
     major: "COMP",
   },
   {
-    image: ben,
+    image: hannah,
     name: "Hannah Zhang",
     title: "Co-External VP",
-    college: "McMurtry 2026",
-    major: "COMP, DSCI",
+    college: "Lovett 2026",
+    major: "COMP, BUSI, ASIA",
   },
   {
     image: keshav,
