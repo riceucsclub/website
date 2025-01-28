@@ -1,4 +1,3 @@
-import jacob from "../Files/officer_pics/officers_2023-2024/jacob.png"
 import april from "../Files/officer_pics/officers_2023-2024/april.jpg"
 import ben from "../Files/officer_pics/officers_2023-2024/ben.jpeg"
 import brandon from "../Files/officer_pics/officers_2023-2024/brandon.jpg"
@@ -10,6 +9,7 @@ import gavin from "../Files/officer_pics/officers_2023-2024/gavin.jpeg"
 import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
 import chloe from "../Files/officer_pics/officers_2023-2024/chloe.jpeg"
 import prad from "../Files/officer_pics/officers_2023-2024/prad.jpeg"
+import granger from "../Files/officer_pics/officers_2023-2024/granger.jpg"
 
 //template for buffer spots
 // {
@@ -101,7 +101,7 @@ export default [
     major: "COMP, BUSI",
   },
   {
-    image: gavin,
+    image: granger,
     name: "Granger Bering-James",
     title: "Co-Freshmen Rep",
     college: "Baker 2028",
