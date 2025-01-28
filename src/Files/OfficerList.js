@@ -2,16 +2,13 @@ import jacob from "../Files/officer_pics/officers_2023-2024/jacob.png"
 import april from "../Files/officer_pics/officers_2023-2024/april.jpeg"
 import ben from "../Files/officer_pics/officers_2023-2024/ben.jpeg"
 import brandon from "../Files/officer_pics/officers_2023-2024/brandon.jpg"
-import emily from "../Files/officer_pics/officers_2023-2024/emily.jpg"
 import victor from "../Files/officer_pics/officers_2023-2024/victor.jpeg"
 import vivian from "../Files/officer_pics/officers_2023-2024/vivian.jpeg"
-import joy from "../Files/officer_pics/officers_2023-2024/joy.jpg"
 import keshav from "../Files/officer_pics/officers_2023-2024/keshav.jpg"
-import isabelle from "../Files/officer_pics/officers_2023-2024/isabelle.JPG";
 import dustin from "../Files/officer_pics/officers_2023-2024/dustin.jpg"
 import gavin from "../Files/officer_pics/officers_2023-2024/gavin.jpeg"
 import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
-import anna_nguyen from "../Files/officer_pics/officers_2023-2024/anna.jpg"
+import chloe from "../Files/officer_pics/officers_2023-2024/chloe.jpeg"
 
 //template for buffer spots
 // {
@@ -82,7 +79,7 @@ export default [
     major: "COMP, BUSI",
   },
   {
-    image: joy,
+    image: chloe,
     name: "Chloe Lim",
     title: "Publicist",
     college: "Sid 2025",
@@ -93,7 +90,7 @@ export default [
     name: "Sophia Xing",
     title: "Co-Events Chair",
     college: "Hanszen 2027",
-    major: "COMP, BUSI",
+    major: "COMP, MATH, BUSI",
   },
   {
     image: gavin,
@@ -111,7 +108,7 @@ export default [
   },
   {
     image: gavin,
-    name: "* Prad Chebolu ",
+    name: "Prad Chebolu ",
     title: "Co-Freshmen Rep",
     college: "Brown 2027",
     major: "COMP, BUSI",
