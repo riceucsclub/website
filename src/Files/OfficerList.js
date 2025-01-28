@@ -11,6 +11,7 @@ import chloe from "../Files/officer_pics/officers_2023-2024/chloe.jpeg"
 import prad from "../Files/officer_pics/officers_2023-2024/prad.jpeg"
 import granger from "../Files/officer_pics/officers_2023-2024/granger.jpg"
 import hannah from "../Files/officer_pics/officers_2023-2024/hannah.jpeg"
+import ashton from "../Files/officer_pics/officers_2023-2024/ashton.jpg"
 //template for buffer spots
 // {
 //     "image": "",
@@ -66,11 +67,11 @@ export default [
     major: "COMP",
   },
   {
-    image: keshav,
+    image: ashton,
     name: "Ashton Lee",
     title: "Co-Internal VP",
-    college: "???",
-    major: "COMP",
+    college: "Martel 2026",
+    major: "COMP, MATH",
   },
   {
     image: brandon,
