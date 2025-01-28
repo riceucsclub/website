@@ -1,5 +1,5 @@
 import jacob from "../Files/officer_pics/officers_2023-2024/jacob.png"
-import april from "../Files/officer_pics/officers_2023-2024/april.jpeg"
+import april from "../Files/officer_pics/officers_2023-2024/april.jpg"
 import ben from "../Files/officer_pics/officers_2023-2024/ben.jpeg"
 import brandon from "../Files/officer_pics/officers_2023-2024/brandon.jpg"
 import victor from "../Files/officer_pics/officers_2023-2024/victor.jpeg"
@@ -9,6 +9,7 @@ import dustin from "../Files/officer_pics/officers_2023-2024/dustin.jpg"
 import gavin from "../Files/officer_pics/officers_2023-2024/gavin.jpeg"
 import sophia from "../Files/officer_pics/officers_2023-2024/sophia.jpg"
 import chloe from "../Files/officer_pics/officers_2023-2024/chloe.jpeg"
+import prad from "../Files/officer_pics/officers_2023-2024/prad.jpeg"
 
 //template for buffer spots
 // {
@@ -82,8 +83,8 @@ export default [
     image: chloe,
     name: "Chloe Lim",
     title: "Publicist",
-    college: "Sid 2025",
-    major: "COMP",
+    college: "Martel 2026",
+    major: "COMP, DSCI",
   },
   {
     image: sophia,
@@ -103,15 +104,14 @@ export default [
     image: gavin,
     name: "Granger Bering-James",
     title: "Co-Freshmen Rep",
-    college: "Brown 2027",
+    college: "Baker 2028",
     major: "COMP, BUSI",
   },
   {
-    image: gavin,
+    image: prad,
     name: "Prad Chebolu ",
     title: "Co-Freshmen Rep",
-    college: "Brown 2027",
+    college: "Brown 2028",
     major: "COMP, BUSI",
   }
-
 ];
