@@ -12,6 +12,7 @@ import prad from "../Files/officer_pics/officers_2023-2024/prad.jpeg"
 import granger from "../Files/officer_pics/officers_2023-2024/granger.jpg"
 import hannah from "../Files/officer_pics/officers_2023-2024/hannah.jpeg"
 import ashton from "../Files/officer_pics/officers_2023-2024/ashton.jpg"
+import josh from "../Files/officer_pics/officers_2023-2024/josh.jpg"
 //template for buffer spots
 // {
 //     "image": "",
@@ -74,11 +75,11 @@ export default [
     major: "COMP, MATH",
   },
   {
-    image: brandon,
+    image: josh,
     name: "Josh Stallings",
     title: "Treasurer",
-    college: "Jones 2024",
-    major: "COMP, BUSI",
+    college: "Duncan 2026",
+    major: "COMP, NEURO, DSCI",
   },
   {
     image: chloe,
